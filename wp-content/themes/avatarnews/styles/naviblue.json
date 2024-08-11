@@ -1,0 +1,87 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "title": "Navi Blue",
+  "version": 2,
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "primary",
+          "color": "#0B38D8",
+          "name": "Primary"
+        },
+        {
+          "slug": "secondary",
+          "color": "#F5103A",
+          "name": "Secondary"
+        },
+        {
+          "slug": "background",
+          "color": "#E7EDFE",
+          "name": "Background"
+        },
+        {
+          "slug": "background-alt",
+          "color": "#2A2C33",
+          "name": "Background Alternative"
+        },
+        {
+          "slug": "foreground",
+          "color": "#636161",
+          "name": "Foreground"
+        },
+        {
+          "slug": "meta-color",
+          "color": "#A09EAB",
+          "name": "Meta Color"
+        },
+        {
+          "slug": "meta-icon-color",
+          "color": "#A09EAB",
+          "name": "Meta Icon Color"
+        },
+        {
+          "slug": "foreground-alt",
+          "color": "#BFC0C0",
+          "name": "Foreground-alt"
+        },
+        {
+          "slug": "light-color",
+          "color": "#FFFFFF",
+          "name": "Light Color"
+        },
+        {
+          "slug": "black-color",
+          "color": "#000000",
+          "name": "Black Color"
+        },
+        {
+          "slug": "gray-color",
+          "color": "#53545A",
+          "name": "Gray Color"
+        },
+        {
+          "slug": "heading-color",
+          "color": "#202127",
+          "name": "Heading Color"
+        },
+        {
+          "slug": "border-color",
+          "color": "#E1E4F1",
+          "name": "Border Color"
+        },
+        {
+          "slug": "extracat-color",
+          "color": "#8823D7",
+          "name": "Extra Cat Color"
+        },
+
+        {
+          "color": "#ffffff00",
+          "name": "Transparent",
+          "slug": "transparent"
+        }
+      ]
+    }
+  }
+}

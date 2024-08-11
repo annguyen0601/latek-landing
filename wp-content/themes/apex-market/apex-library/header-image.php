@@ -1,0 +1,14 @@
+<?php
+/**
+ * Displays header media
+ *
+ * @package apex_market
+ */
+
+?>
+
+<div class="custom-header">
+	<div class="custom-header-media">
+		<?php the_custom_header_markup(); ?>
+	</div>
+</div>
