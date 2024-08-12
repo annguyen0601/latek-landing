@@ -1,45 +1,5 @@
-<?php
-
-namespace WPForms\Migrations;
-
-/**
- * Class v1.6.7.2 upgrade.
- *
- * @since 1.7.5
- *
- * @noinspection PhpUnused
- */
-class Upgrade1672 extends UpgradeBase {
-
-	/**
-	 * Run upgrade.
-	 *
-	 * @since 1.7.5
-	 *
-	 * @return bool|null Upgrade result:
-	 *                   true  - the upgrade completed successfully,
-	 *                   false - in the case of failure,
-	 *                   null  - upgrade started but not yet finished (background task).
-	 */
-	public function run() {
-
-		$review = get_option( 'wpforms_review' );
-
-		if ( empty( $review ) ) {
-			return true;
-		}
-
-		$notices = get_option( 'wpforms_admin_notices', [] );
-
-		if ( isset( $notices['review_request'] ) ) {
-			return true;
-		}
-
-		$notices['review_request'] = $review;
-
-		update_option( 'wpforms_admin_notices', $notices, true );
-		delete_option( 'wpforms_review' );
-
-		return true;
-	}
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;WPForms\Migrations\UpgradeBase&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\src\Migrations\Upgrade1672.php:12
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\src\Migrations\Upgrade1672.php</b> on line <b>12</b><br>

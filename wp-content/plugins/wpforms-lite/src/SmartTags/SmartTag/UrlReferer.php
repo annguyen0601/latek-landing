@@ -1,33 +1,5 @@
-<?php
-
-namespace WPForms\SmartTags\SmartTag;
-
-/**
- * Class UrlReferer.
- *
- * @since 1.6.7
- */
-class UrlReferer extends SmartTag {
-
-	/**
-	 * Get smart tag value.
-	 *
-	 * @since 1.6.7
-	 *
-	 * @param array  $form_data Form data.
-	 * @param array  $fields    List of fields.
-	 * @param string $entry_id  Entry ID.
-	 *
-	 * @return string
-	 */
-	public function get_value( $form_data, $fields = [], $entry_id = '' ) {
-
-		$referer = $this->get_meta( $entry_id, 'referer' );
-
-		if ( ! empty( $referer ) ) {
-			return esc_url( $referer );
-		}
-
-		return esc_url( (string) wp_get_referer() );
-	}
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;WPForms\SmartTags\SmartTag\SmartTag&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\src\SmartTags\SmartTag\UrlReferer.php:10
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\src\SmartTags\SmartTag\UrlReferer.php</b> on line <b>10</b><br>

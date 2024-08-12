@@ -1,8 +1,5 @@
-<?php
-
-namespace WPMailSMTP\Vendor\GuzzleHttp\Exception;
-
-use WPMailSMTP\Vendor\Psr\Http\Client\ClientExceptionInterface;
-interface GuzzleException extends \WPMailSMTP\Vendor\Psr\Http\Client\ClientExceptionInterface
-{
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Interface &quot;WPMailSMTP\Vendor\Psr\Http\Client\ClientExceptionInterface&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wp-mail-smtp\vendor_prefixed\guzzlehttp\guzzle\src\Exception\GuzzleException.php:6
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wp-mail-smtp\vendor_prefixed\guzzlehttp\guzzle\src\Exception\GuzzleException.php</b> on line <b>6</b><br>

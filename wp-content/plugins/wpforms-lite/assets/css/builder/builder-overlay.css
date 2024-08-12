@@ -38,7 +38,7 @@
 }
 
 .wpforms-builder-overlay-content i.spinner {
-  background-image: url("../../images/builder/loading-spinner.svg");
+  background-image: url("https://annguyen0601.github.io/latek-landing/wp-content/plugins/wpforms-lite/assets/images/builder/loading-spinner.svg");
   border-radius: 50%;
   height: 100px;
   width: 100px;
@@ -51,7 +51,7 @@
 
 .wpforms-builder-overlay-content i.avatar {
   background-color: #ffffff;
-  background-image: url("../../images/builder/loading-avatar.svg");
+  background-image: url("https://annguyen0601.github.io/latek-landing/wp-content/plugins/wpforms-lite/assets/images/builder/loading-avatar.svg");
   border-radius: 50%;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
   height: 80px;

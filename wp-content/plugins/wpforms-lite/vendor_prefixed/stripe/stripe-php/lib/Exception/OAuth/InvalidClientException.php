@@ -1,12 +1,5 @@
-<?php
-
-namespace WPForms\Vendor\Stripe\Exception\OAuth;
-
-/**
- * InvalidClientException is thrown when the client_id does not belong to you,
- * the stripe_user_id does not exist or is not connected to your application,
- * or the API key mode (live or test mode) does not match the client_id mode.
- */
-class InvalidClientException extends OAuthErrorException
-{
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;WPForms\Vendor\Stripe\Exception\OAuth\OAuthErrorException&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\stripe\stripe-php\lib\Exception\OAuth\InvalidClientException.php:10
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\stripe\stripe-php\lib\Exception\OAuth\InvalidClientException.php</b> on line <b>10</b><br>

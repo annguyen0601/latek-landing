@@ -1,25 +1,5 @@
-<?php
-/**
- * Template part for displaying a 404 page.
- *
- * @link https://codex.wordpress.org/Template_Hierarchy
- *
- * @package Astra
- * @since 1.2.7
- */
-
-?>
-
-<?php astra_entry_before(); ?>
-
-<section class="error-404 not-found">
-
-	<?php astra_entry_top(); ?>
-
-	<?php astra_entry_content_404_page(); ?>
-
-	<?php astra_entry_bottom(); ?>
-
-</section><!-- .error-404 -->
-
-<?php astra_entry_after(); ?>
+<br>
+<b>Fatal error</b>:  Uncaught Error: Call to undefined function astra_entry_before() in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\themes\astra\template-parts\content-404.php:13
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\themes\astra\template-parts\content-404.php</b> on line <b>13</b><br>

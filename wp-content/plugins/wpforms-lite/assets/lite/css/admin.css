@@ -513,7 +513,7 @@ body.wpforms-setting-lite-connect-modal .jconfirm .jconfirm-box-container .jconf
   left: 0;
   border: 5px solid #ffffff;
   background-color: rgba(68, 68, 68, 0.15);
-  background-image: url("../../../assets/images/zoom.svg");
+  background-image: url("https://annguyen0601.github.io/latek-landing/wp-content/plugins/wpforms-lite/assets/images/zoom.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 50px;
@@ -562,7 +562,7 @@ body.wpforms-setting-lite-connect-modal .jconfirm .jconfirm-box-container .jconf
   line-height: 14px;
   margin: 0 0 22px 0;
   padding: 0 0 0 30px;
-  background-image: url("../../../assets/images/check-solid.svg");
+  background-image: url("https://annguyen0601.github.io/latek-landing/wp-content/plugins/wpforms-lite/assets/images/check-solid.svg");
   background-position: left center;
   background-repeat: no-repeat;
   background-size: 16px 12px;

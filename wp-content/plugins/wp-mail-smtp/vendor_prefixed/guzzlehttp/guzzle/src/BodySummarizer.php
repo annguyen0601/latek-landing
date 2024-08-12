@@ -1,23 +1,5 @@
-<?php
-
-namespace WPMailSMTP\Vendor\GuzzleHttp;
-
-use WPMailSMTP\Vendor\Psr\Http\Message\MessageInterface;
-final class BodySummarizer implements \WPMailSMTP\Vendor\GuzzleHttp\BodySummarizerInterface
-{
-    /**
-     * @var int|null
-     */
-    private $truncateAt;
-    public function __construct(int $truncateAt = null)
-    {
-        $this->truncateAt = $truncateAt;
-    }
-    /**
-     * Returns a summarized message body.
-     */
-    public function summarize(\WPMailSMTP\Vendor\Psr\Http\Message\MessageInterface $message) : ?string
-    {
-        return $this->truncateAt === null ? \WPMailSMTP\Vendor\GuzzleHttp\Psr7\Message::bodySummary($message) : \WPMailSMTP\Vendor\GuzzleHttp\Psr7\Message::bodySummary($message, $this->truncateAt);
-    }
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Interface &quot;WPMailSMTP\Vendor\GuzzleHttp\BodySummarizerInterface&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wp-mail-smtp\vendor_prefixed\guzzlehttp\guzzle\src\BodySummarizer.php:6
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wp-mail-smtp\vendor_prefixed\guzzlehttp\guzzle\src\BodySummarizer.php</b> on line <b>6</b><br>

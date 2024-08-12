@@ -1,38 +1,5 @@
-<?php
-/**
- * CMB textarea field type
- *
- * @since  2.2.2
- *
- * @category  WordPress_Plugin
- * @package   CMB2
- * @author    CMB2 team
- * @license   GPL-2.0+
- * @link      https://cmb2.io
- */
-class CMB2_Type_Textarea extends CMB2_Type_Base {
-
-	/**
-	 * Handles outputting an 'textarea' element
-	 *
-	 * @since  1.1.0
-	 * @param  array $args Override arguments
-	 * @return string       Form textarea element
-	 */
-	public function render( $args = array() ) {
-		$args = empty( $args ) ? $this->args : $args;
-		$a = $this->parse_args( 'textarea', array(
-			'class' => 'cmb2_textarea',
-			'name'  => $this->_name(),
-			'id'    => $this->_id(),
-			'cols'  => 60,
-			'rows'  => 10,
-			'value' => $this->field->escaped_value( 'esc_textarea' ),
-			'desc'  => $this->_desc( true ),
-		), $args );
-
-		return $this->rendered(
-			sprintf( '<textarea%s>%s</textarea>%s', $this->concat_attrs( $a, array( 'desc', 'value' ) ), $a['value'], $a['desc'] )
-		);
-	}
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;CMB2_Type_Base&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\the-plus-addons-for-elementor-page-builder\includes\plus-options\metabox\includes\types\CMB2_Type_Textarea.php:13
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\the-plus-addons-for-elementor-page-builder\includes\plus-options\metabox\includes\types\CMB2_Type_Textarea.php</b> on line <b>13</b><br>

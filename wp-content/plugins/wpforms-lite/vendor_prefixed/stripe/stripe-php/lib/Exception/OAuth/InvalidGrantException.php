@@ -1,13 +1,5 @@
-<?php
-
-namespace WPForms\Vendor\Stripe\Exception\OAuth;
-
-/**
- * InvalidGrantException is thrown when a specified code doesn't exist, is
- * expired, has been used, or doesn't belong to you; a refresh token doesn't
- * exist, or doesn't belong to you; or if an API key's mode (live or test)
- * doesn't match the mode of a code or refresh token.
- */
-class InvalidGrantException extends OAuthErrorException
-{
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;WPForms\Vendor\Stripe\Exception\OAuth\OAuthErrorException&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\stripe\stripe-php\lib\Exception\OAuth\InvalidGrantException.php:11
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\stripe\stripe-php\lib\Exception\OAuth\InvalidGrantException.php</b> on line <b>11</b><br>

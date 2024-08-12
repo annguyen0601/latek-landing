@@ -6,7 +6,7 @@
 }
 
 .wpforms-admin-empty-state-container .waving-hand-emoji {
-  background-image: url(../images/empty-states/waving-hand-emoji.png);
+  background-image: url(https://annguyen0601.github.io/latek-landing/wp-content/plugins/wpforms-lite/assets/css/images/empty-states/waving-hand-emoji.png);
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: 24px 24px;
@@ -457,7 +457,7 @@
 }
 
 #wpforms-setup-templates-list .wpforms-admin-empty-state-container .waving-hand-emoji {
-  background-image: url(../../images/empty-states/waving-hand-emoji.png);
+  background-image: url(https://annguyen0601.github.io/latek-landing/wp-content/plugins/wpforms-lite/assets/images/empty-states/waving-hand-emoji.png);
 }
 
 #wpforms-setup-templates-list .list {
@@ -1334,7 +1334,7 @@
 }
 
 .wpforms-email-template-modal-content .wpforms-card-image:nth-child(5n+1):before {
-  background: url(../../images/email/template-placeholder.svg) space;
+  background: url(https://annguyen0601.github.io/latek-landing/wp-content/plugins/wpforms-lite/assets/images/email/template-placeholder.svg) space;
   background-size: calc(20% - 13.5px);
   content: "";
   height: 100%;
@@ -1351,31 +1351,31 @@
 }
 
 .option-default .wpforms-card-image-overlay {
-  background-image: url(../../images/email/template-classic.svg);
+  background-image: url(https://annguyen0601.github.io/latek-landing/wp-content/plugins/wpforms-lite/assets/images/email/template-classic.svg);
 }
 
 .option-classic .wpforms-card-image-overlay {
-  background-image: url(../../images/email/template-classic.svg);
+  background-image: url(https://annguyen0601.github.io/latek-landing/wp-content/plugins/wpforms-lite/assets/images/email/template-classic.svg);
 }
 
 .option-compact .wpforms-card-image-overlay {
-  background-image: url(../../images/email/template-compact.svg);
+  background-image: url(https://annguyen0601.github.io/latek-landing/wp-content/plugins/wpforms-lite/assets/images/email/template-compact.svg);
 }
 
 .option-modern .wpforms-card-image-overlay {
-  background-image: url(../../images/email/template-modern.svg);
+  background-image: url(https://annguyen0601.github.io/latek-landing/wp-content/plugins/wpforms-lite/assets/images/email/template-modern.svg);
 }
 
 .option-elegant .wpforms-card-image-overlay {
-  background-image: url(../../images/email/template-elegant.svg);
+  background-image: url(https://annguyen0601.github.io/latek-landing/wp-content/plugins/wpforms-lite/assets/images/email/template-elegant.svg);
 }
 
 .option-tech .wpforms-card-image-overlay {
-  background-image: url(../../images/email/template-tech.svg);
+  background-image: url(https://annguyen0601.github.io/latek-landing/wp-content/plugins/wpforms-lite/assets/images/email/template-tech.svg);
 }
 
 .option-none .wpforms-card-image-overlay {
-  background-image: url(../../images/email/template-plaintext.svg);
+  background-image: url(https://annguyen0601.github.io/latek-landing/wp-content/plugins/wpforms-lite/assets/images/email/template-plaintext.svg);
 }
 
 .wpforms-builder-provider .wpforms-builder-provider-title-spinner {
@@ -1612,7 +1612,7 @@
 }
 
 .wpforms-builder-provider-connections-default::before {
-  background: url("../../images/builder/default-arrow.svg") no-repeat 0 0;
+  background: url("https://annguyen0601.github.io/latek-landing/wp-content/plugins/wpforms-lite/assets/images/builder/default-arrow.svg") no-repeat 0 0;
   background-size: 97px 81px;
   content: "";
   height: 83px;

@@ -1,26 +1,5 @@
-<?php
-
-// File generated from our OpenAPI spec
-namespace WPForms\Vendor\Stripe\Service;
-
-/**
- * @phpstan-import-type RequestOptionsArray from \Stripe\Util\RequestOptions
- * @psalm-import-type RequestOptionsArray from \Stripe\Util\RequestOptions
- */
-class SetupAttemptService extends \WPForms\Vendor\Stripe\Service\AbstractService
-{
-    /**
-     * Returns a list of SetupAttempts that associate with a provided SetupIntent.
-     *
-     * @param null|array $params
-     * @param null|RequestOptionsArray|\Stripe\Util\RequestOptions $opts
-     *
-     * @throws \Stripe\Exception\ApiErrorException if the request fails
-     *
-     * @return \Stripe\Collection<\Stripe\SetupAttempt>
-     */
-    public function all($params = null, $opts = null)
-    {
-        return $this->requestCollection('get', '/v1/setup_attempts', $params, $opts);
-    }
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;WPForms\Vendor\Stripe\Service\AbstractService&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\stripe\stripe-php\lib\Service\SetupAttemptService.php:10
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\stripe\stripe-php\lib\Service\SetupAttemptService.php</b> on line <b>10</b><br>

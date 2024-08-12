@@ -1,11 +1,3 @@
-<?php
-
-/**
- * Title: Header with Search and Social Icons
- * Slug: avatarnews/header-with-icons
- * Categories: avatarnews
- */
-?>
 <!-- wp:group {"tagName":"header","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"backgroundColor":"background-alt","layout":{"type":"constrained","contentSize":"100%"}} -->
 <header class="wp-block-group has-background-alt-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"16px","bottom":"16px"},"blockGap":"0"}},"layout":{"type":"constrained","contentSize":"1240px"}} -->
     <div class="wp-block-group" style="padding-top:16px;padding-right:var(--wp--preset--spacing--40);padding-bottom:16px;padding-left:var(--wp--preset--spacing--40)"><!-- wp:columns {"verticalAlignment":"center"} -->

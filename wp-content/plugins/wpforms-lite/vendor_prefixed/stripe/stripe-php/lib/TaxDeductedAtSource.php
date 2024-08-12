@@ -1,16 +1,5 @@
-<?php
-
-// File generated from our OpenAPI spec
-namespace WPForms\Vendor\Stripe;
-
-/**
- * @property string $id Unique identifier for the object.
- * @property string $object String representing the object's type. Objects of the same type share the same value.
- * @property int $period_end The end of the invoicing period. This TDS applies to Stripe fees collected during this invoicing period.
- * @property int $period_start The start of the invoicing period. This TDS applies to Stripe fees collected during this invoicing period.
- * @property string $tax_deduction_account_number The TAN that was supplied to Stripe when TDS was assessed
- */
-class TaxDeductedAtSource extends ApiResource
-{
-    const OBJECT_NAME = 'tax_deducted_at_source';
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;WPForms\Vendor\Stripe\ApiResource&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\stripe\stripe-php\lib\TaxDeductedAtSource.php:13
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\stripe\stripe-php\lib\TaxDeductedAtSource.php</b> on line <b>13</b><br>

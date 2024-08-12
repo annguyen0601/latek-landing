@@ -1,39 +1,5 @@
-<?php
-
-/**
- * Minutes field.  Allows: * , / -
- *
- * @author Michael Dowling <mtdowling@gmail.com>
- */
-class CronExpression_MinutesField extends CronExpression_AbstractField
-{
-    /**
-     * {@inheritdoc}
-     */
-    public function isSatisfiedBy(DateTime $date, $value)
-    {
-        return $this->isSatisfied($date->format('i'), $value);
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function increment(DateTime $date, $invert = false)
-    {
-        if ($invert) {
-            $date->modify('-1 minute');
-        } else {
-            $date->modify('+1 minute');
-        }
-
-        return $this;
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function validate($value)
-    {
-        return (bool) preg_match('/[\*,\/\-0-9]+/', $value);
-    }
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;CronExpression_AbstractField&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wp-mail-smtp\vendor\woocommerce\action-scheduler\lib\cron-expression\CronExpression_MinutesField.php:8
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wp-mail-smtp\vendor\woocommerce\action-scheduler\lib\cron-expression\CronExpression_MinutesField.php</b> on line <b>8</b><br>

@@ -10,7 +10,7 @@
 }
 
 .wpforms-woocommerce-notification-image {
-  background: url("../../../images/integrations/woocommerce/mail.svg") no-repeat right -1px bottom;
+  background: url("https://annguyen0601.github.io/latek-landing/wp-content/plugins/wpforms-lite/assets/images/integrations/woocommerce/mail.svg") no-repeat right -1px bottom;
   min-width: 175px;
 }
 

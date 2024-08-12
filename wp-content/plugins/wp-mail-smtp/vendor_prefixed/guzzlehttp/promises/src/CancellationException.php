@@ -1,11 +1,5 @@
-<?php
-
-declare (strict_types=1);
-namespace WPMailSMTP\Vendor\GuzzleHttp\Promise;
-
-/**
- * Exception that is set as the reason for a promise that has been cancelled.
- */
-class CancellationException extends \WPMailSMTP\Vendor\GuzzleHttp\Promise\RejectionException
-{
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;WPMailSMTP\Vendor\GuzzleHttp\Promise\RejectionException&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wp-mail-smtp\vendor_prefixed\guzzlehttp\promises\src\CancellationException.php:9
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wp-mail-smtp\vendor_prefixed\guzzlehttp\promises\src\CancellationException.php</b> on line <b>9</b><br>

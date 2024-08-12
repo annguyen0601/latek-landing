@@ -1,24 +1,12 @@
-<?php
-/**
- * Displays footer widgets if assigned
- */
-?>
-
 <aside class="footersec">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-3 col-md-6 pe-lg-5">
-	            <?php dynamic_sidebar('footer-1');?>
-	        </div>
-	        <div class="col-lg-3 col-md-6 pe-lg-5">
-	            <?php dynamic_sidebar('footer-2');?>
-	        </div>
-	        <div class="col-lg-3 col-md-6 pe-lg-5">
-	            <?php dynamic_sidebar('footer-3');?>
-	        </div> 
-	        <div class="col-lg-3 col-md-6 pe-lg-5">
-	            <?php dynamic_sidebar('footer-4');?>
-	        </div>        
-		</div>
-	</div>
-</aside>
+	            <br>
+<b>Fatal error</b>:  Uncaught Error: Call to undefined function dynamic_sidebar() in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\themes\para\template-parts\footer\footer-widgets.php:11
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\themes\para\template-parts\footer\footer-widgets.php</b> on line <b>11</b><br>
+</div>
+</div>
+</div></aside>

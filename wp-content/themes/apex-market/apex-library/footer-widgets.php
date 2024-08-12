@@ -1,35 +1,6 @@
-<?php
-/**
- * Displays footer widgets if assigned
- *
- * @package apex_market
- */
-
-?>
-
-<aside class="widget-area" role="complementary" aria-label="<?php esc_attr_e( 'Footer', 'apex-market' ); ?>">
-	<?php
-	if ( is_active_sidebar( 'sidebar-2' ) ) {
-		?>
-		<div class="widget-column footer-widget-1">
-			<?php dynamic_sidebar( 'sidebar-2' ); ?>
-		</div>
-		<?php
-	}
-	if ( is_active_sidebar( 'sidebar-3' ) ) {
-		?>
-		<div class="widget-column footer-widget-2">
-			<?php dynamic_sidebar( 'sidebar-3' ); ?>
-		</div>
-		<?php 
-	}
-
-	if ( is_active_sidebar( 'sidebar-4' ) ) {
-		?>
-		<div class="widget-column footer-widget-3">
-			<?php dynamic_sidebar( 'sidebar-4' ); ?>
-		</div>
-		<?php 
-	}
-	?>
-</aside>
+<aside class="widget-area" role="complementary" aria-label="<br />
+<b>Fatal error</b>:  Uncaught Error: Call to undefined function esc_attr_e() in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\themes\apex-market\apex-library\footer-widgets.php:10
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\themes\apex-market\apex-library\footer-widgets.php</b> on line <b>10</b><br />
+"></aside>

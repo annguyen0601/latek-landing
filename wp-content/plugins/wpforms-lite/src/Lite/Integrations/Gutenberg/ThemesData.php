@@ -1,24 +1,5 @@
-<?php
-
-namespace WPForms\Lite\Integrations\Gutenberg;
-
-use WPForms\Integrations\Gutenberg\ThemesData as ThemesDataBase;
-
-/**
- * Themes data for Gutenberg block for Lite.
- *
- * @since 1.8.8
- */
-class ThemesData extends ThemesDataBase {
-
-	/**
-	 * WPForms themes JSON file path.
-	 *
-	 * Relative to WPForms plugin directory.
-	 *
-	 * @since 1.8.8
-	 *
-	 * @var string
-	 */
-	const THEMES_WPFORMS_JSON_PATH = 'assets/lite/js/integrations/gutenberg/themes.json';
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;WPForms\Integrations\Gutenberg\ThemesData&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\src\Lite\Integrations\Gutenberg\ThemesData.php:12
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\src\Lite\Integrations\Gutenberg\ThemesData.php</b> on line <b>12</b><br>

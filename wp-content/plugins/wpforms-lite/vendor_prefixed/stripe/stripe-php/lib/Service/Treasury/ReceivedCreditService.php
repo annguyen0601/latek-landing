@@ -1,42 +1,5 @@
-<?php
-
-// File generated from our OpenAPI spec
-namespace WPForms\Vendor\Stripe\Service\Treasury;
-
-/**
- * @phpstan-import-type RequestOptionsArray from \Stripe\Util\RequestOptions
- * @psalm-import-type RequestOptionsArray from \Stripe\Util\RequestOptions
- */
-class ReceivedCreditService extends \WPForms\Vendor\Stripe\Service\AbstractService
-{
-    /**
-     * Returns a list of ReceivedCredits.
-     *
-     * @param null|array $params
-     * @param null|RequestOptionsArray|\Stripe\Util\RequestOptions $opts
-     *
-     * @throws \Stripe\Exception\ApiErrorException if the request fails
-     *
-     * @return \Stripe\Collection<\Stripe\Treasury\ReceivedCredit>
-     */
-    public function all($params = null, $opts = null)
-    {
-        return $this->requestCollection('get', '/v1/treasury/received_credits', $params, $opts);
-    }
-    /**
-     * Retrieves the details of an existing ReceivedCredit by passing the unique
-     * ReceivedCredit ID from the ReceivedCredit list.
-     *
-     * @param string $id
-     * @param null|array $params
-     * @param null|RequestOptionsArray|\Stripe\Util\RequestOptions $opts
-     *
-     * @throws \Stripe\Exception\ApiErrorException if the request fails
-     *
-     * @return \Stripe\Treasury\ReceivedCredit
-     */
-    public function retrieve($id, $params = null, $opts = null)
-    {
-        return $this->request('get', $this->buildPath('/v1/treasury/received_credits/%s', $id), $params, $opts);
-    }
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;WPForms\Vendor\Stripe\Service\AbstractService&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\stripe\stripe-php\lib\Service\Treasury\ReceivedCreditService.php:10
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\stripe\stripe-php\lib\Service\Treasury\ReceivedCreditService.php</b> on line <b>10</b><br>

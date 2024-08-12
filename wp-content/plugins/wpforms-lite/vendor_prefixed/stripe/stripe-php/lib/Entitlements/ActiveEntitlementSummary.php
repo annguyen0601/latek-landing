@@ -1,17 +1,5 @@
-<?php
-
-// File generated from our OpenAPI spec
-namespace WPForms\Vendor\Stripe\Entitlements;
-
-/**
- * A summary of a customer's active entitlements.
- *
- * @property string $object String representing the object's type. Objects of the same type share the same value.
- * @property string $customer The customer that is entitled to this feature.
- * @property \Stripe\Collection<\Stripe\Entitlements\ActiveEntitlement> $entitlements The list of entitlements this customer has.
- * @property bool $livemode Has the value <code>true</code> if the object exists in live mode or the value <code>false</code> if the object exists in test mode.
- */
-class ActiveEntitlementSummary extends \WPForms\Vendor\Stripe\ApiResource
-{
-    const OBJECT_NAME = 'entitlements.active_entitlement_summary';
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;WPForms\Vendor\Stripe\ApiResource&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\stripe\stripe-php\lib\Entitlements\ActiveEntitlementSummary.php:14
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\stripe\stripe-php\lib\Entitlements\ActiveEntitlementSummary.php</b> on line <b>14</b><br>

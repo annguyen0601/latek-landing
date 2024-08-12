@@ -1,27 +1,5 @@
-<?php
-
-namespace Elementor\App\Modules\ImportExport\Runners\Export;
-
-use Elementor\App\Modules\ImportExport\Runners\Runner_Interface;
-
-abstract class Export_Runner_Base implements Runner_Interface {
-
-	/**
-	 * By the passed data we should decide if we want to run the export function of the runner or not.
-	 *
-	 * @param array $data
-	 *
-	 * @return bool
-	 */
-	abstract public function should_export( array $data );
-
-	/**
-	 * Main function of the runner export process.
-	 *
-	 * @param array $data Necessary data for the export process.
-	 *
-	 * @return array{files: array, manifest: array}
-	 * The files that should be part of the kit and the relevant manifest data.
-	 */
-	abstract public function export( array $data );
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Interface &quot;Elementor\App\Modules\ImportExport\Runners\Runner_Interface&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\elementor\app\modules\import-export\runners\export\export-runner-base.php:7
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\elementor\app\modules\import-export\runners\export\export-runner-base.php</b> on line <b>7</b><br>

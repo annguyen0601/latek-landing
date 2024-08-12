@@ -1,23 +1,2 @@
-<?php
-
-declare (strict_types=1);
-namespace WPMailSMTP\Vendor\GuzzleHttp\Psr7;
-
-use WPMailSMTP\Vendor\Psr\Http\Message\StreamInterface;
-/**
- * Stream decorator that prevents a stream from being seeked.
- */
-final class NoSeekStream implements \WPMailSMTP\Vendor\Psr\Http\Message\StreamInterface
-{
-    use StreamDecoratorTrait;
-    /** @var StreamInterface */
-    private $stream;
-    public function seek($offset, $whence = \SEEK_SET) : void
-    {
-        throw new \RuntimeException('Cannot seek a NoSeekStream');
-    }
-    public function isSeekable() : bool
-    {
-        return \false;
-    }
-}
+<br>
+<b>Fatal error</b>:  Trait &quot;WPMailSMTP\Vendor\GuzzleHttp\Psr7\StreamDecoratorTrait&quot; not found in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wp-mail-smtp\vendor_prefixed\guzzlehttp\psr7\src\NoSeekStream.php</b> on line <b>10</b><br>

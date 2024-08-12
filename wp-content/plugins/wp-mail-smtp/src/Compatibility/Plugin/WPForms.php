@@ -1,35 +1,5 @@
-<?php
-
-namespace WPMailSMTP\Compatibility\Plugin;
-
-/**
- * WPForms compatibility plugin.
- *
- * @since 4.0.0
- */
-class WPForms extends WPFormsLite {
-
-	/**
-	 * Get plugin name.
-	 *
-	 * @since 4.0.0
-	 *
-	 * @return string
-	 */
-	public static function get_name() {
-
-		return 'WPForms';
-	}
-
-	/**
-	 * Get plugin path.
-	 *
-	 * @since 4.0.0
-	 *
-	 * @return string
-	 */
-	public static function get_path() {
-
-		return 'wpforms/wpforms.php';
-	}
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;WPMailSMTP\Compatibility\Plugin\WPFormsLite&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wp-mail-smtp\src\Compatibility\Plugin\WPForms.php:10
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wp-mail-smtp\src\Compatibility\Plugin\WPForms.php</b> on line <b>10</b><br>

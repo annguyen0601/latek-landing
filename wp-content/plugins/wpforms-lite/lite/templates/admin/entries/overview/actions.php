@@ -1,10 +1,3 @@
-<?php
-/**
- * HTML for the columns multiselect menu.
- *
- * @since 1.8.9
- */
-?>
 <div class="wpforms-entries-settings-menu" aria-expanded="true">
 	<div class="wpforms-entries-settings-menu-wrap wpforms-entries-settings-menu-items wpforms-input-disabled" aria-disabled="true">
 		<span class="wpforms-settings-title first">Form Fields</span>

@@ -1,11 +1,3 @@
-<?php
-
-/**
- * Title: Post List with Sidebar
- * Slug: avatarnews/list-post-with-sidebar
- * Categories: avatarnews
- */
-?>
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":""} -->
     <div class="wp-block-column"><!-- wp:query {"queryId":6,"query":{"perPage":"10","pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false}} -->

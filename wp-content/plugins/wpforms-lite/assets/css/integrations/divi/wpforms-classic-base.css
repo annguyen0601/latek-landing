@@ -991,7 +991,7 @@ body.rtl .wpforms-container.wpforms-edit-entry-container .wpforms-first + .wpfor
 
 .wpforms-container .wpforms-datepicker-wrap .wpforms-datepicker-clear {
   position: absolute;
-  background-image: url(../../../pro/images/times-solid-white.svg);
+  background-image: url(https://annguyen0601.github.io/latek-landing/wp-content/plugins/wpforms-lite/assets/pro/images/times-solid-white.svg);
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-color: #cccccc;
@@ -3080,7 +3080,7 @@ ul.wpforms-icon-choices.wpforms-icon-choices-classic li .wpforms-icon-choices-ic
 
 .et-db #et-boc .et-l .et_pb_module .wpforms-container .wpforms-datepicker-wrap .wpforms-datepicker-clear {
   position: absolute;
-  background-image: url(../../../pro/images/times-solid-white.svg);
+  background-image: url(https://annguyen0601.github.io/latek-landing/wp-content/plugins/wpforms-lite/assets/pro/images/times-solid-white.svg);
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-color: #cccccc;

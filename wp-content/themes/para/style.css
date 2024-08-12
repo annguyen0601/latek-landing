@@ -1933,7 +1933,7 @@ div#sidebar p,#sidebar td#prev a {
   bottom: 0;
   left: 0;
   right: 0;
-  background: url('./assets/images/head-bg.png') no-repeat;
+  background: url('https://annguyen0601.github.io/latek-landing/wp-content/themes/para/assets/images/head-bg.png') no-repeat;
 }*/
 
 #footer-section .footersec {
@@ -2431,8 +2431,8 @@ nav.post-navigation{
 
 
 
-@import "bourbon";
-@import "neat";
+@import "https://annguyen0601.github.io/latek-landing/wp-content/themes/para/bourbon";
+@import "https://annguyen0601.github.io/latek-landing/wp-content/themes/para/neat";
 
 // variables
 $facebook: #3b5998;

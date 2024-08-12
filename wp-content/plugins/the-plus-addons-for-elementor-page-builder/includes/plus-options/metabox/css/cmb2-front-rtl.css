@@ -482,7 +482,7 @@ span.cmb2-metabox-description {
 }
 /* line 458, sass/partials/_main_wrap.scss */
 .cmb2-media-status .img-status .cmb2-remove-file-button, .cmb2-media-status .embed-status .cmb2-remove-file-button {
-  background: url(../images/ico-delete.png);
+  background: url(https://annguyen0601.github.io/latek-landing/wp-content/plugins/the-plus-addons-for-elementor-page-builder/includes/plus-options/metabox/images/ico-delete.png);
   height: 16px;
   right: -5px;
   position: absolute;
@@ -1315,7 +1315,7 @@ span.cmb2-metabox-description {
 
 /* line 44, sass/partials/_front.scss */
 .cmb-spinner {
-  background: url(/wp-admin/images/spinner.gif) no-repeat;
+  background: url(https://annguyen0601.github.io/latek-landing/wp-admin/images/spinner.gif) no-repeat;
   -webkit-background-size: 20px 20px;
   background-size: 20px 20px;
   display: none;

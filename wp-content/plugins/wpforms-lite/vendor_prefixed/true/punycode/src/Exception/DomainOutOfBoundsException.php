@@ -1,12 +1,5 @@
-<?php
-
-namespace WPForms\Vendor\TrueBV\Exception;
-
-/**
- * Class DomainOutOfBoundsException
- * @package TrueBV\Exception
- * @author  Sebastian Kroczek <sk@xbug.de>
- */
-class DomainOutOfBoundsException extends OutOfBoundsException
-{
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;WPForms\Vendor\TrueBV\Exception\OutOfBoundsException&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\true\punycode\src\Exception\DomainOutOfBoundsException.php:10
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\true\punycode\src\Exception\DomainOutOfBoundsException.php</b> on line <b>10</b><br>

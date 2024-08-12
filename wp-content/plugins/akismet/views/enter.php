@@ -1,14 +1,8 @@
 <div class="akismet-enter-api-key-box centered">
-	<button class="akismet-enter-api-key-box__reveal"><?php esc_html_e( 'Manually enter an API key', 'akismet' ); ?></button>
-	<div class="akismet-enter-api-key-box__form-wrapper">
-		<form action="<?php echo esc_url( Akismet_Admin::get_page_url() ); ?>" method="post">
-			<?php wp_nonce_field( Akismet_Admin::NONCE ); ?>
-			<input type="hidden" name="action" value="enter-key">
-			<h3 class="akismet-enter-api-key-box__header" id="akismet-enter-api-key-box__header"><?php esc_html_e( 'Enter your API key', 'akismet' ); ?></h3>
-			<div class="akismet-enter-api-key-box__input-wrapper">
-				<input id="key" name="key" type="text" size="15" value="" placeholder="<?php esc_attr_e( 'API key', 'akismet' ); ?>" class="akismet-enter-api-key-box__key-input regular-text code" aria-labelledby="akismet-enter-api-key-box__header">
-				<input type="submit" name="submit" id="submit" class="akismet-button" value="<?php esc_attr_e( 'Connect with API key', 'akismet' ); ?>">
-			</div>
-		</form>
-	</div>
+	<button class="akismet-enter-api-key-box__reveal"><br>
+<b>Fatal error</b>:  Uncaught Error: Call to undefined function esc_html_e() in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\akismet\views\enter.php:2
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\akismet\views\enter.php</b> on line <b>2</b><br>
+</button>
 </div>

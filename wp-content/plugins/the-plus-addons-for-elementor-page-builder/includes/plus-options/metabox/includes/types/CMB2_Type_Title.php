@@ -1,47 +1,5 @@
-<?php
-/**
- * CMB title field type
- *
- * @since  2.2.2
- *
- * @category  WordPress_Plugin
- * @package   CMB2
- * @author    CMB2 team
- * @license   GPL-2.0+
- * @link      https://cmb2.io
- */
-class CMB2_Type_Title extends CMB2_Type_Base {
-
-	/**
-	 * Handles outputting an 'title' element
-	 *
-	 * @return string Heading element
-	 */
-	public function render() {
-		$name = $this->field->args( 'name' );
-		$tag  = 'span';
-
-		if ( ! empty( $name ) ) {
-			$tag = $this->field->object_type == 'post' ? 'h5' : 'h3';
-		}
-
-		$a = $this->parse_args( 'title', array(
-			'tag'   => $tag,
-			'class' => empty( $name ) ? 'cmb2-metabox-title-anchor' : 'cmb2-metabox-title',
-			'name'  => $name,
-			'desc'  => $this->_desc( true ),
-			'id'    => str_replace( '_', '-', sanitize_html_class( $this->field->id() ) ),
-		) );
-
-		return $this->rendered(
-			sprintf(
-				'<%1$s %2$s>%3$s</%1$s>%4$s',
-				$a['tag'],
-				$this->concat_attrs( $a, array( 'tag', 'name', 'desc' ) ),
-				$a['name'],
-				$a['desc']
-			)
-		);
-	}
-
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;CMB2_Type_Base&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\the-plus-addons-for-elementor-page-builder\includes\plus-options\metabox\includes\types\CMB2_Type_Title.php:13
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\the-plus-addons-for-elementor-page-builder\includes\plus-options\metabox\includes\types\CMB2_Type_Title.php</b> on line <b>13</b><br>

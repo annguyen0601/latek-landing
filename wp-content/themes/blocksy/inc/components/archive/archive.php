@@ -1,0 +1,2 @@
+<br>
+<b>Fatal error</b>:  Trait &quot;Blocksy\WordPressActionsManager&quot; not found in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\themes\blocksy\inc\components\archive\archive.php</b> on line <b>5</b><br>

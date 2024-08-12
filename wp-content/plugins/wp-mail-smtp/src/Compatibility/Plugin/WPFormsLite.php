@@ -1,47 +1,5 @@
-<?php
-
-namespace WPMailSMTP\Compatibility\Plugin;
-
-/**
- * WPForms Lite compatibility plugin.
- *
- * @since 4.0.0
- */
-class WPFormsLite extends PluginAbstract {
-
-	/**
-	 * Get plugin name.
-	 *
-	 * @since 4.0.0
-	 *
-	 * @return string
-	 */
-	public static function get_name() {
-
-		return 'WPForms Lite';
-	}
-
-	/**
-	 * Get plugin path.
-	 *
-	 * @since 4.0.0
-	 *
-	 * @return string
-	 */
-	public static function get_path() {
-
-		return 'wpforms-lite/wpforms.php';
-	}
-
-	/**
-	 * Execute on init action.
-	 *
-	 * @since 4.0.0
-	 */
-	public function load() { // phpcs:ignore WPForms.PHP.HooksMethod.InvalidPlaceForAddingHooks
-
-		if ( wp_mail_smtp()->get_queue()->is_enabled() ) {
-			add_filter( 'wpforms_tasks_entry_emails_trigger_send_same_process', '__return_true', PHP_INT_MAX );
-		}
-	}
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;WPMailSMTP\Compatibility\Plugin\PluginAbstract&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wp-mail-smtp\src\Compatibility\Plugin\WPFormsLite.php:10
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wp-mail-smtp\src\Compatibility\Plugin\WPFormsLite.php</b> on line <b>10</b><br>

@@ -1,24 +1,5 @@
-<?php
-
-// File generated from our OpenAPI spec
-namespace WPForms\Vendor\Stripe\Service\Terminal;
-
-/**
- * Service factory class for API resources in the Terminal namespace.
- *
- * @property ConfigurationService $configurations
- * @property ConnectionTokenService $connectionTokens
- * @property LocationService $locations
- * @property ReaderService $readers
- */
-class TerminalServiceFactory extends \WPForms\Vendor\Stripe\Service\AbstractServiceFactory
-{
-    /**
-     * @var array<string, string>
-     */
-    private static $classMap = ['configurations' => ConfigurationService::class, 'connectionTokens' => ConnectionTokenService::class, 'locations' => LocationService::class, 'readers' => ReaderService::class];
-    protected function getServiceClass($name)
-    {
-        return \array_key_exists($name, self::$classMap) ? self::$classMap[$name] : null;
-    }
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;WPForms\Vendor\Stripe\Service\AbstractServiceFactory&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\stripe\stripe-php\lib\Service\Terminal\TerminalServiceFactory.php:14
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\stripe\stripe-php\lib\Service\Terminal\TerminalServiceFactory.php</b> on line <b>14</b><br>

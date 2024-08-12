@@ -1,16 +1,5 @@
-<?php
-
-/**
- * Class ActionScheduler_NullAction
- */
-class ActionScheduler_NullAction extends ActionScheduler_Action {
-
-	public function __construct( $hook = '', array $args = array(), ActionScheduler_Schedule $schedule = NULL ) {
-		$this->set_schedule( new ActionScheduler_NullSchedule() );
-	}
-
-	public function execute() {
-		// don't execute
-	}
-}
- 
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;ActionScheduler_Action&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wp-mail-smtp\vendor\woocommerce\action-scheduler\classes\actions\ActionScheduler_NullAction.php:6
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wp-mail-smtp\vendor\woocommerce\action-scheduler\classes\actions\ActionScheduler_NullAction.php</b> on line <b>6</b><br>

@@ -1,13 +1,5 @@
-<?php
-
-namespace WPMailSMTP\Vendor\Psr\Cache;
-
-/**
- * Exception interface for invalid cache arguments.
- *
- * Any time an invalid argument is passed into a method it must throw an
- * exception class which implements Psr\Cache\InvalidArgumentException.
- */
-interface InvalidArgumentException extends \WPMailSMTP\Vendor\Psr\Cache\CacheException
-{
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Interface &quot;WPMailSMTP\Vendor\Psr\Cache\CacheException&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wp-mail-smtp\vendor_prefixed\psr\cache\src\InvalidArgumentException.php:11
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wp-mail-smtp\vendor_prefixed\psr\cache\src\InvalidArgumentException.php</b> on line <b>11</b><br>

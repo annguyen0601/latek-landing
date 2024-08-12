@@ -1,21 +1,5 @@
-<?php
-
-// File generated from our OpenAPI spec
-namespace WPForms\Vendor\Stripe\Service\Sigma;
-
-/**
- * Service factory class for API resources in the Sigma namespace.
- *
- * @property ScheduledQueryRunService $scheduledQueryRuns
- */
-class SigmaServiceFactory extends \WPForms\Vendor\Stripe\Service\AbstractServiceFactory
-{
-    /**
-     * @var array<string, string>
-     */
-    private static $classMap = ['scheduledQueryRuns' => ScheduledQueryRunService::class];
-    protected function getServiceClass($name)
-    {
-        return \array_key_exists($name, self::$classMap) ? self::$classMap[$name] : null;
-    }
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;WPForms\Vendor\Stripe\Service\AbstractServiceFactory&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\stripe\stripe-php\lib\Service\Sigma\SigmaServiceFactory.php:11
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\stripe\stripe-php\lib\Service\Sigma\SigmaServiceFactory.php</b> on line <b>11</b><br>

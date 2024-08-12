@@ -1,21 +1,5 @@
-<?php
-
-namespace WPForms\Vendor\Stripe;
-
-/**
- * Interface for a Stripe client.
- */
-interface StripeClientInterface extends BaseStripeClientInterface
-{
-    /**
-     * Sends a request to Stripe's API.
-     *
-     * @param 'delete'|'get'|'post' $method the HTTP method
-     * @param string $path the path of the request
-     * @param array $params the parameters of the request
-     * @param array|\Stripe\Util\RequestOptions $opts the special modifiers of the request
-     *
-     * @return \Stripe\StripeObject the object returned by Stripe's API
-     */
-    public function request($method, $path, $params, $opts);
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Interface &quot;WPForms\Vendor\Stripe\BaseStripeClientInterface&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\stripe\stripe-php\lib\StripeClientInterface.php:8
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\stripe\stripe-php\lib\StripeClientInterface.php</b> on line <b>8</b><br>

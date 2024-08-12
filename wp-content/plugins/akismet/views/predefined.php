@@ -1,11 +1,9 @@
 <div class="akismet-box">
-	<h2><?php esc_html_e( 'Manual Configuration', 'akismet' ); ?></h2>
-	<p>
-		<?php
-
-		/* translators: %s is the wp-config.php file */
-		echo sprintf( esc_html__( 'An Akismet API key has been defined in the %s file for this site.', 'akismet' ), '<code>wp-config.php</code>' );
-
-		?>
-	</p>
+	<h2>
+<br>
+<b>Fatal error</b>:  Uncaught Error: Call to undefined function esc_html_e() in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\akismet\views\predefined.php:2
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\akismet\views\predefined.php</b> on line <b>2</b><br>
+</h2>
 </div>

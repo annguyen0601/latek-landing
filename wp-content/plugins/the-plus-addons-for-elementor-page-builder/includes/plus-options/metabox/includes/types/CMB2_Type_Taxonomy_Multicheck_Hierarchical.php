@@ -1,42 +1,5 @@
-<?php
-/**
- * CMB taxonomy_multicheck field type
- *
- * @since  2.2.2
- *
- * @category  WordPress_Plugin
- * @package   CMB2
- * @author    CMB2 team
- * @license   GPL-2.0+
- * @link      https://cmb2.io
- */
-class CMB2_Type_Taxonomy_Multicheck_Hierarchical extends CMB2_Type_Taxonomy_Multicheck {
-
-	/**
-	 * Parent term ID when looping hierarchical terms.
-	 *
-	 * @var integer
-	 */
-	protected $parent = 0;
-
-	public function render() {
-		return $this->rendered(
-			$this->types->radio( array(
-				'class'   => $this->get_wrapper_classes(),
-				'options' => $this->get_term_options(),
-			), 'taxonomy_multicheck_hierarchical' )
-		);
-	}
-
-	protected function list_term_input( $term, $saved_terms ) {
-		$options = parent::list_term_input( $term, $saved_terms );
-		$children = $this->build_children( $term, $saved_terms );
-
-		if ( ! empty( $children ) ) {
-			$options .= $children;
-		}
-
-		return $options;
-	}
-
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;CMB2_Type_Taxonomy_Multicheck&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\the-plus-addons-for-elementor-page-builder\includes\plus-options\metabox\includes\types\CMB2_Type_Taxonomy_Multicheck_Hierarchical.php:13
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\the-plus-addons-for-elementor-page-builder\includes\plus-options\metabox\includes\types\CMB2_Type_Taxonomy_Multicheck_Hierarchical.php</b> on line <b>13</b><br>

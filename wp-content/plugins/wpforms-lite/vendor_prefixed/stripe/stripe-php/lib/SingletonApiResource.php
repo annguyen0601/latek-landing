@@ -1,28 +1,5 @@
-<?php
-
-namespace WPForms\Vendor\Stripe;
-
-/**
- * Class SingletonApiResource.
- */
-abstract class SingletonApiResource extends ApiResource
-{
-    /**
-     * @return string the endpoint associated with this singleton class
-     */
-    public static function classUrl()
-    {
-        // Replace dots with slashes for namespaced resources, e.g. if the object's name is
-        // "foo.bar", then its URL will be "/v1/foo/bar".
-        /** @phpstan-ignore-next-line */
-        $base = \str_replace('.', '/', static::OBJECT_NAME);
-        return "/v1/{$base}";
-    }
-    /**
-     * @return string the endpoint associated with this singleton API resource
-     */
-    public function instanceUrl()
-    {
-        return static::classUrl();
-    }
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;WPForms\Vendor\Stripe\ApiResource&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\stripe\stripe-php\lib\SingletonApiResource.php:8
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\stripe\stripe-php\lib\SingletonApiResource.php</b> on line <b>8</b><br>

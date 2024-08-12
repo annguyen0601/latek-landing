@@ -1,33 +1,5 @@
-<?php
-
-declare (strict_types=1);
-/*
- * This file is part of the Monolog package.
- *
- * (c) Jordi Boggiano <j.boggiano@seld.be>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-namespace WPMailSMTP\Vendor\Monolog\Processor;
-
-/**
- * Injects value of gethostname in all records
- */
-class HostnameProcessor implements \WPMailSMTP\Vendor\Monolog\Processor\ProcessorInterface
-{
-    /** @var string */
-    private static $host;
-    public function __construct()
-    {
-        self::$host = (string) \gethostname();
-    }
-    /**
-     * {@inheritDoc}
-     */
-    public function __invoke(array $record) : array
-    {
-        $record['extra']['hostname'] = self::$host;
-        return $record;
-    }
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Interface &quot;WPMailSMTP\Vendor\Monolog\Processor\ProcessorInterface&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wp-mail-smtp\vendor_prefixed\monolog\monolog\src\Monolog\Processor\HostnameProcessor.php:17
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wp-mail-smtp\vendor_prefixed\monolog\monolog\src\Monolog\Processor\HostnameProcessor.php</b> on line <b>17</b><br>

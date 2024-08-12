@@ -1,16 +1,5 @@
-<?php
-
-// File generated from our OpenAPI spec
-namespace WPForms\Vendor\Stripe;
-
-/**
- * Login Links are single-use URLs for a connected account to access the Express Dashboard. The connected account's <a href="/api/accounts/object#account_object-controller-stripe_dashboard-type">account.controller.stripe_dashboard.type</a> must be <code>express</code> to have access to the Express Dashboard.
- *
- * @property string $object String representing the object's type. Objects of the same type share the same value.
- * @property int $created Time at which the object was created. Measured in seconds since the Unix epoch.
- * @property string $url The URL for the login link.
- */
-class LoginLink extends ApiResource
-{
-    const OBJECT_NAME = 'login_link';
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;WPForms\Vendor\Stripe\ApiResource&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\stripe\stripe-php\lib\LoginLink.php:13
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\stripe\stripe-php\lib\LoginLink.php</b> on line <b>13</b><br>

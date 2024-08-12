@@ -1,21 +1,5 @@
-<?php
-
-namespace WPForms\Emails\Templates;
-
-/**
- * Class Classic.
- * This is an updated version of our standard email template.
- *
- * @since 1.8.5
- */
-class Classic extends Notifications {
-
-	/**
-	 * Template slug.
-	 *
-	 * @since 1.8.5
-	 *
-	 * @var string
-	 */
-	const TEMPLATE_SLUG = 'classic';
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;WPForms\Emails\Templates\Notifications&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\src\Emails\Templates\Classic.php:11
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\src\Emails\Templates\Classic.php</b> on line <b>11</b><br>

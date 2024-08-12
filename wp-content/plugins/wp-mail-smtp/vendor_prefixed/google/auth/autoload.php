@@ -1,35 +1,6 @@
-<?php
-
-namespace WPMailSMTP\Vendor;
-
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-function oauth2client_php_autoload($className)
-{
-    $classPath = \explode('_', $className);
-    if ($classPath[0] != 'Google') {
-        return;
-    }
-    if (\count($classPath) > 3) {
-        // Maximum class file path depth in this project is 3.
-        $classPath = \array_slice($classPath, 0, 3);
-    }
-    $filePath = \dirname(__FILE__) . '/src/' . \implode('/', $classPath) . '.php';
-    if (\file_exists($filePath)) {
-        require_once $filePath;
-    }
-}
-\spl_autoload_register('oauth2client_php_autoload');
+<br>
+<b>Fatal error</b>:  Uncaught TypeError: spl_autoload_register(): Argument #1 ($callback) must be a valid callback or null, function &quot;oauth2client_php_autoload&quot; not found or invalid function name in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wp-mail-smtp\vendor_prefixed\google\auth\autoload.php:35
+Stack trace:
+#0 C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wp-mail-smtp\vendor_prefixed\google\auth\autoload.php(35): spl_autoload_register('oauth2client_ph...')
+#1 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wp-mail-smtp\vendor_prefixed\google\auth\autoload.php</b> on line <b>35</b><br>
