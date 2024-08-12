@@ -1,23 +1,5 @@
-<?php
-
-namespace Elementor\Modules\FloatingButtons\Control;
-
-use Elementor\Control_Hover_Animation;
-
-class Hover_Animation_Floating_Buttons extends Control_Hover_Animation {
-
-	const TYPE = 'hover_animation_contact_buttons';
-
-	public function get_type() {
-		return static::TYPE;
-	}
-
-	public static function get_animations() {
-		return [
-			'grow' => 'Grow',
-			'pulse' => 'Pulse',
-			'push' => 'Push',
-			'float' => 'Float',
-		];
-	}
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;Elementor\Control_Hover_Animation&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\elementor\modules\floating-buttons\control\hover-animation-floating-buttons.php:7
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\elementor\modules\floating-buttons\control\hover-animation-floating-buttons.php</b> on line <b>7</b><br>

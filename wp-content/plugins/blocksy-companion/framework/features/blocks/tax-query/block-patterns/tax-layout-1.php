@@ -1,17 +1,5 @@
-<?php
-
-$pattern = [
-	'title'      => __( 'Taxonomies - Layout 1', 'blocksy-companion' ),
-	'categories' => ['blocksy'],
-	'blockTypes' => ['blocksy/tax-query'],
-
-	'content' => '<!-- wp:blocksy/tax-query {"uniqueId":"d27d7623"} -->
-	<div class="wp-block-blocksy-tax-query"><!-- wp:blocksy/tax-template {"layout":{"type":"grid","columnCount":3}} -->
-	<!-- wp:blocksy/dynamic-data {"field":"wp:term_image","has_field_link":"yes"} /-->
-
-	<!-- wp:blocksy/dynamic-data {"tagName":"h5","field":"wp:term_title","has_field_link":"yes"} /-->
-
-	<!-- wp:blocksy/dynamic-data {"field":"wp:term_description"} /-->
-	<!-- /wp:blocksy/tax-template --></div>
-	<!-- /wp:blocksy/tax-query -->'
-];
+<br>
+<b>Fatal error</b>:  Uncaught Error: Call to undefined function __() in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\blocksy-companion\framework\features\blocks\tax-query\block-patterns\tax-layout-1.php:4
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\blocksy-companion\framework\features\blocks\tax-query\block-patterns\tax-layout-1.php</b> on line <b>4</b><br>

@@ -1,17 +1,5 @@
-<?php
-/**
- * @package Para
- * Setup the WordPress core custom header feature.
- *
-*/
-function para_custom_header_setup() {
-	add_theme_support( 'custom-header', apply_filters( 'para_custom_header_args', array(
-		'default-text-color'    => 'fff',
-		'header-text' 		    => false,
-		'width'                 => 1600,
-		'height'                => 515,
-		'flex-width'         	=> true,
-        'flex-height'        	=> true,
-	) ) );
-}
-add_action( 'after_setup_theme', 'para_custom_header_setup' );
+<br>
+<b>Fatal error</b>:  Uncaught Error: Call to undefined function add_action() in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\themes\para\inc\custom-header.php:17
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\themes\para\inc\custom-header.php</b> on line <b>17</b><br>

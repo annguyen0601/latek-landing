@@ -300,7 +300,7 @@
 
 .wpforms-panel-sidebar-content .wpforms-panel-sidebar-toggle-icon {
   align-items: center;
-  background-image: url(../../images/builder/toggle-tab-bg.svg);
+  background-image: url(https://annguyen0601.github.io/latek-landing/wp-content/plugins/wpforms-lite/assets/images/builder/toggle-tab-bg.svg);
   background-size: 100% 58px;
   background-repeat: no-repeat;
   border-radius: 5px 5px 0 0;
@@ -700,12 +700,12 @@
 }
 
 .wpforms-panel-content-section .illustration.illustration-marketing {
-  background: url("../../images/builder/illustration-marketing.svg") no-repeat center center;
+  background: url("https://annguyen0601.github.io/latek-landing/wp-content/plugins/wpforms-lite/assets/images/builder/illustration-marketing.svg") no-repeat center center;
   background-size: 313px 260px;
 }
 
 .wpforms-panel-content-section .illustration.illustration-payments {
-  background: url("../../images/builder/illustration-payments.svg") no-repeat center center;
+  background: url("https://annguyen0601.github.io/latek-landing/wp-content/plugins/wpforms-lite/assets/images/builder/illustration-payments.svg") no-repeat center center;
   background-size: 269px 255px;
 }
 
@@ -805,7 +805,7 @@
 }
 
 .wpforms-panel-content-section-default::after {
-  background-image: url("../../images/builder/default-arrow.svg");
+  background-image: url("https://annguyen0601.github.io/latek-landing/wp-content/plugins/wpforms-lite/assets/images/builder/default-arrow.svg");
   background-repeat: no-repeat;
   background-size: 97px 83px;
   content: "";

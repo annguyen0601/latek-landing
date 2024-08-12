@@ -1,12 +1,5 @@
-<div <?php qi_addons_for_elementor_framework_class_attribute( $holder_classes ); ?>>
-	<div class="qodef-m-inner">
-		<div class="qodef-m-image">
-			<?php qi_addons_for_elementor_template_part( 'shortcodes/team-member', 'templates/post-info/image', '', $params ); ?>
-		</div>
-		<div class="qodef-m-content">
-			<?php qi_addons_for_elementor_template_part( 'shortcodes/team-member', 'templates/post-info/title', '', $params ); ?>
-			<?php qi_addons_for_elementor_template_part( 'shortcodes/team-member', 'templates/post-info/role', '', $params ); ?>
-			<?php qi_addons_for_elementor_template_part( 'shortcodes/team-member', 'templates/post-info/social-icons', '', $params ); ?>
-		</div>
-	</div>
-</div>
+<div></div>
+<b>Fatal error</b>:  Uncaught Error: Call to undefined function qi_addons_for_elementor_framework_class_attribute() in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\qi-addons-for-elementor\inc\shortcodes\team-member\variations\info-below\layouts\info-below.php:1
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\qi-addons-for-elementor\inc\shortcodes\team-member\variations\info-below\layouts\info-below.php</b> on line <b>1</b><br>

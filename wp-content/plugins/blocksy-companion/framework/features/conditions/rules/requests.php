@@ -1,24 +1,5 @@
-<?php
-
-$options = [
-	[
-		'title' => __('Requests', 'blocksy-companion'),
-		'rules' => [
-			[
-				'id' => 'request_referer',
-				'title' => __('Request Referer', 'blocksy-companion')
-			],
-
-			[
-				'id' => 'request_cookie',
-				'title' => __('Request Cookie', 'blocksy-companion')
-			],
-
-			[
-				'id' => 'request_url',
-				'title' => __('Request URL', 'blocksy-companion')
-			]
-		]
-	],
-];
-
+<br>
+<b>Fatal error</b>:  Uncaught Error: Call to undefined function __() in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\blocksy-companion\framework\features\conditions\rules\requests.php:5
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\blocksy-companion\framework\features\conditions\rules\requests.php</b> on line <b>5</b><br>

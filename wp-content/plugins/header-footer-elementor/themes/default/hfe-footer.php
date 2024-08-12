@@ -1,16 +1,5 @@
-<?php
-/**
- * Footer file in case of the elementor way
- *
- * @package header-footer-elementor
- * @since 1.2.0
- */
-
-?>
-
-<?php do_action( 'hfe_footer_before' ); ?>
-<?php do_action( 'hfe_footer' ); ?>
-</div><!-- #page -->
-<?php wp_footer(); ?>
-</body>
-</html> 
+<br>
+<b>Fatal error</b>:  Uncaught Error: Call to undefined function do_action() in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\header-footer-elementor\themes\default\hfe-footer.php:11
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\header-footer-elementor\themes\default\hfe-footer.php</b> on line <b>11</b><br>

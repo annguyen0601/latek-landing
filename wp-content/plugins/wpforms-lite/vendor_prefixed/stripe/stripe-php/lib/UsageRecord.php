@@ -1,24 +1,5 @@
-<?php
-
-// File generated from our OpenAPI spec
-namespace WPForms\Vendor\Stripe;
-
-/**
- * Usage records allow you to report customer usage and metrics to Stripe for
- * metered billing of subscription prices.
- *
- * Related guide: <a href="https://stripe.com/docs/billing/subscriptions/metered-billing">Metered billing</a>
- *
- * This is our legacy usage-based billing API. See the <a href="https://docs.stripe.com/billing/subscriptions/usage-based">updated usage-based billing docs</a>.
- *
- * @property string $id Unique identifier for the object.
- * @property string $object String representing the object's type. Objects of the same type share the same value.
- * @property bool $livemode Has the value <code>true</code> if the object exists in live mode or the value <code>false</code> if the object exists in test mode.
- * @property int $quantity The usage quantity for the specified date.
- * @property string $subscription_item The ID of the subscription item this usage record contains data for.
- * @property int $timestamp The timestamp when this usage occurred.
- */
-class UsageRecord extends ApiResource
-{
-    const OBJECT_NAME = 'usage_record';
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;WPForms\Vendor\Stripe\ApiResource&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\stripe\stripe-php\lib\UsageRecord.php:21
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\stripe\stripe-php\lib\UsageRecord.php</b> on line <b>21</b><br>

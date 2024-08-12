@@ -1,44 +1,5 @@
-<?php
-/**
- * The template for displaying all pages
- *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages
- * and that other 'pages' on your WordPress site may use a
- * different template.
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package apex_market
- */
-
-get_header();
-?>
-
-<div id="content-wrap" class="container">
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
-			<div class="single-page-wrapper">
-				<?php
-				while ( have_posts() ) :
-					the_post();
-
-					get_template_part( 'apex-library/template-parts/content', 'page' );
-
-					// If comments are open or we have at least one comment, load up the comment template.
-					if ( comments_open() || get_comments_number() ) :
-						comments_template();
-					endif;
-
-				endwhile; // End of the loop.
-				?>
-			</div>
-		</main>
-	</div>
-
-<?php get_sidebar(); ?>
-
-</div>
-
-<?php
-get_footer();
+<br>
+<b>Fatal error</b>:  Uncaught Error: Call to undefined function get_header() in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\themes\apex-market\page.php:15
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\themes\apex-market\page.php</b> on line <b>15</b><br>

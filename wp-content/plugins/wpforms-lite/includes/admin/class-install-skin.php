@@ -1,27 +1,5 @@
-<?php
-
-use WPForms\Helpers\PluginSilentUpgraderSkin;
-
-/**
- * Skin for on-the-fly addon installations.
- *
- * @since 1.0.0
- * @since 1.5.6.1 Extend PluginSilentUpgraderSkin and clean up the class.
- */
-class WPForms_Install_Skin extends PluginSilentUpgraderSkin {
-
-	/**
-	 * Instead of outputting HTML for errors, json_encode the errors and send them
-	 * back to the Ajax script for processing.
-	 *
-	 * @since 1.0.0
-	 *
-	 * @param array $errors Array of errors with the install process.
-	 */
-	public function error( $errors ) {
-
-		if ( ! empty( $errors ) ) {
-			wp_send_json_error( $errors );
-		}
-	}
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;WPForms\Helpers\PluginSilentUpgraderSkin&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\includes\admin\class-install-skin.php:11
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\includes\admin\class-install-skin.php</b> on line <b>11</b><br>

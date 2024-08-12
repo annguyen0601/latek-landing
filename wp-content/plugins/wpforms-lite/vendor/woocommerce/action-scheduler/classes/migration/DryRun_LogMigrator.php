@@ -1,23 +1,5 @@
-<?php
-
-
-namespace Action_Scheduler\Migration;
-
-/**
- * Class DryRun_LogMigrator
- *
- * @package Action_Scheduler\Migration
- *
- * @codeCoverageIgnore
- */
-class DryRun_LogMigrator extends LogMigrator {
-	/**
-	 * Simulate migrating an action log.
-	 *
-	 * @param int $source_action_id Source logger object.
-	 * @param int $destination_action_id Destination logger object.
-	 */
-	public function migrate( $source_action_id, $destination_action_id ) {
-		// no-op
-	}
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;Action_Scheduler\Migration\LogMigrator&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor\woocommerce\action-scheduler\classes\migration\DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor\woocommerce\action-scheduler\classes\migration\DryRun_LogMigrator.php</b> on line <b>13</b><br>

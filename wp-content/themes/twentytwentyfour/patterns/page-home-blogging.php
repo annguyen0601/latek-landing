@@ -1,14 +1,3 @@
-<?php
-/**
- * Title: Blogging home
- * Slug: twentytwentyfour/page-home-blogging
- * Categories: twentytwentyfour_page
- * Keywords: page, starter
- * Post Types: page, wp_template
- * Viewport width: 1400
- * Description: A blogging home page with a hero section, a text section, a blog section, and a CTA section.
- */
-?>
 
 <!-- wp:pattern {"slug":"twentytwentyfour/text-centered-statement-small"}	/-->
 

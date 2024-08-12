@@ -1,28 +1,5 @@
-<?php
-
-// File generated from our OpenAPI spec
-namespace WPForms\Vendor\Stripe\Service;
-
-/**
- * @phpstan-import-type RequestOptionsArray from \Stripe\Util\RequestOptions
- * @psalm-import-type RequestOptionsArray from \Stripe\Util\RequestOptions
- */
-class AccountLinkService extends \WPForms\Vendor\Stripe\Service\AbstractService
-{
-    /**
-     * Creates an AccountLink object that includes a single-use Stripe URL that the
-     * platform can redirect their user to in order to take them through the Connect
-     * Onboarding flow.
-     *
-     * @param null|array $params
-     * @param null|RequestOptionsArray|\Stripe\Util\RequestOptions $opts
-     *
-     * @throws \Stripe\Exception\ApiErrorException if the request fails
-     *
-     * @return \Stripe\AccountLink
-     */
-    public function create($params = null, $opts = null)
-    {
-        return $this->request('post', '/v1/account_links', $params, $opts);
-    }
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;WPForms\Vendor\Stripe\Service\AbstractService&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\stripe\stripe-php\lib\Service\AccountLinkService.php:10
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\stripe\stripe-php\lib\Service\AccountLinkService.php</b> on line <b>10</b><br>

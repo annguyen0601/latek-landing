@@ -1,12 +1,5 @@
-<?php
-
-namespace WPForms\Vendor\Stripe\Exception;
-
-/**
- * RateLimitException is thrown in cases where an account is putting too much
- * load on Stripe's API servers (usually by performing too many requests).
- * Please back off on request rate.
- */
-class RateLimitException extends InvalidRequestException
-{
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;WPForms\Vendor\Stripe\Exception\InvalidRequestException&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\stripe\stripe-php\lib\Exception\RateLimitException.php:10
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\stripe\stripe-php\lib\Exception\RateLimitException.php</b> on line <b>10</b><br>

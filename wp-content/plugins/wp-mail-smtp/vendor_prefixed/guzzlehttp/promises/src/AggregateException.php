@@ -1,15 +1,5 @@
-<?php
-
-declare (strict_types=1);
-namespace WPMailSMTP\Vendor\GuzzleHttp\Promise;
-
-/**
- * Exception thrown when too many errors occur in the some() or any() methods.
- */
-class AggregateException extends \WPMailSMTP\Vendor\GuzzleHttp\Promise\RejectionException
-{
-    public function __construct(string $msg, array $reasons)
-    {
-        parent::__construct($reasons, \sprintf('%s; %d rejected promises', $msg, \count($reasons)));
-    }
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;WPMailSMTP\Vendor\GuzzleHttp\Promise\RejectionException&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wp-mail-smtp\vendor_prefixed\guzzlehttp\promises\src\AggregateException.php:9
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wp-mail-smtp\vendor_prefixed\guzzlehttp\promises\src\AggregateException.php</b> on line <b>9</b><br>

@@ -1,26 +1,5 @@
-<?php
-
-namespace WPForms\Vendor\Stripe\Util;
-
-/**
- * A very basic implementation of LoggerInterface that has just enough
- * functionality that it can be the default for this library.
- */
-class DefaultLogger implements LoggerInterface
-{
-    /** @var int */
-    public $messageType = 0;
-    /** @var null|string */
-    public $destination;
-    public function error($message, array $context = [])
-    {
-        if (\count($context) > 0) {
-            throw new \WPForms\Vendor\Stripe\Exception\BadMethodCallException('DefaultLogger does not currently implement context. Please implement if you need it.');
-        }
-        if (null === $this->destination) {
-            \error_log($message, $this->messageType);
-        } else {
-            \error_log($message, $this->messageType, $this->destination);
-        }
-    }
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Interface &quot;WPForms\Vendor\Stripe\Util\LoggerInterface&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\stripe\stripe-php\lib\Util\DefaultLogger.php:9
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\stripe\stripe-php\lib\Util\DefaultLogger.php</b> on line <b>9</b><br>

@@ -1,7 +1,6 @@
-<?php
-
-/**
- * Initiate core files for dofse
- */
-include 'block-patterns.php';
-include 'block-style.php';
+<br>
+<b>Fatal error</b>:  Uncaught Error: Call to undefined function add_action() in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\themes\avatarnews\inc\core\block-patterns.php:30
+Stack trace:
+#0 C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\themes\avatarnews\inc\core\init.php(6): include()
+#1 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\themes\avatarnews\inc\core\block-patterns.php</b> on line <b>30</b><br>

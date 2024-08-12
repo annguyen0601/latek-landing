@@ -1,41 +1,5 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-namespace WPForms\Vendor\Symfony\Component\CssSelector\Parser\Handler;
-
-use WPForms\Vendor\Symfony\Component\CssSelector\Parser\Reader;
-use WPForms\Vendor\Symfony\Component\CssSelector\Parser\Token;
-use WPForms\Vendor\Symfony\Component\CssSelector\Parser\TokenStream;
-/**
- * CSS selector whitespace handler.
- *
- * This component is a port of the Python cssselect library,
- * which is copyright Ian Bicking, @see https://github.com/SimonSapin/cssselect.
- *
- * @author Jean-François Simon <jeanfrancois.simon@sensiolabs.com>
- *
- * @internal
- */
-class WhitespaceHandler implements HandlerInterface
-{
-    /**
-     * {@inheritdoc}
-     */
-    public function handle(Reader $reader, TokenStream $stream)
-    {
-        $match = $reader->findPattern('~^[ \\t\\r\\n\\f]+~');
-        if (\false === $match) {
-            return \false;
-        }
-        $stream->push(new Token(Token::TYPE_WHITESPACE, $match[0], $reader->getPosition()));
-        $reader->moveForward(\strlen($match[0]));
-        return \true;
-    }
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Interface &quot;WPForms\Vendor\Symfony\Component\CssSelector\Parser\Handler\HandlerInterface&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\symfony\css-selector\Parser\Handler\WhitespaceHandler.php:26
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\symfony\css-selector\Parser\Handler\WhitespaceHandler.php</b> on line <b>26</b><br>

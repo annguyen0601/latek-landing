@@ -76,7 +76,7 @@
 }
 
 .choices[data-type*="select-one"] .choices__button {
-  background-image: url("../../images/cross-inverse.svg");
+  background-image: url("https://annguyen0601.github.io/latek-landing/wp-content/plugins/wpforms-lite/assets/images/cross-inverse.svg");
   padding: 0;
   background-size: 8px;
   position: absolute;
@@ -176,7 +176,7 @@
   margin-left: 5px;
   padding: 0;
   background-color: transparent;
-  background-image: url("../../images/cross.svg");
+  background-image: url("https://annguyen0601.github.io/latek-landing/wp-content/plugins/wpforms-lite/assets/images/cross.svg");
   background-size: 12px;
   background-position: center center;
   background-repeat: no-repeat;
@@ -521,7 +521,7 @@ body.rtl .choices[data-type*="select-multiple"] .choices__button, body.rtl .choi
 
 .wpforms-builder-provider .choices[data-type*="text"] .choices__button,
 .wpforms-builder-provider .choices[data-type*="select-multiple"] .choices__button {
-  background-image: url("../../images/cross.svg");
+  background-image: url("https://annguyen0601.github.io/latek-landing/wp-content/plugins/wpforms-lite/assets/images/cross.svg");
   background-size: 12px;
   width: 12px;
   border: none;
@@ -967,7 +967,7 @@ div.wpforms-container.wpforms-edit-entry-container .wpforms-form .choices .choic
 .wpforms-panel-fields .wpforms-field-radio ul.wpforms-image-choices-modern .wpforms-image-choices-image:after,
 .wpforms-panel-fields .wpforms-field-payment-multiple ul.wpforms-image-choices-modern .wpforms-image-choices-image:after,
 .wpforms-panel-fields .wpforms-field-payment-checkbox ul.wpforms-image-choices-modern .wpforms-image-choices-image:after {
-  background: url("../../images/builder/check-circle.svg") no-repeat;
+  background: url("https://annguyen0601.github.io/latek-landing/wp-content/plugins/wpforms-lite/assets/images/builder/check-circle.svg") no-repeat;
   background-size: 32px 32px;
   border-radius: 50%;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);

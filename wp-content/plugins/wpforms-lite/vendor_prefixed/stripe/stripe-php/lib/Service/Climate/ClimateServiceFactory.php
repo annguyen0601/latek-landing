@@ -1,23 +1,5 @@
-<?php
-
-// File generated from our OpenAPI spec
-namespace WPForms\Vendor\Stripe\Service\Climate;
-
-/**
- * Service factory class for API resources in the Climate namespace.
- *
- * @property OrderService $orders
- * @property ProductService $products
- * @property SupplierService $suppliers
- */
-class ClimateServiceFactory extends \WPForms\Vendor\Stripe\Service\AbstractServiceFactory
-{
-    /**
-     * @var array<string, string>
-     */
-    private static $classMap = ['orders' => OrderService::class, 'products' => ProductService::class, 'suppliers' => SupplierService::class];
-    protected function getServiceClass($name)
-    {
-        return \array_key_exists($name, self::$classMap) ? self::$classMap[$name] : null;
-    }
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;WPForms\Vendor\Stripe\Service\AbstractServiceFactory&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\stripe\stripe-php\lib\Service\Climate\ClimateServiceFactory.php:13
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\stripe\stripe-php\lib\Service\Climate\ClimateServiceFactory.php</b> on line <b>13</b><br>

@@ -1,25 +1,5 @@
-<?php
-/**
- * CMB text_time field type
- *
- * @since  2.2.2
- *
- * @category  WordPress_Plugin
- * @package   CMB2
- * @author    CMB2 team
- * @license   GPL-2.0+
- * @link      https://cmb2.io
- */
-class CMB2_Type_Text_Time extends CMB2_Type_Text_Date {
-
-	public function render( $args = array() ) {
-		$this->args = $this->parse_picker_options( 'time', wp_parse_args( $this->args, array(
-			'class'           => 'cmb2-timepicker text-time',
-			'value'           => $this->field->get_timestamp_format( 'time_format' ),
-			'js_dependencies' => array( 'jquery-ui-core', 'jquery-ui-datepicker', 'jquery-ui-datetimepicker' ),
-		) ) );
-
-		return parent::render();
-	}
-
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;CMB2_Type_Text_Date&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\the-plus-addons-for-elementor-page-builder\includes\plus-options\metabox\includes\types\CMB2_Type_Text_Time.php:13
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\the-plus-addons-for-elementor-page-builder\includes\plus-options\metabox\includes\types\CMB2_Type_Text_Time.php</b> on line <b>13</b><br>

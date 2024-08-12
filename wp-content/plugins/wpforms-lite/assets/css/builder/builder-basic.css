@@ -485,7 +485,7 @@ li {
 }
 
 .wpforms-loading-spinner {
-  background-image: url("../../images/spinner.svg");
+  background-image: url("https://annguyen0601.github.io/latek-landing/wp-content/plugins/wpforms-lite/assets/images/spinner.svg");
   background-repeat: no-repeat;
   background-size: 15px 15px;
   background-position: center;
@@ -502,11 +502,11 @@ li {
 }
 
 .wpforms-loading-spinner.wpforms-loading-white {
-  background-image: url("../../images/spinner-white.svg");
+  background-image: url("https://annguyen0601.github.io/latek-landing/wp-content/plugins/wpforms-lite/assets/images/spinner-white.svg");
 }
 
 .wpforms-loading-spinner.wpforms-loading-blue {
-  background-image: url("../../images/spinner-blue.svg");
+  background-image: url("https://annguyen0601.github.io/latek-landing/wp-content/plugins/wpforms-lite/assets/images/spinner-blue.svg");
   background-size: 14px 15px;
 }
 

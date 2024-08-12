@@ -1,22 +1,5 @@
-<?php
-
-// File generated from our OpenAPI spec
-namespace WPForms\Vendor\Stripe\Service\Reporting;
-
-/**
- * Service factory class for API resources in the Reporting namespace.
- *
- * @property ReportRunService $reportRuns
- * @property ReportTypeService $reportTypes
- */
-class ReportingServiceFactory extends \WPForms\Vendor\Stripe\Service\AbstractServiceFactory
-{
-    /**
-     * @var array<string, string>
-     */
-    private static $classMap = ['reportRuns' => ReportRunService::class, 'reportTypes' => ReportTypeService::class];
-    protected function getServiceClass($name)
-    {
-        return \array_key_exists($name, self::$classMap) ? self::$classMap[$name] : null;
-    }
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;WPForms\Vendor\Stripe\Service\AbstractServiceFactory&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\stripe\stripe-php\lib\Service\Reporting\ReportingServiceFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\stripe\stripe-php\lib\Service\Reporting\ReportingServiceFactory.php</b> on line <b>12</b><br>

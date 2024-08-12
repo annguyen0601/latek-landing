@@ -2,7 +2,7 @@
     height: auto; /*customizer compatibility */
 }
 .wp-menu-image.dashicons-before.dashicons-plus-settings {
-    background: url(../../images/theplus-favicon.png);	
+    background: url(https://annguyen0601.github.io/latek-landing/wp-content/plugins/the-plus-addons-for-elementor-page-builder/assets/images/theplus-favicon.png);	
     background-size: 22px;
     background-repeat: no-repeat;	
     background-position: center;
@@ -2372,7 +2372,7 @@ a.theplus-panel-btn-outline-2 {
     width: 100%;
     height: 100%;
     opacity: .5;
-    background-image: url(../../images/ThePlus_BG_Pattern.png);
+    background-image: url(https://annguyen0601.github.io/latek-landing/wp-content/plugins/the-plus-addons-for-elementor-page-builder/assets/images/ThePlus_BG_Pattern.png);
     background-size: cover;
     background-repeat: no-repeat;
 }

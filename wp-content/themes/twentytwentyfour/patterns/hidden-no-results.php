@@ -1,10 +1,7 @@
-<?php
-/**
- * Title: No results
- * Slug: twentytwentyfour/hidden-no-results
- * Inserter: no
- */
-?>
 <!-- wp:paragraph -->
-<p><?php echo esc_html_x( 'No posts were found.', 'Message explaining that there are no results returned from a search', 'twentytwentyfour' ); ?></p>
-<!-- /wp:paragraph -->
+<p><br>
+<b>Fatal error</b>:  Uncaught Error: Call to undefined function esc_html_x() in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\themes\twentytwentyfour\patterns\hidden-no-results.php:9
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\themes\twentytwentyfour\patterns\hidden-no-results.php</b> on line <b>9</b><br>
+</p>

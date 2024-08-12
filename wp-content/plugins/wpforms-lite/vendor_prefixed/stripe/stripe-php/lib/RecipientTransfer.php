@@ -1,36 +1,5 @@
-<?php
-
-namespace WPForms\Vendor\Stripe;
-
-/**
- * Class RecipientTransfer.
- *
- * @property string $id
- * @property string $object
- * @property int $amount
- * @property int $amount_reversed
- * @property string $balance_transaction
- * @property string $bank_account
- * @property string $card
- * @property int $created
- * @property string $currency
- * @property int $date
- * @property string $description
- * @property string $destination
- * @property string $failure_code
- * @property string $failure_message
- * @property bool $livemode
- * @property \Stripe\StripeObject $metadata
- * @property string $method
- * @property string $recipient
- * @property \Stripe\Collection $reversals
- * @property bool $reversed
- * @property string $source_type
- * @property string $statement_descriptor
- * @property string $status
- * @property string $type
- */
-class RecipientTransfer extends ApiResource
-{
-    const OBJECT_NAME = 'recipient_transfer';
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;WPForms\Vendor\Stripe\ApiResource&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\stripe\stripe-php\lib\RecipientTransfer.php:33
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\stripe\stripe-php\lib\RecipientTransfer.php</b> on line <b>33</b><br>

@@ -1,11 +1,3 @@
-<?php
-
-/**
- * Title: Post List with Image Right
- * Slug: avatarnews/post-list-imageright
- * Categories: avatarnews
- */
-?>
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"layout":{"type":"constrained","contentSize":"1240px"}} -->
 <div class="wp-block-group" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:query {"queryId":6,"query":{"perPage":"10","pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false}} -->
     <div class="wp-block-query"><!-- wp:post-template -->

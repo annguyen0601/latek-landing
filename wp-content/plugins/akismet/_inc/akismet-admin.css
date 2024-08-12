@@ -85,7 +85,7 @@
 
 /* Need this specificity to override the existing link rule */
 #akismet-plugin-container a.akismet-masthead__back-link {
-	background-image: url(img/arrow-left.svg);
+	background-image: url(https://annguyen0601.github.io/latek-landing/wp-content/plugins/akismet/_inc/img/arrow-left.svg);
 	background-position: left;
 	background-repeat: no-repeat;
 	background-size: 16px;
@@ -185,7 +185,7 @@
 }
 
 .akismet-card-actions__secondary-action a[target="_blank"]::after {
-	background: url('img/icon-external.svg') no-repeat;
+	background: url('https://annguyen0601.github.io/latek-landing/wp-content/plugins/akismet/_inc/img/icon-external.svg') no-repeat;
 	background-size: contain;
 	content: "";
 	display: inline-block;

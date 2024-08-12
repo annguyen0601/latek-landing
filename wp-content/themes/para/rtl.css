@@ -1351,7 +1351,7 @@ div#sidebar p,#sidebar td#prev a {
   color: #fff;
 }
 #footer-section {
-  background: url('./assets/images/slider-bg.png') no-repeat;
+  background: url('https://annguyen0601.github.io/latek-landing/wp-content/themes/para/assets/images/slider-bg.png') no-repeat;
   background-size: cover;
   background-attachment: fixed;
   position: relative;

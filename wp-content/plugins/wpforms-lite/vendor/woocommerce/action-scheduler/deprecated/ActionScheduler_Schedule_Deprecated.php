@@ -1,29 +1,5 @@
-<?php
-
-/**
- * Class ActionScheduler_Abstract_Schedule
- */
-abstract class ActionScheduler_Schedule_Deprecated implements ActionScheduler_Schedule {
-
-	/**
-	 * Get the date & time this schedule was created to run, or calculate when it should be run
-	 * after a given date & time.
-	 *
-	 * @param DateTime $after DateTime to calculate against.
-	 *
-	 * @return DateTime|null
-	 */
-	public function next( DateTime $after = null ) {
-		if ( empty( $after ) ) {
-			$return_value       = $this->get_date();
-			$replacement_method = 'get_date()';
-		} else {
-			$return_value       = $this->get_next( $after );
-			$replacement_method = 'get_next( $after )';
-		}
-
-		_deprecated_function( __METHOD__, '3.0.0', __CLASS__ . '::' . $replacement_method ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
-
-		return $return_value;
-	}
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Interface &quot;ActionScheduler_Schedule&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor\woocommerce\action-scheduler\deprecated\ActionScheduler_Schedule_Deprecated.php:6
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor\woocommerce\action-scheduler\deprecated\ActionScheduler_Schedule_Deprecated.php</b> on line <b>6</b><br>

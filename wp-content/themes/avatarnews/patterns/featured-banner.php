@@ -1,11 +1,3 @@
-<?php
-
-/**
- * Title: Featured Banner
- * Slug: avatarnews/featured-banner
- * Categories: avatarnews
- */
-?>
 <!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"10px","left":"10px"}}}} -->
 <div class="wp-block-columns"><!-- wp:column {"width":"50%"} -->
     <div class="wp-block-column" style="flex-basis:50%"><!-- wp:query {"queryId":6,"query":{"perPage":"1","pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":false}} -->

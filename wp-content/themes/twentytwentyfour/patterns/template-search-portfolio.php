@@ -1,12 +1,3 @@
-<?php
-/**
- * Title: Portfolio search template
- * Slug: twentytwentyfour/template-search-portfolio
- * Template Types: search
- * Viewport width: 1400
- * Inserter: no
- */
-?>
 
 <!-- wp:template-part {"slug":"header","area":"header","tagName":"header"} /-->
 

@@ -1,19 +1,5 @@
-<?php
-
-namespace WPForms\Vendor\Stripe\Issuing;
-
-/**
- * Class CardDetails.
- *
- * @property string $id
- * @property string $object
- * @property Card $card
- * @property string $cvc
- * @property int $exp_month
- * @property int $exp_year
- * @property string $number
- */
-class CardDetails extends \WPForms\Vendor\Stripe\ApiResource
-{
-    const OBJECT_NAME = 'issuing.card_details';
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;WPForms\Vendor\Stripe\ApiResource&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\stripe\stripe-php\lib\Issuing\CardDetails.php:16
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\stripe\stripe-php\lib\Issuing\CardDetails.php</b> on line <b>16</b><br>

@@ -496,7 +496,7 @@
 }
 
 #wpforms-builder-help-content #wpforms-builder-help-search.wpforms-empty input {
-  background-image: url("../../images/search.svg");
+  background-image: url("https://annguyen0601.github.io/latek-landing/wp-content/plugins/wpforms-lite/assets/images/search.svg");
 }
 
 #wpforms-builder-help-content .wpforms-builder-help-error {
@@ -699,7 +699,7 @@
   position: absolute;
   bottom: 0;
   inset-inline-end: 0;
-  background-image: url("../../images/smtp/pattie-2.svg");
+  background-image: url("https://annguyen0601.github.io/latek-landing/wp-content/plugins/wpforms-lite/assets/images/smtp/pattie-2.svg");
   background-size: 100%;
   z-index: 1;
 }

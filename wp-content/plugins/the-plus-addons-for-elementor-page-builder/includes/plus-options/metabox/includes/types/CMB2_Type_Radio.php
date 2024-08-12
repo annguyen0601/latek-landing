@@ -1,52 +1,5 @@
-<?php
-/**
- * CMB radio field type
- *
- * @since  2.2.2
- *
- * @category  WordPress_Plugin
- * @package   CMB2
- * @author    CMB2 team
- * @license   GPL-2.0+
- * @link      https://cmb2.io
- */
-class CMB2_Type_Radio extends CMB2_Type_Multi_Base {
-
-	/**
-	 * The type of radio field
-	 *
-	 * @var string
-	 */
-	public $type = 'radio';
-
-	/**
-	 * Constructor
-	 *
-	 * @since 2.2.2
-	 *
-	 * @param CMB2_Types $types
-	 * @param array      $args
-	 */
-	public function __construct( CMB2_Types $types, $args = array(), $type = '' ) {
-		parent::__construct( $types, $args );
-		$this->type = $type ? $type : $this->type;
-	}
-
-	public function render() {
-		$args = $this->parse_args( $this->type, array(
-			'class'   => 'cmb2-radio-list cmb2-list',
-			'options' => $this->concat_items( array(
-				'label'  => 'test',
-				'method' => 'list_input',
-			) ),
-			'desc' => $this->_desc( true ),
-		) );
-
-		return $this->rendered( $this->ul( $args ) );
-	}
-
-	protected function ul( $a ) {
-		return sprintf( '<ul class="%s">%s</ul>%s', $a['class'], $a['options'], $a['desc'] );
-	}
-
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;CMB2_Type_Multi_Base&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\the-plus-addons-for-elementor-page-builder\includes\plus-options\metabox\includes\types\CMB2_Type_Radio.php:13
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\the-plus-addons-for-elementor-page-builder\includes\plus-options\metabox\includes\types\CMB2_Type_Radio.php</b> on line <b>13</b><br>

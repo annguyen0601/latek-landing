@@ -1,34 +1,5 @@
-<?php
-
-declare (strict_types=1);
-/*
- * This file is part of the Monolog package.
- *
- * (c) Jordi Boggiano <j.boggiano@seld.be>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-namespace WPMailSMTP\Vendor\Monolog\Processor;
-
-/**
- * Injects memory_get_usage in all records
- *
- * @see Monolog\Processor\MemoryProcessor::__construct() for options
- * @author Rob Jensen
- */
-class MemoryUsageProcessor extends \WPMailSMTP\Vendor\Monolog\Processor\MemoryProcessor
-{
-    /**
-     * {@inheritDoc}
-     */
-    public function __invoke(array $record) : array
-    {
-        $usage = \memory_get_usage($this->realUsage);
-        if ($this->useFormatting) {
-            $usage = $this->formatBytes($usage);
-        }
-        $record['extra']['memory_usage'] = $usage;
-        return $record;
-    }
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;WPMailSMTP\Vendor\Monolog\Processor\MemoryProcessor&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wp-mail-smtp\vendor_prefixed\monolog\monolog\src\Monolog\Processor\MemoryUsageProcessor.php:20
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wp-mail-smtp\vendor_prefixed\monolog\monolog\src\Monolog\Processor\MemoryUsageProcessor.php</b> on line <b>20</b><br>

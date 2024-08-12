@@ -1,44 +1,5 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-namespace WPForms\Vendor\Symfony\Component\CssSelector\Parser\Shortcut;
-
-use WPForms\Vendor\Symfony\Component\CssSelector\Node\ElementNode;
-use WPForms\Vendor\Symfony\Component\CssSelector\Node\SelectorNode;
-use WPForms\Vendor\Symfony\Component\CssSelector\Parser\ParserInterface;
-/**
- * CSS selector element parser shortcut.
- *
- * This component is a port of the Python cssselect library,
- * which is copyright Ian Bicking, @see https://github.com/SimonSapin/cssselect.
- *
- * @author Jean-François Simon <jeanfrancois.simon@sensiolabs.com>
- *
- * @internal
- */
-class ElementParser implements ParserInterface
-{
-    /**
-     * {@inheritdoc}
-     */
-    public function parse($source)
-    {
-        // Matches an optional namespace, required element or `*`
-        // $source = 'testns|testel';
-        // $matches = array (size=3)
-        //     0 => string 'testns|testel' (length=13)
-        //     1 => string 'testns' (length=6)
-        //     2 => string 'testel' (length=6)
-        if (\preg_match('/^(?:([a-z]++)\\|)?([\\w-]++|\\*)$/i', \trim($source), $matches)) {
-            return array(new SelectorNode(new ElementNode($matches[1] ?: null, $matches[2])));
-        }
-        return array();
-    }
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Interface &quot;WPForms\Vendor\Symfony\Component\CssSelector\Parser\ParserInterface&quot; not found in C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\symfony\css-selector\Parser\Shortcut\ElementParser.php:26
+Stack trace:
+#0 {main}
+  thrown in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\plugins\wpforms-lite\vendor_prefixed\symfony\css-selector\Parser\Shortcut\ElementParser.php</b> on line <b>26</b><br>

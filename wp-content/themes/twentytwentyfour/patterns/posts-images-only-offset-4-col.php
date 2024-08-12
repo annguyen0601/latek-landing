@@ -1,11 +1,3 @@
-<?php
-/**
- * Title: Offset posts with featured images only, 4 columns
- * Slug: twentytwentyfour/posts-images-only-offset-4-col
- * Categories: posts
- * Description: A list of posts with featured images only, 4 columns.
- */
-?>
 
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"right":"var:preset|spacing|50","left":"var:preset|spacing|50","top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)">
@@ -24,7 +16,7 @@
 		<!-- /wp:column -->
 
 		<!-- wp:column {"style":{"spacing":{"blockGap":"0","padding":{"top":"0"}}}} -->
-		<div class="wp-block-column" style="padding-top:0">
+		<div class="wp-block-column" style="padding-top:0/">
 			<!-- wp:spacer {"height":"var:preset|spacing|50"} -->
 			<div style="height:var(--wp--preset--spacing--50)" aria-hidden="true" class="wp-block-spacer">
 			</div>
@@ -58,7 +50,7 @@
 		<!-- /wp:column -->
 
 		<!-- wp:column {"style":{"spacing":{"blockGap":"0","padding":{"top":"0"}}}} -->
-		<div class="wp-block-column" style="padding-top:0">
+		<div class="wp-block-column" style="padding-top:0/">
 			<!-- wp:spacer {"height":"var:preset|spacing|50"} -->
 			<div style="height:var(--wp--preset--spacing--50)" aria-hidden="true" class="wp-block-spacer">
 			</div>

@@ -1,12 +1,12 @@
 @font-face {
   font-family: 'Roboto';
-  src: url("../../../admin-pages/assets/fonts/Roboto-Regular.ttf") format("truetype");
+  src: url("https://annguyen0601.github.io/latek-landing/wp-content/plugins/qi-addons-for-elementor/inc/admin/inc/admin-pages/assets/fonts/Roboto-Regular.ttf") format("truetype");
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'Heebo';
-  src: url("../../../admin-pages/assets/fonts/Heebo-Regular.ttf") format("truetype");
+  src: url("https://annguyen0601.github.io/latek-landing/wp-content/plugins/qi-addons-for-elementor/inc/admin/inc/admin-pages/assets/fonts/Heebo-Regular.ttf") format("truetype");
   font-weight: 500;
 }
 
