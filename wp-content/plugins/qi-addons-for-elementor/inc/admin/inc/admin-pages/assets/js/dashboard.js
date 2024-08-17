@@ -13,6 +13,7 @@
 			qodefAdminOptionsPanel.init();
 			qodefSearchWidgets.init();
 			qodefWidgets.init();
+			qodefSettings.init();
 			qodefNavTabs.init();
 		}
 	);
@@ -341,6 +342,64 @@
 			);
 
 			return true;
+		}
+	};
+
+	var qodefSettings = {
+		init: function () {
+			this.formHolder = $( '.qodef-admin-settings-page' );
+
+			if ( this.formHolder.length ) {
+				this.saveSettingsValues( this.formHolder );
+
+			}
+		},
+		saveSettingsValues: function ( $adminPage ) {
+			this.settingsForm = $adminPage.find( '#qi_addons_for_elementor_settings_framework_ajax_form' );
+
+			var buttonPressed,
+				$saveResetLoader = $( '.qodef-save-reset-loading' ),
+				$saveSuccess     = $( '.qodef-save-success' );
+
+			if ( this.settingsForm.length ) {
+
+				this.settingsForm.on(
+					'submit',
+					function ( e ) {
+						e.preventDefault();
+						e.stopPropagation();
+						$saveResetLoader.addClass( 'qodef-show-loader' );
+						$adminPage.addClass( 'qodef-save-reset-disable' );
+
+						var form     = $( this ),
+							ajaxData = {
+								action: 'qi_addons_for_elementor_action_settings_save_options'
+							};
+
+						$.ajax(
+							{
+								type: 'POST',
+								url: ajaxurl,
+								cache: ! 1,
+								data: $.param(
+									ajaxData,
+									! 0
+								) + '&' + form.serialize(), success: function () {
+									$saveResetLoader.removeClass( 'qodef-show-loader' );
+									$adminPage.removeClass( 'qodef-save-reset-disable' );
+									$saveSuccess.fadeIn( 300 );
+									setTimeout(
+										function () {
+											$saveSuccess.fadeOut( 200 );
+										},
+										2000
+									);
+								}
+							}
+						);
+					}
+				);
+			}
 		}
 	};
 

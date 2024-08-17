@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the Qi Addons for Elementor plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Qi Addons for Elementor 1.7.7\n"
+"Project-Id-Version: Qi Addons for Elementor 1.7.8\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/qi-addons-for-elementor\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-08-06T07:50:10+00:00\n"
+"POT-Creation-Date: 2024-08-14T10:53:22+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.7.1\n"
 "X-Domain: qi-addons-for-elementor\n"
@@ -105,7 +105,7 @@ msgstr ""
 msgid "https://qodeinteractive.com/"
 msgstr ""
 
-#: class-qiaddonsforelementor.php:269
+#: class-qiaddonsforelementor.php:271
 msgid "Elementor plugin is required for Qi Addons for Elementor plugin to work properly. Please install/activate it first."
 msgstr ""
 
@@ -848,16 +848,44 @@ msgstr ""
 msgid "I already did"
 msgstr ""
 
+#: inc/admin/inc/admin-pages/sub-pages/settings/class-qiaddonsforelementor-admin-page-settings.php:40
+msgid "Settings"
+msgstr ""
+
+#: inc/admin/inc/admin-pages/sub-pages/settings/class-qiaddonsforelementor-admin-page-settings.php:71
+#: inc/admin/inc/admin-pages/sub-pages/widgets/class-qiaddonsforelementor-admin-page-widgets.php:165
+msgid "Saved"
+msgstr ""
+
+#: inc/admin/inc/admin-pages/sub-pages/settings/templates/parts/save.php:11
+#: inc/admin/inc/admin-pages/sub-pages/widgets/templates/parts/save.php:11
+msgid "Successfully saved!"
+msgstr ""
+
+#: inc/admin/inc/admin-pages/sub-pages/settings/templates/parts/save.php:17
+#: inc/admin/inc/admin-pages/sub-pages/widgets/templates/parts/save.php:17
+msgid "Save Changes"
+msgstr ""
+
+#: inc/admin/inc/admin-pages/sub-pages/settings/templates/settings.php:29
+msgid "General"
+msgstr ""
+
+#: inc/admin/inc/admin-pages/sub-pages/settings/templates/settings.php:38
+#: inc/admin/inc/admin-pages/sub-pages/settings/templates/settings.php:49
+msgid "Swiper Library Upgrade"
+msgstr ""
+
+#: inc/admin/inc/admin-pages/sub-pages/settings/templates/settings.php:43
+msgid "Upgrade the Swiper library from v5.4.5 to v8.4.5 to implement new slider improvements and features on the website"
+msgstr ""
+
 #: inc/admin/inc/admin-pages/sub-pages/welcome/class-qiaddonsforelementor-admin-page-welcome.php:38
 msgid "Welcome Page"
 msgstr ""
 
 #: inc/admin/inc/admin-pages/sub-pages/widgets/class-qiaddonsforelementor-admin-page-widgets.php:44
 msgid "Widgets"
-msgstr ""
-
-#: inc/admin/inc/admin-pages/sub-pages/widgets/class-qiaddonsforelementor-admin-page-widgets.php:165
-msgid "Saved"
 msgstr ""
 
 #: inc/admin/inc/admin-pages/sub-pages/widgets/templates/item.php:25
@@ -892,14 +920,6 @@ msgstr ""
 msgid "In order to use the WooCommerce widgets that come with Qi Addons, please install & activate the free WooCommerce plugin."
 msgstr ""
 
-#: inc/admin/inc/admin-pages/sub-pages/widgets/templates/parts/save.php:11
-msgid "Successfully saved!"
-msgstr ""
-
-#: inc/admin/inc/admin-pages/sub-pages/widgets/templates/parts/save.php:17
-msgid "Save Changes"
-msgstr ""
-
 #: inc/admin/inc/admin-pages/sub-pages/widgets/templates/parts/search.php:12
 msgid "Search Widgets"
 msgstr ""
@@ -930,6 +950,10 @@ msgstr ""
 
 #: inc/admin/inc/admin-pages/sub-pages/widgets/templates/parts/video.php:10
 msgid "Video"
+msgstr ""
+
+#: inc/admin/inc/admin-pages/sub-pages/widgets/templates/widgets.php:12
+msgid "Take advantage of the practical on-demand widget loading feature & make your website even lighter. Pick widgets you do not plan on using & disable them."
 msgstr ""
 
 #: inc/admin/inc/admin-pages/templates/footer.php:10
@@ -6627,6 +6651,9 @@ msgstr ""
 
 #: inc/shortcodes/class-qiaddonsforelementor-slider-shortcode.php:170
 #: inc/shortcodes/clients-slider/class-qiaddonsforelementor-clients-slider-shortcode.php:54
+#: inc/shortcodes/device-carousel/class-qiaddonsforelementor-device-carousel-shortcode.php:54
+#: inc/shortcodes/device-slider/class-qiaddonsforelementor-device-slider-shortcode.php:56
+#: inc/shortcodes/device-slider/class-qiaddonsforelementor-device-slider-shortcode.php:65
 #: inc/shortcodes/device-slider/class-qiaddonsforelementor-device-slider-shortcode.php:131
 #: inc/shortcodes/device-slider/class-qiaddonsforelementor-device-slider-shortcode.php:150
 #: inc/shortcodes/image-slider/class-qiaddonsforelementor-image-slider-shortcode.php:63
@@ -6636,6 +6663,8 @@ msgstr ""
 #: inc/shortcodes/image-slider/class-qiaddonsforelementor-image-slider-shortcode.php:140
 #: inc/shortcodes/image-slider/class-qiaddonsforelementor-image-slider-shortcode.php:159
 #: inc/shortcodes/image-slider/class-qiaddonsforelementor-image-slider-shortcode.php:177
+#: inc/shortcodes/preview-slider/class-qiaddonsforelementor-preview-slider-shortcode.php:54
+#: inc/shortcodes/slider-switch/class-qiaddonsforelementor-slider-switch-shortcode.php:53
 #: inc/shortcodes/slider-switch/class-qiaddonsforelementor-slider-switch-shortcode.php:72
 #: inc/shortcodes/testimonials-slider/class-qiaddonsforelementor-testimonials-slider-shortcode.php:53
 msgid "Slider Settings"

@@ -3471,6 +3471,176 @@
 	}
 }
 
+#qodef-page.qodef-dashboard-admin .qodef-admin-settings-header {
+	position: relative;
+	padding: 12px 0;
+	margin-bottom: 49px;
+	z-index: 10;
+}
+
+#qodef-page.qodef-dashboard-admin .qodef-admin-settings-header.qodef-fixed {
+	position: fixed;
+	background-color: #fff;
+	box-shadow: 0 2px 10px rgba(175, 175, 175, 0.16);
+}
+
+#qodef-page.qodef-dashboard-admin .qodef-admin-settings-header-inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+#qodef-page.qodef-dashboard-admin .qodef-admin-settings-header-inner .qodef-settings-header-left,
+#qodef-page.qodef-dashboard-admin .qodef-admin-settings-header-inner .qodef-settings-header-right {
+	width: 50%;
+}
+
+#qodef-page.qodef-dashboard-admin .qodef-admin-settings-header-inner .qodef-settings-header-right {
+	text-align: right;
+}
+
+#qodef-page.qodef-dashboard-admin .qodef-admin-settings-header-inner .qodef-save-settings-holder {
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+#qodef-page.qodef-dashboard-admin .qodef-admin-settings-header-inner .qodef-save-settings-holder .qodef-btn {
+	margin-left: 10px;
+}
+
+#qodef-page.qodef-dashboard-admin .qodef-settings-grid > .qodef-settings-grid-inner {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 0;
+	gap: 15px;
+}
+
+#qodef-page.qodef-dashboard-admin .qodef-settings-section {
+	margin-bottom: 69px;
+}
+
+#qodef-page.qodef-dashboard-admin .qodef-settings-section .qodef-settings-section-title-holder {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 25px;
+}
+
+#qodef-page.qodef-dashboard-admin .qodef-settings-section .qodef-settings-section-title-holder .qodef-settings-section-title {
+	margin: 0;
+}
+
+#qodef-page.qodef-dashboard-admin .qodef-settings-section .qodef-settings-section-title-holder .qodef-checkbox-toggle {
+	display: flex;
+	align-items: center;
+}
+
+#qodef-page.qodef-dashboard-admin .qodef-settings-section .qodef-settings-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	padding: 17px 18px 13px;
+	transition: all 0.3s ease;
+	cursor: pointer;
+}
+
+#qodef-page.qodef-dashboard-admin .qodef-settings-section .qodef-settings-item:hover {
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+#qodef-page.qodef-dashboard-admin .qodef-settings-section .qodef-settings-item .qodef-settings-item-top h4.qodef-settings-title {
+	font-size: 14px;
+	font-weight: 600;
+	position: relative;
+	margin: 0 0 4px !important;
+}
+
+#qodef-page.qodef-dashboard-admin .qodef-settings-section .qodef-settings-item .qodef-settings-item-top h4.qodef-settings-title.qodef-premium {
+	padding-right: 20px;
+}
+
+#qodef-page.qodef-dashboard-admin .qodef-settings-section .qodef-settings-item .qodef-settings-item-top h4.qodef-settings-title .qodef-settings-title-inner {
+	position: relative;
+}
+
+#qodef-page.qodef-dashboard-admin .qodef-settings-section .qodef-checkbox-toggle {
+	position: relative;
+}
+
+#qodef-page.qodef-dashboard-admin .qodef-settings-section .qodef-checkbox-toggle input[type=checkbox] {
+	height: 0;
+	width: 0;
+	visibility: hidden;
+	position: absolute;
+}
+
+#qodef-page.qodef-dashboard-admin .qodef-settings-section .qodef-checkbox-toggle label {
+	cursor: pointer;
+	text-indent: -9999px;
+	width: 35px;
+	height: 18px;
+	display: block;
+	position: relative;
+	background-color: #c1c1c1;
+	border-radius: 30px;
+	transition: all 0.2s ease;
+}
+
+#qodef-page.qodef-dashboard-admin .qodef-settings-section .qodef-checkbox-toggle label:after {
+	content: '';
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	width: 16px;
+	height: 16px;
+	background-color: #fff;
+	border-radius: 100%;
+	transition: all 0.2s ease;
+}
+
+#qodef-page.qodef-dashboard-admin .qodef-settings-section .qodef-checkbox-toggle input:checked + label {
+	background-color: #ee2852;
+}
+
+#qodef-page.qodef-dashboard-admin .qodef-settings-section .qodef-checkbox-toggle input:checked + label:after {
+	left: calc(100% - 1px);
+	transform: translateX(-100%);
+}
+
+#qodef-page.qodef-dashboard-admin .qodef-settings-section .qodef-checkbox-toggle label:active:after {
+	width: 15px;
+}
+
+@media only screen and (max-width: 480px) {
+	#qodef-page.qodef-dashboard-admin .qodef-admin-settings-header-inner {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 10px;
+	}
+	#qodef-page.qodef-dashboard-admin .qodef-admin-settings-header-inner .qodef-settings-header-left,
+	#qodef-page.qodef-dashboard-admin .qodef-admin-settings-header-inner .qodef-settings-header-right {
+		width: 100%;
+		text-align: left;
+	}
+	#qodef-page.qodef-dashboard-admin .qodef-admin-settings-header-inner .qodef-save-settings-holder {
+		justify-content: flex-start;
+	}
+	#qodef-page.qodef-dashboard-admin .qodef-admin-settings-header-inner .qodef-save-settings-holder .qodef-btn {
+		margin: 0;
+	}
+	#qodef-page.qodef-dashboard-admin .qodef-settings-grid > .qodef-settings-grid-inner {
+		grid-template-columns: 1fr;
+	}
+	#qodef-page.qodef-dashboard-admin .qodef-settings-section.qodef-plugin-not-active > p {
+		padding: 0;
+	}
+}
+
 /*
  * Container style
  */

@@ -33,6 +33,7 @@ export const getPluginsMap = (plugins) => ({
 		'Greenshift – Gutenberg Blocks',
 	fluentform: 'Fluent Forms',
 	'translatepress-multilingual': 'TranslatePress',
+	'fluent-booking': 'Fluent Booking',
 })
 
 export const getNameForPlugin = (plugin) => {
