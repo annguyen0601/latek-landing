@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Blocksy Companion Pro package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-05-27 11:20:06+0000\n"
+"PO-Revision-Date: 2024-08-10 07:05:04+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -2486,7 +2486,7 @@ msgstr "Nawigacja produktu"
 
 #: framework/premium/extensions/woocommerce-extra/features/quick-view/options.php:108
 msgid "Display next/previous buttons that will help to easily navigate through products."
-msgstr ""
+msgstr "Wyświetlaj przyciski następny/poprzedni, które pomogą w łatwej nawigacji po produktach."
 
 #: framework/premium/extensions/woocommerce-extra/features/quick-view/options.php:138
 msgid "Title Font"
@@ -2925,7 +2925,7 @@ msgstr "Gwiazdy"
 
 #: framework/premium/extensions/woocommerce-extra/features/advanced-reviews/feature.php:435
 msgid "%s%% of customers recommend this product."
-msgstr ""
+msgstr "%s%% klientów poleca ten produkt"
 
 #: framework/premium/extensions/woocommerce-extra/features/advanced-reviews/feature.php:597
 msgid "%s of %s found this review helpful"
@@ -3767,7 +3767,7 @@ msgstr "Próbki wariantów"
 
 #: framework/helpers/exts.php:219
 msgid "Compare products with a clear and concise table system that gives your users a way to make a quick decision."
-msgstr ""
+msgstr "Porównuj produkty za pomocą przejrzystego i zwięzłego systemu tabel, który daje użytkownikom możliwość podjęcia szybkiej decyzji."
 
 #: framework/helpers/exts.php:294
 msgid "Product Share Box"
@@ -6601,7 +6601,7 @@ msgstr "Typ wpisu"
 
 #: static/js/editor/blocks/query/edit/PostsInspectorControls.js:149
 msgid "Most commented"
-msgstr ""
+msgstr "Najczęściej komentowane"
 
 #: static/js/editor/blocks/query/edit/PostsInspectorControls.js:165
 #: static/js/editor/blocks/tax-query/edit/TermsInspectorControls.js:145
@@ -6616,7 +6616,7 @@ msgstr "Kolejność sortowania"
 #: framework/features/blocks/dynamic-data/options.php:109,
 #: framework/features/blocks/dynamic-data/views/wp-field.php:204
 msgid "% comments"
-msgstr ""
+msgstr "% komentarzy"
 
 #: static/js/editor/blocks/dynamic-data/hooks/use-dynamic-data-descriptor.js:79
 msgid "Author Avatar"
@@ -6698,7 +6698,7 @@ msgstr "Wybierz menu..."
 #. translators: placeholder here means the actual URL.
 #: framework/features/header/items/account/options.php:155
 msgid "Manage your menus in the %sMenus screen%s."
-msgstr ""
+msgstr "Zarządzaj pozycjami menu na %sekranie menu%s."
 
 #: framework/features/header/items/account/options.php:702,
 #: framework/features/header/items/account/options.php:1073
@@ -9833,7 +9833,7 @@ msgstr "Można tu dodać dowolny kod HTML."
 
 #: framework/extensions/newsletter-subscribe/ct-newsletter-subscribe/options.php:74
 msgid "Container Style"
-msgstr ""
+msgstr "Typ kontenera"
 
 #: framework/extensions/newsletter-subscribe/ct-newsletter-subscribe/options.php:82,
 #: framework/premium/features/content-blocks/options/404.php:85,

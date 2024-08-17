@@ -111,14 +111,24 @@ const useUpsellModal = ({
 						className="ct-modal-actions has-divider"
 						data-buttons="2">
 						<a
-							href="https://creativethemes.com/blocksy/pricing/#comparison-free-vs-pro"
+							href={
+								ctDashboardLocalizations.plugin_data
+									? ctDashboardLocalizations.plugin_data
+											.modal_links['compare-plans']
+									: 'https://creativethemes.com/blocksy/pricing/#comparison-free-vs-pro'
+							}
 							target="_blank"
 							className="button">
 							{__('Compare Plans', 'blocksy-companion')}
 						</a>
 
 						<a
-							href="https://creativethemes.com/blocksy/pricing/"
+							href={
+								ctDashboardLocalizations.plugin_data.modal_links
+									? ctDashboardLocalizations.plugin_data
+											.modal_links.pricing
+									: 'https://creativethemes.com/blocksy/pricing/'
+							}
 							target="_blank"
 							className="button button-primary">
 							{__('Upgrade Now', 'blocksy-companion')}

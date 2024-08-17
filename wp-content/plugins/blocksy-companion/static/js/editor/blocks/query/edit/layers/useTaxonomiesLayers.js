@@ -126,7 +126,10 @@ const getExcludeLayer = ({ taxonomy, attributes, setAttributes }) => {
 
 			return (
 				<TaxonomyItem
-					label={sprintf(__('Exclude %s', 'blocksy-companion'), taxonomy.name)}
+					label={sprintf(
+						__('Exclude %s', 'blocksy-companion'),
+						taxonomy.name
+					)}
 					taxonomy={taxonomy}
 					termIds={taxonomyDescriptor.terms}
 					onChange={(newTermIds) => {
@@ -194,8 +197,6 @@ export const useTaxonomyLayers = ({
 	attributes,
 	attributes: { taxonomy },
 
-	previewedPostMatchesType,
-
 	setAttributes,
 }) => {
 	const taxonomyObj = useTaxonomy(taxonomy)
@@ -212,7 +213,6 @@ export const useTaxonomyLayers = ({
 				taxonomy: taxonomyObj,
 				attributes,
 				setAttributes,
-				previewedPostMatchesType,
 			}),
 			getExcludeLayer({
 				taxonomy: taxonomyObj,

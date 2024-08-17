@@ -3,7 +3,7 @@ Contributors: wpforms, jaredatch, smub, slaFFik
 Tags: contact form, contact form plugin, forms, form builder, custom form
 Requires at least: 5.5
 Tested up to: 6.6
-Stable tag: 1.9.0.1
+Stable tag: 1.9.0.2
 Requires PHP: 7.0
 License: GNU General Public License v2.0 or later
 
@@ -374,7 +374,7 @@ Syed Balkhi
 
 == Changelog ==
 
-= 1.9.0.1 =
+= 1.9.0.2 =
 - Added: Modern Antispam protection for new forms.
 - Added: Support conditional logic in the Layout field and add the ability to render the label and description for this field.
 - Added: The notification to check prices is added when the currency is switched.

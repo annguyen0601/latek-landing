@@ -8,11 +8,11 @@
 	>
 
 <channel>
-	<title>An Nguyen</title>
-	<atom:link href="https://https://annguyen0601.github.io/latek-landing/author/admin/feed/" rel="self" type="application/rss+xml" />
-	<link>https://https://annguyen0601.github.io/latek-landing/</link>
+	<title>An Nguyen &#8211; LATEK</title>
+	<atom:link href="https://annguyen0601.github.io/latek-landing/author/admin/feed/" rel="self" type="application/rss+xml" />
+	<link>https://annguyen0601.github.io/latek-landing/</link>
 	<description></description>
-	<lastBuildDate>Sat, 10 Aug 2024 12:13:35 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 17 Aug 2024 12:23:36 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -21,9 +21,9 @@
 	<generator>https://wordpress.org/?v=6.6.1</generator>
 
 <image>
-	<url>https://https://annguyen0601.github.io/latek-landing/wp-content/uploads/2024/08/cropped-e61588b2e327594f14faed8e4af92212-2-32x32.png</url>
-	<title>An Nguyen</title>
-	<link>https://https://annguyen0601.github.io/latek-landing/</link>
+	<url>https://annguyen0601.github.io/latek-landing/wp-content/uploads/2024/08/cropped-e61588b2e327594f14faed8e4af92212-2-32x32.png</url>
+	<title>An Nguyen &#8211; LATEK</title>
+	<link>https://annguyen0601.github.io/latek-landing/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 

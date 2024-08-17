@@ -1,6 +1,6 @@
 == Changelog ==
 
-= 1.9.0.1 =
+= 1.9.0.2 =
 - Added: Modern Antispam protection for new forms.
 - Added: Support conditional logic in the Layout field and add the ability to render the label and description for this field.
 - Added: The notification to check prices is added when the currency is switched.

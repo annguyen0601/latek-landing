@@ -15,7 +15,6 @@ const TermsInspectorControls = ({
 	const { taxonomiesGroup } = useTaxonomyLayers({
 		attributes,
 		setAttributes,
-		previewedPostMatchesType: true,
 	})
 
 	return (

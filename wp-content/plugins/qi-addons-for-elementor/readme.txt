@@ -4,7 +4,7 @@ Tags: elementor, elementor addons, elementor widgets, elementor elements, addons
 Requires at least: 5.0
 Tested up to: 6.6
 Requires PHP: 5.6
-Stable tag: 1.7.7
+Stable tag: 1.7.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -337,6 +337,10 @@ From wordpress.org
 
 
 == Changelog ==
+
+= 1.7.8 - 14-08-2024 =
+- Added option to choose Swiper Library Version (v5/v8) in 'Qi Addons for Elementor > Settings' tab
+- Fixed autoplay option for 'Preview Slider' widget
 
 = 1.7.7 - 06-08-2024 =
 - Improved responsiveness for 'slider' widgets
