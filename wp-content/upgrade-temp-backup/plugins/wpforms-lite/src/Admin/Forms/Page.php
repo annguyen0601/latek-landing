@@ -1,0 +1,2 @@
+<br>
+<b>Fatal error</b>:  Trait &quot;WPForms\Admin\Traits\HasScreenOptions&quot; not found in <b>C:\Users\ADMIN\Local Sites\latek\app\public\wp-content\upgrade-temp-backup\plugins\wpforms-lite\src\Admin\Forms\Page.php</b> on line <b>13</b><br>

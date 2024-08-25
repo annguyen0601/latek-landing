@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "pa-dash";
+    src: url("https://annguyen0601.github.io/latek-landing/wp-content/plugins/premium-addons-for-elementor/admin/assets/fonts/pa-dashboard.eot?f3z94d");
+    src: url("https://annguyen0601.github.io/latek-landing/wp-content/plugins/premium-addons-for-elementor/admin/assets/fonts/pa-dashboard.eot?f3z94d#iefix") format("embedded-opentype"),
+        url("https://annguyen0601.github.io/latek-landing/wp-content/plugins/premium-addons-for-elementor/admin/assets/fonts/pa-dashboard.ttf?f3z94d") format("truetype"), url("https://annguyen0601.github.io/latek-landing/wp-content/plugins/premium-addons-for-elementor/admin/assets/fonts/pa-dashboard.woff?f3z94d") format("woff"),
+        url("https://annguyen0601.github.io/latek-landing/wp-content/plugins/premium-addons-for-elementor/admin/assets/fonts/pa-dashboard.svg?f3z94d#pa-dashboard") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="pa-dash-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: "pa-dash" !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: 19px;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.toplevel_page_premium-addons>div.wp-menu-image::before {
+    position: relative;
+    top: 5px;
+    content: "\e950";
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: "pa-dash" !important;
+    speak: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 21px;
+}
