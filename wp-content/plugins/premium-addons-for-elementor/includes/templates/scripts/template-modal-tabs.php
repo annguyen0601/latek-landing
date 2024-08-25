@@ -1,0 +1,1 @@
+<div class="elementor-component-tab elementor-template-library-menu-item {{activeClass}}" data-tab="{{{ args.slug }}}">{{{ args.title }}}</div>

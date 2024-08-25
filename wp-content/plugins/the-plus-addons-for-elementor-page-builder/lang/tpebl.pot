@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-16 15:09+0530\n"
+"POT-Creation-Date: 2024-08-23 17:23+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1291,47 +1291,49 @@ msgstr ""
 msgid "Notable additions made to The Plus Addons for Elementor."
 msgstr ""
 
-#: includes/welcome-page.php:92 includes/welcome-page.php:104
-msgid "Fix : Video : Security Patch ( Low security )"
+#: includes/welcome-page.php:92
+msgid ""
+"Add :WDesignKit Elementor Template Integration with The Plus Addons for "
+"Elementor"
 msgstr ""
 
-#: includes/welcome-page.php:93
-msgid "Fix : Testimonial : Security Patch ( Low security )"
-msgstr ""
-
-#: includes/welcome-page.php:94 includes/welcome-page.php:105
+#: includes/welcome-page.php:93 includes/welcome-page.php:104
 msgid "Fix : Minor bug Fixes & performance Improvements"
 msgstr ""
 
-#: includes/welcome-page.php:97 includes/welcome-page.php:108
+#: includes/welcome-page.php:96 includes/welcome-page.php:107
 msgid "change log"
 msgstr ""
 
-#: includes/welcome-page.php:97
+#: includes/welcome-page.php:96
 msgid "Lite Full Change log"
 msgstr ""
 
-#: includes/welcome-page.php:103
+#: includes/welcome-page.php:102
 msgid "Add : Social Feed : Support to display YouTube feed with Handle Name"
 msgstr ""
 
-#: includes/welcome-page.php:108
+#: includes/welcome-page.php:103
+msgid "Fix : Video : Security Patch ( Low security )"
+msgstr ""
+
+#: includes/welcome-page.php:107
 msgid "Pro Full Change log"
 msgstr ""
 
-#: includes/welcome-page.php:113
+#: includes/welcome-page.php:112
 msgid "Frequently Asked Questions"
 msgstr ""
 
-#: includes/welcome-page.php:114
+#: includes/welcome-page.php:113
 msgid "You might have some, We have tried to answer them all."
 msgstr ""
 
-#: includes/welcome-page.php:117
+#: includes/welcome-page.php:116
 msgid "Are you having Elementor Loading Error?"
 msgstr ""
 
-#: includes/welcome-page.php:118
+#: includes/welcome-page.php:117
 msgid ""
 "After activation of plugin, Are you having elementor editor’s loading error? "
 "If yes, That is the most common issue of elementor regarding to memory "
@@ -1341,43 +1343,43 @@ msgid ""
 "reaching out to your hosting provider)."
 msgstr ""
 
-#: includes/welcome-page.php:121
+#: includes/welcome-page.php:120
 msgid "How to get Help/Support?"
 msgstr ""
 
-#: includes/welcome-page.php:122
+#: includes/welcome-page.php:121
 msgid "You can get "
 msgstr ""
 
-#: includes/welcome-page.php:122
+#: includes/welcome-page.php:121
 msgid "Free support"
 msgstr ""
 
-#: includes/welcome-page.php:122
+#: includes/welcome-page.php:121
 msgid " and to get "
 msgstr ""
 
-#: includes/welcome-page.php:122
+#: includes/welcome-page.php:121
 msgid "Premium support"
 msgstr ""
 
-#: includes/welcome-page.php:122
+#: includes/welcome-page.php:121
 msgid " comes with Pro plan. Join our "
 msgstr ""
 
-#: includes/welcome-page.php:122
+#: includes/welcome-page.php:121
 msgid "Facebook channel "
 msgstr ""
 
-#: includes/welcome-page.php:122
+#: includes/welcome-page.php:121
 msgid " to get help from community."
 msgstr ""
 
-#: includes/welcome-page.php:125
+#: includes/welcome-page.php:124
 msgid "What is this Performance option about?"
 msgstr ""
 
-#: includes/welcome-page.php:126
+#: includes/welcome-page.php:125
 msgid ""
 "First of all, Performance is our highest priority. We have setup caching "
 "architecture in which, It generates One CSS & One JS files for each page. "
@@ -1388,11 +1390,11 @@ msgid ""
 "possible performance."
 msgstr ""
 
-#: includes/welcome-page.php:129
+#: includes/welcome-page.php:128
 msgid "When and Why Need to remove cache?"
 msgstr ""
 
-#: includes/welcome-page.php:130
+#: includes/welcome-page.php:129
 msgid ""
 "When you make any updated in your page and If that is not reflecting "
 "properly in frontend, You need to remove cache. When you click on Purge All "
@@ -1400,22 +1402,22 @@ msgid ""
 "those files when you visit that page for first time."
 msgstr ""
 
-#: includes/welcome-page.php:133
+#: includes/welcome-page.php:132
 msgid "What If I want to remove cache of only one page?"
 msgstr ""
 
-#: includes/welcome-page.php:134
+#: includes/welcome-page.php:133
 msgid ""
 "You can do that from admin bar of page editor. That is available on top for "
 "all pages you check from front end. You will see option “The Plus "
 "Performance” -> “Purge Current Page”."
 msgstr ""
 
-#: includes/welcome-page.php:137
+#: includes/welcome-page.php:136
 msgid "Site is not working well even after removing cache at frontend."
 msgstr ""
 
-#: includes/welcome-page.php:138
+#: includes/welcome-page.php:137
 msgid ""
 "If your website is not working well even after removing cache from above "
 "button. You need to check your 3rd party caching plugin and remove cache "
@@ -1423,161 +1425,161 @@ msgid ""
 "Reload and/or try on incognito mode."
 msgstr ""
 
-#: includes/welcome-page.php:148 includes/notices/class-tp-plugin-page.php:114
+#: includes/welcome-page.php:147 includes/notices/class-tp-plugin-page.php:114
 #: includes/user-experience/class-tp-onbording.php:420
 msgid "Video Tutorials"
 msgstr ""
 
-#: includes/welcome-page.php:149
+#: includes/welcome-page.php:148
 msgid "Checkout Few of our latest video tutorials"
 msgstr ""
 
-#: includes/welcome-page.php:153
+#: includes/welcome-page.php:152
 msgid "Our Full Playlist"
 msgstr ""
 
-#: includes/welcome-page.php:184
+#: includes/welcome-page.php:183
 msgid "Technical Support"
 msgstr ""
 
-#: includes/welcome-page.php:185
+#: includes/welcome-page.php:184
 msgid "Let’s find a solutions for your all your queries."
 msgstr ""
 
-#: includes/welcome-page.php:187
+#: includes/welcome-page.php:186
 msgid ""
 "Tried everything but not found a solution? Our premium support team is "
 "always there for your backup. Just a few quick "
 msgstr ""
 
-#: includes/welcome-page.php:187
+#: includes/welcome-page.php:186
 msgid "steps to take before submitting a ticket."
 msgstr ""
 
-#: includes/welcome-page.php:187
+#: includes/welcome-page.php:186
 msgid " You may read our "
 msgstr ""
 
-#: includes/welcome-page.php:187
+#: includes/welcome-page.php:186
 msgid "Support Policy"
 msgstr ""
 
-#: includes/welcome-page.php:187
+#: includes/welcome-page.php:186
 msgid " to find out, Which things are covered."
 msgstr ""
 
-#: includes/welcome-page.php:189
+#: includes/welcome-page.php:188
 msgid "Support Time : Mon-Fri | 9 AM to 6 PM (Time Zone :UTC+5:30)"
 msgstr ""
 
-#: includes/welcome-page.php:191
+#: includes/welcome-page.php:190
 msgid "Average Response Time : 24 Hours (Weekdays)"
 msgstr ""
 
-#: includes/welcome-page.php:193
+#: includes/welcome-page.php:192
 msgid "Premium Support"
 msgstr ""
 
-#: includes/welcome-page.php:194
+#: includes/welcome-page.php:193
 msgid "Free Support"
 msgstr ""
 
-#: includes/welcome-page.php:199
+#: includes/welcome-page.php:198
 msgid "We are social"
 msgstr ""
 
-#: includes/welcome-page.php:200
+#: includes/welcome-page.php:199
 msgid "Join us to get regular Social Updates."
 msgstr ""
 
-#: includes/welcome-page.php:202
+#: includes/welcome-page.php:201
 msgid ""
 "Get to know about plugin updates, tips & tricks, New Offers and lots more "
 "from our social media accounts."
 msgstr ""
 
-#: includes/welcome-page.php:203 includes/welcome-page.php:205
+#: includes/welcome-page.php:202 includes/welcome-page.php:204
 #: modules/widgets/tp_post_author.php:824
 msgid "facebook"
 msgstr ""
 
-#: includes/welcome-page.php:204 modules/widgets/tp_post_author.php:830
+#: includes/welcome-page.php:203 modules/widgets/tp_post_author.php:830
 msgid "instagram"
 msgstr ""
 
-#: includes/welcome-page.php:206
+#: includes/welcome-page.php:205
 msgid "youtube"
 msgstr ""
 
-#: includes/welcome-page.php:207
+#: includes/welcome-page.php:206
 msgid "pinterest"
 msgstr ""
 
-#: includes/welcome-page.php:208 modules/widgets/tp_post_author.php:827
+#: includes/welcome-page.php:207 modules/widgets/tp_post_author.php:827
 msgid "twitter"
 msgstr ""
 
-#: includes/welcome-page.php:209
+#: includes/welcome-page.php:208
 msgid "blog"
 msgstr ""
 
-#: includes/welcome-page.php:216
+#: includes/welcome-page.php:215
 msgid "Rate Us"
 msgstr ""
 
-#: includes/welcome-page.php:217
+#: includes/welcome-page.php:216
 msgid "Your generous rating motivates us to do even better."
 msgstr ""
 
-#: includes/welcome-page.php:219
+#: includes/welcome-page.php:218
 msgid ""
 "Your reviews will help us to build better product for you. It even helps "
 "other Elementor users to know about our product and your experience."
 msgstr ""
 
-#: includes/welcome-page.php:220
+#: includes/welcome-page.php:219
 msgid "Rate on WordPress"
 msgstr ""
 
-#: includes/welcome-page.php:221
+#: includes/welcome-page.php:220
 msgid "Rate on Facebook"
 msgstr ""
 
-#: includes/welcome-page.php:227
+#: includes/welcome-page.php:226
 msgid "Wish to see your favorite feature in The Plus Addons ?"
 msgstr ""
 
-#: includes/welcome-page.php:230
+#: includes/welcome-page.php:229
 msgid ""
 "Who knows where great ideas start? Your feedback helps us grow together. "
 "#ThePlusFamily ♥ #CraftYourPerfectAddon"
 msgstr ""
 
-#: includes/welcome-page.php:231
+#: includes/welcome-page.php:230
 msgid "Share Feedback"
 msgstr ""
 
-#: includes/welcome-page.php:231
+#: includes/welcome-page.php:230
 #: includes/user-experience/class-tp-onbording.php:410
 msgid "Suggest Feature"
 msgstr ""
 
-#: includes/welcome-page.php:236
+#: includes/welcome-page.php:235
 msgid "Join 14,573 Subscribers"
 msgstr ""
 
-#: includes/welcome-page.php:237
+#: includes/welcome-page.php:236
 msgid "Get the latest updates, Offers and more on your email."
 msgstr ""
 
-#: includes/welcome-page.php:239
+#: includes/welcome-page.php:238
 msgid ""
 "Want to join our newsletter? We share tricks & tips related to The Plus "
 "Addons for Elementor and WordPress itself. On top of that, You will get "
 "timely notifications of new plugin updates, discount offers and lots more."
 msgstr ""
 
-#: includes/welcome-page.php:240
+#: includes/welcome-page.php:239
 msgid "Subscribe Us"
 msgstr ""
 
@@ -1607,6 +1609,27 @@ msgstr ""
 
 #: includes/notices/class-tp-dashboard-overview.php:250
 msgid "Help"
+msgstr ""
+
+#: includes/notices/class-tp-editor-onbording.php:190
+msgid ""
+"Introducing 1000+ Elementor Templates Made with The Plus Addons for "
+"Elementor Widgets"
+msgstr ""
+
+#: includes/notices/class-tp-editor-onbording.php:193
+msgid ""
+"The long wait is finally over! We bring you over 1000 Templates & Sections "
+"made using The Plus Addons for Elementor, showcasing its fullest "
+"customizable potential. Try it now!"
+msgstr ""
+
+#: includes/notices/class-tp-editor-onbording.php:197
+msgid "Skip"
+msgstr ""
+
+#: includes/notices/class-tp-editor-onbording.php:198
+msgid "Import Templates"
 msgstr ""
 
 #: includes/notices/class-tp-plugin-page.php:79
@@ -1678,7 +1701,7 @@ msgid "You are not allowed to do this action"
 msgstr ""
 
 #: includes/notices/class-tp-wdkit-preview-popup.php:183
-#: includes/notices/class-wdesignkit-banner.php:265
+#: includes/notices/class-wdesignkit-banner.php:264
 msgid "Failed to retrieve plugin information."
 msgstr ""
 
@@ -1687,30 +1710,30 @@ msgid "Don’t Show Again"
 msgstr ""
 
 #: includes/notices/class-tp-wdkit-preview-popup.php:274
-#: includes/notices/class-wdesignkit-banner.php:111
-#: includes/notices/class-wdesignkit-banner.php:152
+#: includes/notices/class-wdesignkit-banner.php:110
+#: includes/notices/class-wdesignkit-banner.php:151
 msgid "Get 1000+ Predesigned Elementor Templates & Sections"
 msgstr ""
 
 #: includes/notices/class-tp-wdkit-preview-popup.php:277
-#: includes/notices/class-wdesignkit-banner.php:112
-#: includes/notices/class-wdesignkit-banner.php:155
+#: includes/notices/class-wdesignkit-banner.php:111
+#: includes/notices/class-wdesignkit-banner.php:154
 msgid ""
 "Uniquely designed Elementor Templates for every website type made with "
 "Elementor & The Plus Addons for Elementor Widgets."
 msgstr ""
 
 #: includes/notices/class-tp-wdkit-preview-popup.php:288
-#: includes/notices/class-wdesignkit-banner.php:123
-#: includes/notices/class-wdesignkit-banner.php:170
-#: includes/notices/class-wdesignkit-banner.php:206
+#: includes/notices/class-wdesignkit-banner.php:122
+#: includes/notices/class-wdesignkit-banner.php:169
+#: includes/notices/class-wdesignkit-banner.php:205
 msgid "Visit Plugin"
 msgstr ""
 
 #: includes/notices/class-tp-wdkit-preview-popup.php:290
-#: includes/notices/class-wdesignkit-banner.php:126
-#: includes/notices/class-wdesignkit-banner.php:175
-#: includes/notices/class-wdesignkit-banner.php:211
+#: includes/notices/class-wdesignkit-banner.php:125
+#: includes/notices/class-wdesignkit-banner.php:174
+#: includes/notices/class-wdesignkit-banner.php:210
 #: includes/user-experience/class-tp-onbording.php:449
 msgid "Learn More"
 msgstr ""
@@ -1740,21 +1763,21 @@ msgid ""
 msgstr ""
 
 #: includes/notices/class-tp-widget-notice.php:154
-#: includes/notices/class-wdesignkit-banner.php:234
+#: includes/notices/class-wdesignkit-banner.php:233
 msgid "Insufficient permissions."
 msgstr ""
 
-#: includes/notices/class-wdesignkit-banner.php:116
-#: includes/notices/class-wdesignkit-banner.php:161
-#: includes/notices/class-wdesignkit-banner.php:197
+#: includes/notices/class-wdesignkit-banner.php:115
+#: includes/notices/class-wdesignkit-banner.php:160
+#: includes/notices/class-wdesignkit-banner.php:196
 msgid "Enable Templates"
 msgstr ""
 
-#: includes/notices/class-wdesignkit-banner.php:188
+#: includes/notices/class-wdesignkit-banner.php:187
 msgid "Get Extra 50+ Unique Elementor Widgets"
 msgstr ""
 
-#: includes/notices/class-wdesignkit-banner.php:191
+#: includes/notices/class-wdesignkit-banner.php:190
 msgid ""
 "Pre-coded Extra Elementor Widgets from our WDesignKit Library. These are "
 "uniquely designed widgets for Elementor."
