@@ -8,7 +8,9 @@
             inputQuantity = $container.find('.product-quantity'),
             grouped_products = $container.find('.grouped_product_qty'),
             minusButton = $container.find('.quantity-button.minus'),
-            plusButton = $container.find('.quantity-button.plus');
+            plusButton = $container.find('.quantity-button.plus'),
+            redirectToCart = $button.data('redirect-to-cart');
+
 
         minusButton.on('click', function () {
             var value = parseInt(inputQuantity.val());
@@ -158,9 +160,18 @@
                                     btn_text.text(compareButtonText);
                                 }
                             } else {
-                                $button.siblings('.view-cart-button').remove();
-                                $button.after('<a href="' + response.data.cart_url + '" target="_blank" class="view-cart-button" style="margin-left: 10px;">View Cart</a>');
 
+                                if (redirectToCart === 'yes') {
+
+                                    window.location.href = response.data.cart_url;
+
+                                } else {
+
+                                    $button.siblings('.view-cart-button').remove();
+
+                                    $button.after('<a href="' + response.data.cart_url + '" target="_blank" class="view-cart-button" style="margin-left: 10px;">' + PremiumWooSettings.view_cart + '</a>');
+
+                                }
                             }
 
                         } else {

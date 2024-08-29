@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Themes - Blocksy package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-08-16 15:50:33+0000\n"
+"PO-Revision-Date: 2024-08-27 14:32:29+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,6 +16,10 @@ msgstr ""
 #, gp-priority: high
 msgid "Blocksy is a blazing fast and lightweight WordPress theme built with the latest web technologies. It was built with the Gutenberg editor in mind and has a lot of options that makes it extendable and customizable. You can easily create any type of website, such as business agency, shop, corporate, education, restaurant, blog, portfolio, landing page and so on. It works like a charm with popular WordPress page builders, including Elementor, Beaver Builder, Visual Composer and Brizy. Since it is responsive and adaptive, translation ready, SEO optimized and has WooCommerce built-in, you will experience an easy build and even an increase in conversions."
 msgstr "Blocksy là một giao diện WordPress nhẹ và nhanh được xây dựng bằng các công nghệ web mới nhất. Nó được xây dựng dựa trên trình chỉnh sửa Block Editor (Gutenberg) và có rất nhiều tùy chọn giúp nó có thể mở rộng và tùy chỉnh. Bạn có thể dễ dàng tạo bất kỳ loại Website nào, chẳng hạn như đại lý kinh doanh, cửa hàng bán hàng, công ty, giáo dục, nhà hàng, blog, danh mục đầu tư, trang đích, v.v. Nó hoạt động rất tốt với các trình tạo trang WordPress phổ biến, bao gồm Elementor, Beaver Builder, Visual Composer và Brizy. Vì nó đáp ứng và linh hoạt sẵn sàng dịch, tối ưu hóa SEO và tích hợp sẵn WooCommerce, bạn sẽ trải nghiệm quá trình xây dựng dễ dàng và tăng tỷ lệ chuyển đổi cao."
+
+#: inc/options/integrations/the-events-calendar/single.php:23
+msgid "Event Structure"
+msgstr "Cấu trúc sự kiện"
 
 #: inc/panel-builder/header/middle-row/options.php:213
 #: inc/panel-builder/header/middle-row/options.php:240
@@ -76,11 +80,11 @@ msgstr "Cột bên trái"
 msgid "Module Title Color"
 msgstr "Màu tiêu đề module"
 
-#: inc/panel-builder/header/search/options.php:498
+#: inc/panel-builder/header/search/options.php:497
 msgid "Search through taxonomies from selected custom post types."
 msgstr "Tìm kiếm thông qua các phân loại từ các loại bài viết tùy chỉnh đã chọn."
 
-#: inc/panel-builder/header/search/options.php:494
+#: inc/panel-builder/header/search/options.php:493
 msgid "Search Through Taxonomies"
 msgstr "Tìm kiếm qua các phân loại"
 
@@ -419,37 +423,37 @@ msgstr "WooCommerce Đơn Lẻ"
 msgid "WooCommerce Thumbnail"
 msgstr "Ảnh thu nhỏ của WooCommerce"
 
-#: inc/components/woocommerce/single/single.php:381
+#: inc/components/woocommerce/single/single.php:391
 #: inc/options/woocommerce/single-product-layers.php:402
 msgid "Extra Features"
 msgstr "Tính năng bổ sung"
 
-#: inc/components/woocommerce/single/single.php:365
+#: inc/components/woocommerce/single/single.php:375
 #: inc/options/woocommerce/single-product-layers.php:437
 msgid "Money Back Guarantee"
 msgstr "Đảm bảo hoàn tiền"
 
-#: inc/components/woocommerce/single/single.php:360
+#: inc/components/woocommerce/single/single.php:370
 #: inc/options/woocommerce/single-product-layers.php:432
 msgid "Worldwide Shipping"
 msgstr "Giao hàng trên toàn thế giới"
 
-#: inc/components/woocommerce/single/single.php:355
+#: inc/components/woocommerce/single/single.php:365
 #: inc/options/woocommerce/single-product-layers.php:427
 msgid "Satisfaction Guarantee"
 msgstr "Bảo đảm hài lòng"
 
-#: inc/components/woocommerce/single/single.php:350
+#: inc/components/woocommerce/single/single.php:360
 #: inc/options/woocommerce/single-product-layers.php:422
 msgid "Secure Payments"
 msgstr "Thanh toán an toàn"
 
-#: inc/components/woocommerce/single/single.php:345
+#: inc/components/woocommerce/single/single.php:355
 #: inc/options/woocommerce/single-product-layers.php:417
 msgid "Premium Quality"
 msgstr "Chất lượng cao cấp"
 
-#: inc/components/woocommerce/single/single.php:249
+#: inc/components/woocommerce/single/single.php:259
 #: inc/options/woocommerce/single-product-layers.php:312
 msgid "Guaranteed Safe Checkout"
 msgstr "Thanh toán an toàn được đảm bảo"
@@ -508,7 +512,7 @@ msgid "Product Status"
 msgstr "Trạng thái sản phẩm"
 
 #. translators: 1: the search query
-#: inc/components/hero/elements.php:198
+#: inc/components/hero/elements.php:186
 msgid "Search Results for %1$s"
 msgstr "Kết quả tìm kiếm cho %1$s"
 
@@ -521,7 +525,7 @@ msgid "Select Category"
 msgstr "Chọn danh mục"
 
 #: inc/options/pages/search-page.php:111
-#: inc/panel-builder/header/search/options.php:460
+#: inc/panel-builder/header/search/options.php:459
 msgid "Live Results Product Status"
 msgstr "Trạng thái Kết quả Trực tiếp Sản phẩm"
 
@@ -586,10 +590,6 @@ msgstr "Danh mục WooCommerce"
 msgid "Greenshift helps you create complex pages and animations without code skills and directly inside core editor."
 msgstr "Greenshift giúp bạn tạo ra các trang và hiệu ứng phức tạp mà không cần kỹ năng lập trình và trực tiếp trong trình chỉnh sửa cốt lõi."
 
-#: inc/options/integrations/the-events-calendar/single.php:23
-msgid "Events Calendar Single Structure"
-msgstr "Lịch Sự Kiện Cấu Trúc Đơn"
-
 #: inc/options/integrations/the-events-calendar/archive.php:21
 msgid "Events Calendar Archive Structure"
 msgstr "Cấu trúc Lịch sự kiện Lưu trữ"
@@ -618,7 +618,7 @@ msgstr "X (Twitter)"
 msgid "Author Archive Link"
 msgstr "Liên kết lưu trữ tác giả"
 
-#: inc/panel-builder/header/search/options.php:582
+#: inc/panel-builder/header/search/options.php:581
 msgid "Input Border Color"
 msgstr "Màu viền ô nhập"
 
@@ -661,7 +661,7 @@ msgid "Set link to sponsored"
 msgstr "Đặt liên kết sang bài viết tài trợ"
 
 #. translators: 1: span opening 2: span closing 3: the number of results
-#: inc/components/hero/elements.php:330
+#: inc/components/hero/elements.php:318
 msgid "%1$sSearch Results for%2$s %3$s"
 msgstr "%1$sKết quả tìm kiếm cho%2$s %3$s"
 
@@ -688,7 +688,7 @@ msgstr "Thêm thuộc tính %snhãn aria%s tùy chỉnh."
 msgid "Custom Aria Label"
 msgstr "Nhãn Aria tùy chỉnh"
 
-#: inc/panel-builder/header/search/options.php:429
+#: inc/panel-builder/header/search/options.php:428
 msgid "Live Results"
 msgstr "Kết quả trực tiếp"
 
@@ -757,7 +757,7 @@ msgid "Short Description"
 msgstr "Mô tả ngắn"
 
 #: inc/options/pages/search-page.php:104
-#: inc/panel-builder/header/search/options.php:452
+#: inc/panel-builder/header/search/options.php:451
 msgid "Live Results Product Price"
 msgstr "Kết quả trực tiếp Giá sản phẩm"
 
@@ -1037,7 +1037,7 @@ msgstr "Ảnh đại diện video"
 
 #: inc/panel-builder/header/cart/options.php:937
 #: inc/panel-builder/header/offcanvas/options.php:223
-#: inc/panel-builder/header/search/options.php:686
+#: inc/panel-builder/header/search/options.php:685
 msgid "Close Button Type"
 msgstr "Loại nút đóng"
 
@@ -1074,7 +1074,7 @@ msgstr "Lề trong"
 msgid "A better way to translate your WordPress site and go multilingual, directly from the front-end using a visual translation interface.s."
 msgstr "Một cách tốt hơn để dịch trang web WordPress của bạn và sử dụng đa ngôn ngữ, trực tiếp từ giao diện người dùng bằng cách sử dụng giao diện dịch trực quan."
 
-#: inc/panel-builder/header/search/options.php:553
+#: inc/panel-builder/header/search/options.php:552
 msgid "Input Font Color"
 msgstr "Nhập màu phông chữ"
 
@@ -1450,11 +1450,11 @@ msgstr "Mở liên kết trong tab mới"
 msgid "Line"
 msgstr "Dòng"
 
-#: inc/panel-builder/header/search/options.php:642
+#: inc/panel-builder/header/search/options.php:641
 msgid "Search Button Color"
 msgstr "Màu nút tìm kiếm"
 
-#: inc/panel-builder/header/search/options.php:613
+#: inc/panel-builder/header/search/options.php:612
 msgid "Search Icon Color"
 msgstr "Màu biểu tượng tìm kiếm"
 
@@ -1582,7 +1582,7 @@ msgstr "Văn bản mặc định"
 msgid "Global Color Palette"
 msgstr "Bảng màu toàn trang"
 
-#: inc/options/meta/default.php:75 inc/options/meta/page.php:74
+#: inc/options/meta/default.php:89 inc/options/meta/page.php:74
 #: inc/options/meta/post.php:70
 msgid "Content Area Style Source"
 msgstr "Nguồn kiểu vùng nội dung"
@@ -1595,21 +1595,21 @@ msgstr "Màu chữ cho tổng giỏ hàng"
 msgid "Cart Total Font"
 msgstr "Phông chữ cho tổng giỏ hàng"
 
-#: inc/panel-builder/header/search/options.php:151
+#: inc/panel-builder/header/search/options.php:150
 #: inc/panel-builder/header/socials/options.php:219
 #: inc/panel-builder/header/trigger/options.php:175
 msgid "Label Font Color"
 msgstr "Màu phông chữ nhãn"
 
 #: inc/panel-builder/footer/socials/options.php:248
-#: inc/panel-builder/header/search/options.php:140
+#: inc/panel-builder/header/search/options.php:139
 #: inc/panel-builder/header/socials/options.php:208
 #: inc/panel-builder/header/trigger/options.php:164
 msgid "Label Font"
 msgstr "Phông chữ nhãn"
 
 #: inc/panel-builder/header/cart/options.php:114
-#: inc/panel-builder/header/search/options.php:93
+#: inc/panel-builder/header/search/options.php:92
 #: inc/panel-builder/header/trigger/options.php:117
 msgid "Label Position"
 msgstr "Vị trí nhãn"
@@ -1639,11 +1639,11 @@ msgstr "RankMath"
 msgid "Type 6"
 msgstr "Loại 6"
 
-#: inc/panel-builder/header/search/options.php:440
+#: inc/panel-builder/header/search/options.php:439
 msgid "Live Results Images"
 msgstr "Hình ảnh kết quả trực tiếp"
 
-#: inc/panel-builder/header/search/options.php:421
+#: inc/panel-builder/header/search/options.php:420
 msgid "Placeholder Text"
 msgstr "Văn bản giữ chỗ"
 
@@ -1671,7 +1671,7 @@ msgstr "Khoảng cách giữa các cột"
 msgid "Product Gallery"
 msgstr "Trưng bày ảnh sản phẩm"
 
-#: inc/options/meta/default.php:188
+#: inc/options/meta/default.php:204
 msgid "Disable %s %s"
 msgstr "Tắt %s %s"
 
@@ -1770,7 +1770,7 @@ msgstr "Hiệu ứng chỉ báo"
 #: inc/panel-builder/header/cart/options.php:1117
 #: inc/panel-builder/header/logo/options.php:358
 #: inc/panel-builder/header/mobile-menu/options.php:161
-#: inc/panel-builder/header/search/options.php:855
+#: inc/panel-builder/header/search/options.php:854
 #: inc/panel-builder/header/socials/options.php:168
 #: inc/panel-builder/header/text/options.php:111
 #: inc/panel-builder/header/text/options.php:442
@@ -1830,7 +1830,7 @@ msgstr "Danh mục"
 #: inc/components/woocommerce/single/additional-actions-layer.php:82
 #: inc/panel-builder/footer/socials/options.php:185
 #: inc/panel-builder/header/cart/options.php:83
-#: inc/panel-builder/header/search/options.php:62
+#: inc/panel-builder/header/search/options.php:61
 #: inc/panel-builder/header/socials/options.php:140
 #: inc/panel-builder/header/trigger/options.php:87
 msgid "Label Visibility"
@@ -2080,8 +2080,8 @@ msgstr "Logo trong suốt"
 #: inc/panel-builder/header/middle-row/options.php:405
 #: inc/panel-builder/header/middle-row/options.php:511
 #: inc/panel-builder/header/mobile-menu/options.php:367
-#: inc/panel-builder/header/search/options.php:170
-#: inc/panel-builder/header/search/options.php:295
+#: inc/panel-builder/header/search/options.php:169
+#: inc/panel-builder/header/search/options.php:294
 #: inc/panel-builder/header/socials/options.php:242
 #: inc/panel-builder/header/socials/options.php:368
 #: inc/panel-builder/header/socials/options.php:512
@@ -2111,8 +2111,8 @@ msgstr "Trạng thái dính"
 #: inc/panel-builder/header/middle-row/options.php:397
 #: inc/panel-builder/header/middle-row/options.php:503
 #: inc/panel-builder/header/mobile-menu/options.php:358
-#: inc/panel-builder/header/search/options.php:161
-#: inc/panel-builder/header/search/options.php:287
+#: inc/panel-builder/header/search/options.php:160
+#: inc/panel-builder/header/search/options.php:286
 #: inc/panel-builder/header/socials/options.php:232
 #: inc/panel-builder/header/socials/options.php:358
 #: inc/panel-builder/header/socials/options.php:501
@@ -2142,8 +2142,8 @@ msgstr "Trạng thái trong suốt"
 #: inc/panel-builder/header/middle-row/options.php:392
 #: inc/panel-builder/header/middle-row/options.php:498
 #: inc/panel-builder/header/mobile-menu/options.php:353
-#: inc/panel-builder/header/search/options.php:156
-#: inc/panel-builder/header/search/options.php:282
+#: inc/panel-builder/header/search/options.php:155
+#: inc/panel-builder/header/search/options.php:281
 #: inc/panel-builder/header/socials/options.php:224
 #: inc/panel-builder/header/socials/options.php:352
 #: inc/panel-builder/header/socials/options.php:492
@@ -2163,12 +2163,12 @@ msgstr "Chọn thiết bị bạn muốn bật hiệu ứng paralax."
 msgid "Featured"
 msgstr "Nổi bật"
 
-#: inc/options/meta/blog.php:12 inc/options/meta/default.php:234
+#: inc/options/meta/blog.php:12 inc/options/meta/default.php:250
 #: inc/options/meta/page.php:208 inc/options/meta/post.php:230
 msgid "Disable Footer"
 msgstr "Tắt chân trang"
 
-#: inc/options/meta/blog.php:6 inc/options/meta/default.php:228
+#: inc/options/meta/blog.php:6 inc/options/meta/default.php:244
 #: inc/options/meta/page.php:202 inc/options/meta/post.php:224
 msgid "Disable Header"
 msgstr "Tắt đầu trang"
@@ -2230,40 +2230,40 @@ msgid "%s Elements"
 msgstr "%s Phần tử"
 
 #. translators: placeholder here means the actual URL.
-#: inc/options/general/posts-listing.php:1667 inc/options/meta/default.php:147
+#: inc/options/general/posts-listing.php:1667 inc/options/meta/default.php:161
 #: inc/options/meta/page.php:146 inc/options/meta/post.php:145
 #: inc/options/single-elements/structure.php:118
 #: inc/options/woocommerce/archive-main.php:153
 msgid "You can customize the global spacing value in General ➝ Layout ➝ %sContent Area Spacing%s."
 msgstr "Bạn có thể tùy chỉnh giá trị khoảng cách toàn cục trong: Chung ➝ Bố cục ➝ %sKhoảng cách vùng nội dung%s."
 
-#: inc/options/general/posts-listing.php:1660 inc/options/meta/default.php:140
+#: inc/options/general/posts-listing.php:1660 inc/options/meta/default.php:154
 #: inc/options/meta/page.php:139 inc/options/meta/post.php:138
 #: inc/options/single-elements/structure.php:111
 #: inc/options/woocommerce/archive-main.php:146
 msgid "Only Bottom"
 msgstr "Chỉ dưới cùng"
 
-#: inc/options/general/posts-listing.php:1657 inc/options/meta/default.php:137
+#: inc/options/general/posts-listing.php:1657 inc/options/meta/default.php:151
 #: inc/options/meta/page.php:136 inc/options/meta/post.php:135
 #: inc/options/single-elements/structure.php:108
 #: inc/options/woocommerce/archive-main.php:143
 msgid "Only Top"
 msgstr "Chỉ đầu trang"
 
-#: inc/options/general/posts-listing.php:1654 inc/options/meta/default.php:134
+#: inc/options/general/posts-listing.php:1654 inc/options/meta/default.php:148
 #: inc/options/meta/page.php:133 inc/options/meta/post.php:132
 #: inc/options/single-elements/structure.php:105
 #: inc/options/woocommerce/archive-main.php:140
 msgid "Top & Bottom"
 msgstr "Trên & dưới"
 
-#: inc/options/meta/default.php:123 inc/options/meta/page.php:122
+#: inc/options/meta/default.php:137 inc/options/meta/page.php:122
 #: inc/options/meta/post.php:121
 msgid "You can customize the spacing value in general settings panel."
 msgstr "Bạn có thể tùy chỉnh giá trị khoảng cách trong bảng cài đặt chung."
 
-#: inc/options/general/posts-listing.php:1643 inc/options/meta/default.php:105
+#: inc/options/general/posts-listing.php:1643 inc/options/meta/default.php:119
 #: inc/options/meta/page.php:104 inc/options/meta/post.php:104
 #: inc/options/single-elements/structure.php:94
 #: inc/options/woocommerce/archive-main.php:129
@@ -2369,6 +2369,7 @@ msgstr "Đăng bởi %s"
 #: inc/options/integrations/the-events-calendar/single.php:15
 #: inc/options/integrations/tutorlms-archive.php:12
 #: inc/options/integrations/tutorlms-single.php:195
+#: inc/options/meta/default.php:13 inc/options/meta/default.php:26
 #: inc/options/posts/custom-post-type-archive.php:8
 #: inc/options/posts/custom-post-type-single.php:21
 msgid "%s Title"
@@ -2524,7 +2525,7 @@ msgstr "Ảnh thu nhỏ"
 msgid "Account"
 msgstr "Tài khoản"
 
-#: inc/panel-builder/header/search/options.php:398
+#: inc/panel-builder/header/search/options.php:397
 msgid "Icon Margin"
 msgstr "Lề ngoài biểu tượng"
 
@@ -2541,7 +2542,7 @@ msgstr "Màu viền kích hoạt"
 #: inc/panel-builder/header/button/options.php:46
 #: inc/panel-builder/header/button/options.php:66
 #: inc/panel-builder/header/cart/options.php:130
-#: inc/panel-builder/header/search/options.php:107
+#: inc/panel-builder/header/search/options.php:106
 #: inc/panel-builder/header/trigger/options.php:131
 msgid "Label Text"
 msgstr "Nội dung nhãn"
@@ -2738,19 +2739,19 @@ msgstr "Phần chiều rộng đầy đủ"
 msgid "Widget Title Tag"
 msgstr "Thẻ tiêu đề tiện ích"
 
-#: inc/options/meta/default.php:222 inc/options/meta/post.php:218
+#: inc/options/meta/default.php:238 inc/options/meta/post.php:218
 msgid "Disable Related Posts"
 msgstr "Tắt các bài viết liên quan"
 
-#: inc/options/meta/default.php:211 inc/options/meta/post.php:200
+#: inc/options/meta/default.php:227 inc/options/meta/post.php:200
 msgid "Disable Posts Navigation"
 msgstr "Tắt Điều hướng Bài viết"
 
-#: inc/options/meta/default.php:205 inc/options/meta/post.php:194
+#: inc/options/meta/default.php:221 inc/options/meta/post.php:194
 msgid "Disable Author Box"
 msgstr "Tắt Hộp thông tin tác giả"
 
-#: inc/options/meta/default.php:199 inc/options/meta/page.php:183
+#: inc/options/meta/default.php:215 inc/options/meta/page.php:183
 #: inc/options/meta/post.php:188
 msgid "Disable Share Box"
 msgstr "Tắt hộp chia sẻ"
@@ -2759,7 +2760,7 @@ msgstr "Tắt hộp chia sẻ"
 msgid "Disable Post Tags"
 msgstr "Tắt Thẻ Bài Viết"
 
-#: inc/options/meta/default.php:179 inc/options/meta/page.php:177
+#: inc/options/meta/default.php:195 inc/options/meta/page.php:177
 #: inc/options/meta/post.php:176
 msgid "Disable Featured Image"
 msgstr "Tắt hình ảnh nổi bật"
@@ -2897,13 +2898,13 @@ msgstr "Di chuột/Kích hoạt"
 msgid "Buttons"
 msgstr "Nút"
 
-#: inc/components/single/single-helpers.php:411
-#: inc/components/single/single-helpers.php:547
+#: inc/components/single/single-helpers.php:410
+#: inc/components/single/single-helpers.php:546
 #: inc/options/general/page-title.php:544
 msgid "Articles"
 msgstr "Bài viết"
 
-#: inc/components/single/single-helpers.php:407
+#: inc/components/single/single-helpers.php:406
 msgid "Joined"
 msgstr "Tham gia"
 
@@ -2937,7 +2938,7 @@ msgstr "Trượt %s"
 msgid "No more products to load"
 msgstr "Không còn sản phẩm nào để tải"
 
-#: inc/panel-builder/header/search/options.php:475
+#: inc/panel-builder/header/search/options.php:474
 msgid "Search Through Criteria"
 msgstr "Tìm kiếm qua nguyên tắc"
 
@@ -3072,7 +3073,7 @@ msgstr "Khoảng cách ngang"
 #: inc/panel-builder/header/cart/options.php:947
 #: inc/panel-builder/header/mobile-menu/options.php:85
 #: inc/panel-builder/header/offcanvas/options.php:233
-#: inc/panel-builder/header/search/options.php:696
+#: inc/panel-builder/header/search/options.php:695
 msgid "Border"
 msgstr "Viền"
 
@@ -3190,8 +3191,8 @@ msgstr "Thương hiệu"
 #: inc/options/general/page-title.php:751
 #: inc/options/general/page-title.php:1346
 #: inc/options/general/page-title.php:1387
-#: inc/options/general/posts-listing.php:450 inc/options/meta/default.php:81
-#: inc/options/meta/default.php:112 inc/options/meta/page.php:80
+#: inc/options/general/posts-listing.php:450 inc/options/meta/default.php:95
+#: inc/options/meta/default.php:126 inc/options/meta/page.php:80
 #: inc/options/meta/page.php:111 inc/options/meta/post.php:76
 #: inc/options/meta/post.php:110
 #: inc/options/single-elements/post-share-box.php:100
@@ -3203,7 +3204,7 @@ msgstr "Thương hiệu"
 #: inc/panel-builder/footer/socials/options.php:96
 #: inc/panel-builder/header/socials/options.php:95
 #: static/bundle/customizer-controls.js:13 static/bundle/options.js:13
-#: static/bundle/options.js:49 static/js/backend/woo-variation.js:39
+#: static/bundle/options.js:49 static/js/backend/woo-variation.js:45
 #: static/js/options/options/color-palettes/ColorPalettesModal.js:41
 #: static/js/options/options/ct-ratio.js:108
 #: static/js/options/options/ct-ratio.js:257
@@ -3231,7 +3232,7 @@ msgstr "Kích thước biểu tượng"
 msgid "User Visibility"
 msgstr "Hiển thị với người dùng"
 
-#: inc/panel-builder/header/search/options.php:671
+#: inc/panel-builder/header/search/options.php:670
 msgid "Modal Background"
 msgstr "Nền cửa sổ modal"
 
@@ -3245,8 +3246,8 @@ msgstr "Kết quả trực tiếp"
 #: inc/panel-builder/header/cart/options.php:65
 #: inc/panel-builder/header/cart/options.php:1064
 #: inc/panel-builder/header/offcanvas/options.php:240
-#: inc/panel-builder/header/search/options.php:52
-#: inc/panel-builder/header/search/options.php:703
+#: inc/panel-builder/header/search/options.php:51
+#: inc/panel-builder/header/search/options.php:702
 #: inc/panel-builder/header/trigger/options.php:38
 msgid "Icon Size"
 msgstr "Kích thước biểu tượng"
@@ -3453,7 +3454,7 @@ msgstr "Bảng màu %s"
 msgid "Posts"
 msgstr "Bài viết"
 
-#: inc/panel-builder/header/search/options.php:476
+#: inc/panel-builder/header/search/options.php:475
 msgid "Chose in which post types do you want to perform searches."
 msgstr "Chọn loại bài viết mà bạn muốn thực hiện tìm kiếm."
 
@@ -3490,8 +3491,7 @@ msgstr "Mô tả trang web"
 msgid "Container Background"
 msgstr "Nền vùng chứa"
 
-#: inc/options/meta/default.php:25 inc/options/meta/post.php:20
-#: inc/options/posts/post.php:12
+#: inc/options/meta/post.php:20 inc/options/posts/post.php:12
 msgid "Post Structure"
 msgstr "Cấu trúc bài viết"
 
@@ -3533,21 +3533,21 @@ msgstr "Nền vùng nội dung"
 msgid "Page Background"
 msgstr "Nền trang"
 
-#: inc/options/meta/default.php:97 inc/options/meta/page.php:96
+#: inc/options/meta/default.php:111 inc/options/meta/page.php:96
 #: inc/options/meta/post.php:92
 #: inc/options/single-elements/featured-image.php:82
 #: inc/options/single-elements/structure.php:85
 msgid "Wide"
 msgstr "Rộng"
 
-#: inc/options/meta/default.php:90 inc/options/meta/page.php:89
+#: inc/options/meta/default.php:104 inc/options/meta/page.php:89
 #: inc/options/meta/post.php:85 inc/options/single-elements/structure.php:77
 msgid "Content Area Style"
 msgstr "Kiểu vùng nội dung"
 
 #: inc/options/general/page-title.php:1345
-#: inc/options/general/page-title.php:1386 inc/options/meta/default.php:80
-#: inc/options/meta/default.php:111 inc/options/meta/page.php:79
+#: inc/options/general/page-title.php:1386 inc/options/meta/default.php:94
+#: inc/options/meta/default.php:125 inc/options/meta/page.php:79
 #: inc/options/meta/page.php:110 inc/options/meta/post.php:75
 #: inc/options/meta/post.php:109
 #: inc/panel-builder/footer/widget-area-1/options.php:110
@@ -3616,7 +3616,7 @@ msgstr "Màu biểu tượng"
 
 #: inc/panel-builder/header/cart/options.php:124
 #: inc/panel-builder/header/logo/options.php:285
-#: inc/panel-builder/header/search/options.php:101
+#: inc/panel-builder/header/search/options.php:100
 #: inc/panel-builder/header/trigger/options.php:125
 #: static/bundle/customizer-controls.js:13 static/bundle/options.js:13
 #: static/js/options/options/ct-spacing/input.js:112
@@ -3625,7 +3625,7 @@ msgstr "Bên phải"
 
 #: inc/panel-builder/header/cart/options.php:123
 #: inc/panel-builder/header/logo/options.php:284
-#: inc/panel-builder/header/search/options.php:100
+#: inc/panel-builder/header/search/options.php:99
 #: inc/panel-builder/header/trigger/options.php:124
 #: static/bundle/customizer-controls.js:13 static/bundle/options.js:13
 #: static/js/options/options/ct-spacing/input.js:111
@@ -3728,7 +3728,7 @@ msgstr "Phông chữ tiêu đề"
 #: inc/panel-builder/header/menu/options.php:736
 #: inc/panel-builder/header/mobile-menu/options.php:197
 #: inc/panel-builder/header/mobile-menu/options.php:330
-#: inc/panel-builder/header/search/options.php:512
+#: inc/panel-builder/header/search/options.php:511
 #: inc/panel-builder/header/text/options.php:156
 msgid "Font"
 msgstr "Phông chữ"
@@ -3811,7 +3811,7 @@ msgid "Leave a Reply"
 msgstr "Trả lời"
 
 #. translators: %s are the opening and closing of the html tags
-#: inc/components/hero/elements.php:342
+#: inc/components/hero/elements.php:330
 msgid "%sSorry, but nothing matched your search terms. Please try again with some different keywords.%s"
 msgstr "%sXin lỗi, từ khoá bạn tìm kiếm không có kết quả nào. Vui lòng thử lại với các từ khoá khác.%s"
 
@@ -3967,7 +3967,7 @@ msgstr "Theo chiều ngang"
 msgid "Breadcrumbs"
 msgstr "Đường dẫn trang"
 
-#: inc/options/meta/default.php:218 inc/options/meta/page.php:173
+#: inc/options/meta/default.php:234 inc/options/meta/page.php:173
 #: inc/options/meta/post.php:214 inc/options/pages/author-page.php:78
 #: inc/options/pages/page.php:52 inc/options/pages/page.php:129
 #: inc/options/pages/search-page.php:78 inc/options/posts/blog.php:85
@@ -4096,8 +4096,7 @@ msgstr "Tiêu chí liên quan"
 msgid "Related Posts"
 msgstr "Bài viết liên quan"
 
-#: inc/options/meta/default.php:8 inc/options/meta/post.php:6
-#: inc/options/posts/post.php:6
+#: inc/options/meta/post.php:6 inc/options/posts/post.php:6
 msgid "Post Title"
 msgstr "Tiêu đề bài viết"
 
@@ -4129,7 +4128,7 @@ msgstr "Chia sẻ mạng xã hội"
 #: inc/options/single-elements/post-share-box.php:123
 #: inc/options/woocommerce/general/store-notice.php:48
 #: inc/panel-builder/header/cart/options.php:125
-#: inc/panel-builder/header/search/options.php:102
+#: inc/panel-builder/header/search/options.php:101
 #: inc/panel-builder/header/trigger/options.php:126
 #: static/bundle/customizer-controls.js:13 static/bundle/options.js:13
 #: static/js/options/options/ct-spacing/input.js:110
@@ -4159,7 +4158,7 @@ msgstr "Hộp chia sẻ"
 msgid "Post Tags"
 msgstr "Thẻ bài viết"
 
-#: inc/options/meta/default.php:175 inc/options/meta/post.php:172
+#: inc/options/meta/default.php:191 inc/options/meta/post.php:172
 #: inc/options/posts/post.php:40
 msgid "Post Elements"
 msgstr "Phần từ bài viết"
@@ -4324,7 +4323,7 @@ msgstr "Hình ảnh tùy chỉnh"
 msgid "Container Min Height"
 msgstr "Khoảng cách tối thiểu vùng chứa"
 
-#: inc/components/hero/elements.php:361
+#: inc/components/hero/elements.php:349
 msgid "This is where you can add new products to your store."
 msgstr "Đây là nơi bạn có thể thêm sản phẩm mới vào cửa hàng của mình."
 
@@ -4332,7 +4331,7 @@ msgstr "Đây là nơi bạn có thể thêm sản phẩm mới vào cửa hàng
 msgid "Description"
 msgstr "Mô tả"
 
-#: inc/components/breadcrumbs.php:41 inc/components/hero/elements.php:213
+#: inc/components/breadcrumbs.php:41 inc/components/hero/elements.php:201
 #: inc/options/general/breadcrumbs.php:104
 #: inc/options/general/page-title.php:119
 #: inc/options/general/page-title.php:362
@@ -4341,7 +4340,7 @@ msgstr "Mô tả"
 msgid "Home"
 msgstr "Tổng quan"
 
-#: inc/classes/screen-manager.php:249 inc/components/hero/elements.php:213
+#: inc/classes/screen-manager.php:249 inc/components/hero/elements.php:201
 #: inc/panel-builder/header/search/options.php:16
 msgid "Products"
 msgstr "Sản phẩm"
@@ -4377,7 +4376,7 @@ msgstr "Loại"
 #: inc/panel-builder/header/cart/options.php:1080
 #: inc/panel-builder/header/middle-row/options.php:581
 #: inc/panel-builder/header/offcanvas/options.php:371
-#: inc/panel-builder/header/search/options.php:829
+#: inc/panel-builder/header/search/options.php:828
 #: inc/panel-builder/header/trigger/options.php:588
 msgid "Border Radius"
 msgstr "Bo viền"
@@ -4432,7 +4431,7 @@ msgstr "Văn bản"
 #: inc/panel-builder/header/middle-row/options.php:181
 #: inc/panel-builder/header/middle-row/options.php:196
 #: inc/panel-builder/header/offcanvas/options.php:234
-#: inc/panel-builder/header/search/options.php:697
+#: inc/panel-builder/header/search/options.php:696
 msgid "Background"
 msgstr "Nền"
 
@@ -4444,15 +4443,15 @@ msgid "Badge Color"
 msgstr "Màu huy hiệu"
 
 #: inc/options/pages/search-page.php:17
-#: inc/panel-builder/header/search/options.php:411
+#: inc/panel-builder/header/search/options.php:410
 msgid "Search Results"
 msgstr "Kết quả tìm kiếm"
 
 #: inc/classes/screen-manager.php:212
 #: inc/components/builder/header-elements.php:196
 #: inc/panel-builder/header/search/config.php:4
-#: inc/panel-builder/header/search/options.php:111
-#: inc/panel-builder/header/search/options.php:424
+#: inc/panel-builder/header/search/options.php:110
+#: inc/panel-builder/header/search/options.php:423
 #: inc/panel-builder/header/search/view.php:28
 #: woocommerce/product-searchform.php:28
 msgid "Search"
@@ -4466,11 +4465,11 @@ msgstr "Tìm kiếm"
 #: inc/panel-builder/header/cart/options.php:385
 #: inc/panel-builder/header/cart/options.php:954
 #: inc/panel-builder/header/offcanvas/options.php:251
-#: inc/panel-builder/header/search/options.php:277
-#: inc/panel-builder/header/search/options.php:304
-#: inc/panel-builder/header/search/options.php:336
-#: inc/panel-builder/header/search/options.php:366
-#: inc/panel-builder/header/search/options.php:714
+#: inc/panel-builder/header/search/options.php:276
+#: inc/panel-builder/header/search/options.php:303
+#: inc/panel-builder/header/search/options.php:335
+#: inc/panel-builder/header/search/options.php:365
+#: inc/panel-builder/header/search/options.php:713
 #: inc/panel-builder/header/trigger/options.php:301
 #: inc/panel-builder/header/trigger/options.php:330
 #: inc/panel-builder/header/trigger/options.php:361
@@ -4527,7 +4526,7 @@ msgstr "Tùy chọn thả xuống"
 #: inc/panel-builder/header/middle-row/options.php:373
 #: inc/panel-builder/header/middle-row/options.php:480
 #: static/bundle/customizer-controls.js:13 static/bundle/options.js:13
-#: static/bundle/options.js:49 static/js/backend/woo-variation.js:38
+#: static/bundle/options.js:49 static/js/backend/woo-variation.js:44
 #: static/js/options/components/InputWithValidCssExpression.js:9
 #: static/js/options/options/typography/helpers.js:67
 #: static/js/options/options/typography/helpers.js:122
@@ -4674,7 +4673,7 @@ msgstr "Tùy chọn chung"
 #: inc/panel-builder/header/logo/options.php:182
 #: inc/panel-builder/header/logo/options.php:229
 #: inc/panel-builder/header/logo/options.php:369
-#: inc/panel-builder/header/search/options.php:75
+#: inc/panel-builder/header/search/options.php:74
 #: inc/panel-builder/header/socials/options.php:152
 #: inc/panel-builder/header/text/options.php:122
 #: inc/panel-builder/header/trigger/options.php:99
@@ -4726,8 +4725,8 @@ msgstr "Hiển thị"
 #: inc/panel-builder/header/logo/options.php:371
 #: inc/panel-builder/header/middle-row/options.php:128
 #: inc/panel-builder/header/mobile-menu/options.php:174
-#: inc/panel-builder/header/search/options.php:77
-#: inc/panel-builder/header/search/options.php:867
+#: inc/panel-builder/header/search/options.php:76
+#: inc/panel-builder/header/search/options.php:866
 #: inc/panel-builder/header/socials/options.php:154
 #: inc/panel-builder/header/socials/options.php:180
 #: inc/panel-builder/header/text/options.php:124
@@ -4770,8 +4769,8 @@ msgstr "Mobile"
 #: inc/panel-builder/header/logo/options.php:370
 #: inc/panel-builder/header/middle-row/options.php:127
 #: inc/panel-builder/header/mobile-menu/options.php:173
-#: inc/panel-builder/header/search/options.php:76
-#: inc/panel-builder/header/search/options.php:866
+#: inc/panel-builder/header/search/options.php:75
+#: inc/panel-builder/header/search/options.php:865
 #: inc/panel-builder/header/socials/options.php:153
 #: inc/panel-builder/header/socials/options.php:179
 #: inc/panel-builder/header/text/options.php:123
@@ -4817,7 +4816,7 @@ msgstr "Kích cỡ ảnh đại diện"
 msgid "Underline"
 msgstr "Gạch chân"
 
-#: inc/components/single/single-helpers.php:415
+#: inc/components/single/single-helpers.php:414
 #: inc/options/general/comments-single.php:15 inc/options/general/meta.php:270
 #: inc/options/general/page-title.php:545
 msgid "Comments"
@@ -4873,7 +4872,7 @@ msgstr "Thẻ tiêu đề"
 msgid "Card Elements"
 msgstr "Thành phần thẻ"
 
-#: inc/options/general/posts-listing.php:67 inc/options/meta/default.php:98
+#: inc/options/general/posts-listing.php:67 inc/options/meta/default.php:112
 #: inc/options/meta/page.php:97 inc/options/meta/post.php:93
 #: inc/options/single-elements/structure.php:86
 #: inc/panel-builder/footer/options.php:13
@@ -4902,7 +4901,7 @@ msgstr "Dạng lưới"
 #: inc/panel-builder/header/menu/options.php:670
 #: inc/panel-builder/header/mobile-menu/options.php:84
 #: inc/panel-builder/header/offcanvas/options.php:232
-#: inc/panel-builder/header/search/options.php:695
+#: inc/panel-builder/header/search/options.php:694
 #: inc/panel-builder/header/trigger/options.php:57
 msgid "Simple"
 msgstr "Đơn giản"
@@ -4913,7 +4912,7 @@ msgid "Set the %s entries default structure."
 msgstr "Đặt cấu trúc mặc định của mục %s."
 
 #. translators: placeholder here means the actual structure title.
-#: inc/options/general/posts-listing.php:1455
+#: inc/options/general/posts-listing.php:1455 inc/options/meta/default.php:37
 #: inc/options/posts/custom-post-type-single.php:33
 msgid "%s Structure"
 msgstr "Cấu trúc %s"
@@ -5005,7 +5004,7 @@ msgstr "Kích thước viền"
 #: inc/panel-builder/header/menu/options.php:480
 #: inc/panel-builder/header/menu/options.php:518
 #: inc/panel-builder/header/offcanvas/options.php:330
-#: inc/panel-builder/header/search/options.php:790
+#: inc/panel-builder/header/search/options.php:789
 #: inc/panel-builder/header/trigger/options.php:428
 #: inc/panel-builder/header/trigger/options.php:470
 #: inc/panel-builder/header/trigger/options.php:510
@@ -5028,8 +5027,8 @@ msgstr "Kích thước chữ"
 #: inc/options/general/form-elements.php:63
 #: inc/options/general/form-elements.php:107
 #: inc/options/general/form-elements.php:140
-#: inc/panel-builder/header/search/options.php:575
-#: inc/panel-builder/header/search/options.php:605
+#: inc/panel-builder/header/search/options.php:574
+#: inc/panel-builder/header/search/options.php:604
 msgid "Focus"
 msgstr "Tập trung"
 
@@ -5047,7 +5046,7 @@ msgstr "Cổ điển"
 #: inc/options/woocommerce/single-product-tabs.php:245
 #: inc/panel-builder/header/cart/options.php:989
 #: inc/panel-builder/header/offcanvas/options.php:289
-#: inc/panel-builder/header/search/options.php:751
+#: inc/panel-builder/header/search/options.php:750
 #: inc/panel-builder/header/trigger/options.php:424
 #: inc/panel-builder/header/trigger/options.php:466
 #: inc/panel-builder/header/trigger/options.php:506
@@ -5166,18 +5165,18 @@ msgstr "Màu viền"
 #: inc/panel-builder/header/offcanvas/options.php:276
 #: inc/panel-builder/header/offcanvas/options.php:314
 #: inc/panel-builder/header/offcanvas/options.php:355
-#: inc/panel-builder/header/search/options.php:202
-#: inc/panel-builder/header/search/options.php:232
-#: inc/panel-builder/header/search/options.php:261
-#: inc/panel-builder/header/search/options.php:328
-#: inc/panel-builder/header/search/options.php:359
-#: inc/panel-builder/header/search/options.php:389
-#: inc/panel-builder/header/search/options.php:545
-#: inc/panel-builder/header/search/options.php:635
-#: inc/panel-builder/header/search/options.php:664
-#: inc/panel-builder/header/search/options.php:738
-#: inc/panel-builder/header/search/options.php:774
-#: inc/panel-builder/header/search/options.php:813
+#: inc/panel-builder/header/search/options.php:201
+#: inc/panel-builder/header/search/options.php:231
+#: inc/panel-builder/header/search/options.php:260
+#: inc/panel-builder/header/search/options.php:327
+#: inc/panel-builder/header/search/options.php:358
+#: inc/panel-builder/header/search/options.php:388
+#: inc/panel-builder/header/search/options.php:544
+#: inc/panel-builder/header/search/options.php:634
+#: inc/panel-builder/header/search/options.php:663
+#: inc/panel-builder/header/search/options.php:737
+#: inc/panel-builder/header/search/options.php:773
+#: inc/panel-builder/header/search/options.php:812
 #: inc/panel-builder/header/socials/options.php:275
 #: inc/panel-builder/header/socials/options.php:305
 #: inc/panel-builder/header/socials/options.php:334
@@ -5230,10 +5229,10 @@ msgstr "Di chuột"
 #: inc/panel-builder/header/mobile-menu/options.php:377
 #: inc/panel-builder/header/mobile-menu/options.php:417
 #: inc/panel-builder/header/mobile-menu/options.php:456
-#: inc/panel-builder/header/search/options.php:179
-#: inc/panel-builder/header/search/options.php:210
-#: inc/panel-builder/header/search/options.php:239
-#: inc/panel-builder/header/search/options.php:522
+#: inc/panel-builder/header/search/options.php:178
+#: inc/panel-builder/header/search/options.php:209
+#: inc/panel-builder/header/search/options.php:238
+#: inc/panel-builder/header/search/options.php:521
 #: inc/panel-builder/header/socials/options.php:252
 #: inc/panel-builder/header/socials/options.php:283
 #: inc/panel-builder/header/socials/options.php:312
@@ -5260,7 +5259,7 @@ msgstr "Màu chữ"
 #: inc/options/integrations/the-events-calendar/single.php:38
 #: inc/options/integrations/tutorlms-archive.php:39
 #: inc/options/integrations/tutorlms-single.php:219
-#: inc/options/meta/default.php:162 inc/options/meta/page.php:160
+#: inc/options/meta/default.php:176 inc/options/meta/page.php:160
 #: inc/options/meta/post.php:159 inc/options/pages/page.php:35
 #: inc/options/posts/custom-post-type-single.php:51
 #: inc/options/posts/post.php:26 inc/options/single-elements/author-box.php:235
@@ -5299,8 +5298,8 @@ msgstr "Màu chữ"
 #: inc/panel-builder/header/mobile-menu/options.php:186
 #: inc/panel-builder/header/offcanvas-logo/options.php:71
 #: inc/panel-builder/header/offcanvas/options.php:121
-#: inc/panel-builder/header/search/options.php:124
-#: inc/panel-builder/header/search/options.php:506
+#: inc/panel-builder/header/search/options.php:123
+#: inc/panel-builder/header/search/options.php:505
 #: inc/panel-builder/header/socials/options.php:191
 #: inc/panel-builder/header/text/options.php:150
 #: inc/panel-builder/header/trigger/options.php:148
@@ -5346,7 +5345,7 @@ msgstr "Kiểu phân trang"
 #: inc/options/integrations/the-events-calendar/single.php:27
 #: inc/options/integrations/tutorlms-archive.php:24
 #: inc/options/integrations/tutorlms-single.php:207
-#: inc/options/meta/default.php:29 inc/options/meta/page.php:27
+#: inc/options/meta/default.php:43 inc/options/meta/page.php:27
 #: inc/options/meta/post.php:24 inc/options/pages/page.php:24
 #: inc/options/posts/custom-post-type-single.php:39
 #: inc/options/posts/post.php:16 inc/options/single-elements/author-box.php:21
@@ -5386,7 +5385,7 @@ msgstr "Kiểu phân trang"
 #: inc/panel-builder/header/offcanvas-logo/options.php:6
 #: inc/panel-builder/header/offcanvas/options.php:5
 #: inc/panel-builder/header/search/options.php:42
-#: inc/panel-builder/header/search/options.php:415
+#: inc/panel-builder/header/search/options.php:414
 #: inc/panel-builder/header/socials/options.php:5
 #: inc/panel-builder/header/text/options.php:5
 #: inc/panel-builder/header/trigger/options.php:5
@@ -5554,20 +5553,20 @@ msgstr "Cài đặt chung"
 #: inc/panel-builder/header/offcanvas/options.php:270
 #: inc/panel-builder/header/offcanvas/options.php:308
 #: inc/panel-builder/header/offcanvas/options.php:349
-#: inc/panel-builder/header/search/options.php:196
-#: inc/panel-builder/header/search/options.php:227
-#: inc/panel-builder/header/search/options.php:256
-#: inc/panel-builder/header/search/options.php:322
-#: inc/panel-builder/header/search/options.php:354
-#: inc/panel-builder/header/search/options.php:384
-#: inc/panel-builder/header/search/options.php:540
-#: inc/panel-builder/header/search/options.php:570
-#: inc/panel-builder/header/search/options.php:600
-#: inc/panel-builder/header/search/options.php:630
-#: inc/panel-builder/header/search/options.php:659
-#: inc/panel-builder/header/search/options.php:732
-#: inc/panel-builder/header/search/options.php:768
-#: inc/panel-builder/header/search/options.php:807
+#: inc/panel-builder/header/search/options.php:195
+#: inc/panel-builder/header/search/options.php:226
+#: inc/panel-builder/header/search/options.php:255
+#: inc/panel-builder/header/search/options.php:321
+#: inc/panel-builder/header/search/options.php:353
+#: inc/panel-builder/header/search/options.php:383
+#: inc/panel-builder/header/search/options.php:539
+#: inc/panel-builder/header/search/options.php:569
+#: inc/panel-builder/header/search/options.php:599
+#: inc/panel-builder/header/search/options.php:629
+#: inc/panel-builder/header/search/options.php:658
+#: inc/panel-builder/header/search/options.php:731
+#: inc/panel-builder/header/search/options.php:767
+#: inc/panel-builder/header/search/options.php:806
 #: inc/panel-builder/header/socials/options.php:269
 #: inc/panel-builder/header/socials/options.php:300
 #: inc/panel-builder/header/socials/options.php:329
@@ -5615,28 +5614,28 @@ msgid "Page Title"
 msgstr "Tiêu đề trang"
 
 #: inc/options/general/sidebar-particular.php:44
-#: inc/options/meta/default.php:65 inc/options/meta/page.php:64
+#: inc/options/meta/default.php:79 inc/options/meta/page.php:64
 #: inc/options/meta/post.php:60 inc/options/single-elements/structure.php:47
 msgid "Right Sidebar"
 msgstr "Thanh bên bên phải"
 
 #: inc/options/general/sidebar-particular.php:39
-#: inc/options/meta/default.php:60 inc/options/meta/page.php:59
+#: inc/options/meta/default.php:74 inc/options/meta/page.php:59
 #: inc/options/meta/post.php:55 inc/options/single-elements/structure.php:42
 msgid "Left Sidebar"
 msgstr "Thanh bên bên trái"
 
-#: inc/options/meta/default.php:55 inc/options/meta/page.php:54
+#: inc/options/meta/default.php:69 inc/options/meta/page.php:54
 #: inc/options/meta/post.php:50 inc/options/single-elements/structure.php:37
 msgid "Normal Width"
 msgstr "Chiều rộng thường"
 
-#: inc/options/meta/default.php:50 inc/options/meta/page.php:49
+#: inc/options/meta/default.php:64 inc/options/meta/page.php:49
 #: inc/options/meta/post.php:45 inc/options/single-elements/structure.php:32
 msgid "Narrow Width"
 msgstr "Chiều rộng hẹp"
 
-#: inc/options/meta/default.php:45 inc/options/meta/page.php:44
+#: inc/options/meta/default.php:59 inc/options/meta/page.php:44
 #: inc/options/meta/post.php:40
 msgid "Inherit from customizer"
 msgstr "Kế thừa từ tùy chỉnh"
@@ -5673,7 +5672,7 @@ msgid "Title"
 msgstr "Tiêu đề"
 
 #. Translators: %s is the theme name.
-#: admin/helpers/meta-boxes.php:141
+#: admin/helpers/meta-boxes.php:139
 msgid "%s Settings"
 msgstr "%s Cài đặt"
 
@@ -5737,7 +5736,7 @@ msgstr "Bạn không có quyền truy cập trang này."
 
 #: inc/options/general/page-title.php:1347
 #: inc/options/general/page-title.php:1388
-#: inc/options/general/posts-listing.php:1663 inc/options/meta/default.php:143
+#: inc/options/general/posts-listing.php:1663 inc/options/meta/default.php:157
 #: inc/options/meta/page.php:142 inc/options/meta/post.php:141
 #: inc/options/single-elements/structure.php:114
 #: inc/options/woocommerce/archive-main.php:149
@@ -5753,7 +5752,7 @@ msgstr "Xem thêm"
 
 #. Theme Name of the theme
 #. Translators: %s is the theme name.
-#: style.css admin/helpers/meta-boxes.php:142
+#: style.css admin/helpers/meta-boxes.php:140
 msgid "Blocksy"
 msgstr "Blocksy"
 
