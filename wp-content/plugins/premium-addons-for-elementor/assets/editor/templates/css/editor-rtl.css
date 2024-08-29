@@ -584,3 +584,7 @@ div.premium-template-has-url:hover .premium-clone-template {
     text-align: left;
     margin-top: 10px;
 }
+
+.elementor-library-enable-element {
+    color: #2563eb !important
+}

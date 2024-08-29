@@ -17,6 +17,7 @@
         ModalBodyView: null,
         ModalErrorView: null,
         ModalInvalidLicenseErrorView: null,
+        ModalDisabledElementErrorView: null,
         LibraryCollection: null,
         KeywordsModel: null,
         ModalCollectionView: null,
@@ -97,6 +98,14 @@
             self.KeywordsModel = Backbone.Model.extend({
                 defaults: {
                     keywords: {}
+                }
+            });
+
+            self.DisableElementModel = Backbone.Model.extend({
+                defaults: {
+                    name: '',
+                    url: '',
+                    widgetURL: ''
                 }
             });
 
@@ -282,6 +291,8 @@
                             },
                             success: function (data) {
 
+                                var isError = false;
+
                                 if (data.invalid) {
                                     PremiumEditor.layout.showInvalidLicenseError();
                                     return;
@@ -294,18 +305,35 @@
 
                                 console.log("%c Template Inserted Successfully!!", "color: #7a7a7a; background-color: #eee;");
 
-                                PremiumEditor.closeModal();
-
                                 elementor.channels.data.trigger('template:before:insert', templateModel);
 
                                 if (null !== PremiumEditor.atIndex) {
                                     options.at = PremiumEditor.atIndex;
                                 }
 
-                                elementor.previewView.addChildModel(data.content, options);
+                                try {
 
-                                elementor.channels.data.trigger('template:after:insert', templateModel);
+                                    elementor.previewView.addChildModel(data.content, options);
+
+                                    elementor.channels.data.trigger('template:after:insert', templateModel);
+
+                                } catch (error) {
+
+                                    var errorMessage = error.message,
+                                        isError = -1 !== errorMessage.indexOf('Element type not found');
+
+                                    errorMessage = errorMessage.replace('Element type not found: ', '');
+                                    errorMessage = errorMessage.replace(/'/g, '');
+
+                                    PremiumEditor.layout.showDisabledElementError(errorMessage);
+
+                                }
+
+                                if (!isError)
+                                    PremiumEditor.closeModal();
+
                                 jQuery("#elementor-panel-saver-button-save-options, #elementor-panel-saver-button-publish").removeClass("elementor-disabled");
+
                                 PremiumEditor.atIndex = null;
 
                             },
@@ -642,6 +670,39 @@
                     this.modalContent.show(new self.ModalInvalidLicenseErrorView());
                 },
 
+                showDisabledElementError: function (error) {
+
+                    var _this = this;
+
+                    $.ajax({
+                        url: ajaxurl,
+                        type: 'GET',
+                        data: {
+                            action: 'get_pa_element_name',
+                            element: error,
+                        },
+                        success: function (response) {
+
+                            if (!response.data)
+                                return;
+
+                            console.log(response);
+
+                            var disabledElementModel = new self.DisableElementModel({
+                                name: response.data.name,
+                                url: response.data.url,
+                                widgetURL: response.data.widgetURL,
+                            });
+
+                            _this.modalContent.show(new self.ModalDisabledElementErrorView({
+                                model: disabledElementModel
+                            }));
+                        }
+                    });
+
+
+                },
+
                 showTemplatesView: function (templatesCollection, categoriesCollection, keywords) {
 
                     this.getRegion('modalContent').show(new self.ModalBodyView());
@@ -690,6 +751,11 @@
             self.ModalInvalidLicenseErrorView = Marionette.ItemView.extend({
                 id: 'premium-template-invalid-license-error',
                 template: '#tmpl-premium-template-invalid-license-error'
+            });
+
+            self.ModalDisabledElementErrorView = Marionette.ItemView.extend({
+                id: 'premium-template-disabled-element-error',
+                template: '#tmpl-premium-template-disabled-element-error'
             });
 
         },

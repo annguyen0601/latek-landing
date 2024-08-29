@@ -1,15 +1,15 @@
 === Premium Addons for Elementor ===
 Contributors: Leap13, Rimoun
-Tags: elementor, elementor addons, widgets, elementor elements, templates
+Tags: elementor, elementor addons, widgets, elementor elements, elementor templates
 Donate Link: https://premiumaddons.com/?utm_source=wp-repo&utm_medium=link&utm_campaign=readme
 Requires at least: 5.0
 Tested Up To: 6.6.1
 Requires PHP: 7.0
-Stable Tag: 4.10.46
+Stable Tag: 4.10.49
 License: GPL v3.0
 License URI: https://opensource.org/licenses/GPL-3.0
 
-Premium Addons comes with 90+ Elementor widgets and 550+ templates. It includes elements like Mega Menu, Carousel and Blog, Display Conditions
+90+ Elementor widgets and 580+ templates. It includes elements like Nav Mega Menu, Carousel and Blog, WooCommerce widgets, Display Conditions.
 
 == Description ==
 
@@ -231,6 +231,21 @@ Premium Addonsis 100% Ads Free, Ads can only be detected from Youtube videos, th
 14. Premium Progress Bar Widget
 
 == Changelog ==
+
+= 4.10.49 =
+
+- Tweak: Added option to control typography, border and background for quantity field in Woo CTA widget.
+- Tweak: Added option to automatically redirect to cart page after product is added to cart in Woo CTA widget.
+- Tweak: Handle errors when inserting a template including a disabled element.
+
+= 4.10.48 =
+
+- Fixed: Dynamic Assets feature conflicts with caching and security plugins.
+- Fixed: PHP warning when Text Icon is not set in News Ticker widget.
+
+= 4.10.47 =
+
+- Fixed: Active Menu Item style not working for custom menus in Mega Menu widget.
 
 = 4.10.46 =
 

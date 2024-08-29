@@ -99,8 +99,6 @@
 .premium-wrapper-woo-cta .product-quantity,
 .premium-wrapper-woo-cta .grouped_product_qty {
   color: #222222;
-  background-color: #ffffff !important;
-  border-color: #e0e0e0 !important;
   font-size: 16px;
   height: 43px;
   width: 70px !important;
@@ -114,6 +112,8 @@
   padding: 0;
   margin: 0;
   outline: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .premium-wrapper-woo-cta input[type="number"].grouped_product_qty::-webkit-inner-spin-button,
