@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Themes - Blocksy package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-08-27 14:32:29+0000\n"
+"PO-Revision-Date: 2024-09-01 15:43:15+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,6 +16,31 @@ msgstr ""
 #, gp-priority: high
 msgid "Blocksy is a blazing fast and lightweight WordPress theme built with the latest web technologies. It was built with the Gutenberg editor in mind and has a lot of options that makes it extendable and customizable. You can easily create any type of website, such as business agency, shop, corporate, education, restaurant, blog, portfolio, landing page and so on. It works like a charm with popular WordPress page builders, including Elementor, Beaver Builder, Visual Composer and Brizy. Since it is responsive and adaptive, translation ready, SEO optimized and has WooCommerce built-in, you will experience an easy build and even an increase in conversions."
 msgstr "Blocksy là một giao diện WordPress nhẹ và nhanh được xây dựng bằng các công nghệ web mới nhất. Nó được xây dựng dựa trên trình chỉnh sửa Block Editor (Gutenberg) và có rất nhiều tùy chọn giúp nó có thể mở rộng và tùy chỉnh. Bạn có thể dễ dàng tạo bất kỳ loại Website nào, chẳng hạn như đại lý kinh doanh, cửa hàng bán hàng, công ty, giáo dục, nhà hàng, blog, danh mục đầu tư, trang đích, v.v. Nó hoạt động rất tốt với các trình tạo trang WordPress phổ biến, bao gồm Elementor, Beaver Builder, Visual Composer và Brizy. Vì nó đáp ứng và linh hoạt sẵn sàng dịch, tối ưu hóa SEO và tích hợp sẵn WooCommerce, bạn sẽ trải nghiệm quá trình xây dựng dễ dàng và tăng tỷ lệ chuyển đổi cao."
+
+#: inc/options/woocommerce/single-product-layers.php:396
+msgid "Reasons to Buy"
+msgstr "Những lý do để mua"
+
+#: inc/options/single-elements/post-share-box.php:338
+msgid "Tooltip"
+msgstr "Chú thích"
+
+#: inc/manager.php:252
+msgid "Failed to Copy"
+msgstr "Không thể sao chép"
+
+#: inc/manager.php:251
+msgid "Copied!"
+msgstr "Đã sao chép!"
+
+#: inc/components/social-box.php:1501
+msgid "Share on %s"
+msgstr "Chia sẻ trên %s"
+
+#: inc/components/social-box.php:922 inc/components/social-box.php:1506
+#: inc/options/single-elements/post-share-box.php:323
+msgid "Copy to Clipboard"
+msgstr "Sao chép vào bảng nhớ tạm"
 
 #: inc/options/integrations/the-events-calendar/single.php:23
 msgid "Event Structure"
@@ -32,11 +57,11 @@ msgstr "Làm mờ nền"
 msgid "Threads"
 msgstr "Threads"
 
-#: inc/options/woocommerce/card-product-elements.php:518
+#: inc/options/woocommerce/card-product-elements.php:537
 msgid "Align all buttons on the same line, when positioned as the last element."
 msgstr "Căn chỉnh tất cả các nút trên cùng một dòng, khi được đặt làm phần tử cuối cùng."
 
-#: inc/options/woocommerce/card-product-elements.php:514
+#: inc/options/woocommerce/card-product-elements.php:533
 msgid "Equal Alignment"
 msgstr "Căn chỉnh đều"
 
@@ -100,11 +125,11 @@ msgstr "Ảnh thu nhỏ của album"
 msgid "Container Border"
 msgstr "Đường bo viền của vùng chứa"
 
-#: inc/options/woocommerce/card-product-elements.php:510
+#: inc/options/woocommerce/card-product-elements.php:529
 msgid "Automatically hide \"Add to cart\" button after adding the product to cart."
 msgstr "Tự động ẩn nút \"Thêm vào giỏ hàng\" sau khi thêm sản phẩm vào giỏ hàng."
 
-#: inc/options/woocommerce/card-product-elements.php:506
+#: inc/options/woocommerce/card-product-elements.php:525
 msgid "Auto Hide"
 msgstr "Tự động ẩn"
 
@@ -243,10 +268,6 @@ msgstr "Tóm tắt"
 msgid "Items"
 msgstr "Mục"
 
-#: inc/options/woocommerce/single-product-layers.php:396
-msgid "Additional Info"
-msgstr "Thông tin bổ sung"
-
 #: inc/options/woocommerce/single-product-layers.php:302
 msgid "Payment Methods"
 msgstr "Phương thức thanh toán"
@@ -295,7 +316,7 @@ msgstr "Kích thước ảnh được sử dụng cho các ảnh thu nhỏ trong
 msgid "Payment Methods Icons Color"
 msgstr "Màu Biểu tượng Phương thức Thanh toán"
 
-#: inc/options/woocommerce/card-product-elements.php:765
+#: inc/options/woocommerce/card-product-elements.php:784
 #: inc/options/woocommerce/single-product-elements.php:190
 msgid "Price Font Color"
 msgstr "Màu phông chữ giá"
@@ -318,27 +339,27 @@ msgstr "Hiển thị biểu tượng giảm giá"
 msgid "Product Badges"
 msgstr "Huy hiệu sản phẩm"
 
-#: inc/options/woocommerce/card-product-elements.php:942
+#: inc/options/woocommerce/card-product-elements.php:961
 msgid "SKU Color"
 msgstr "Màu SKU"
 
-#: inc/options/woocommerce/card-product-elements.php:935
+#: inc/options/woocommerce/card-product-elements.php:954
 msgid "SKU Font"
 msgstr "Phông chữ SKU"
 
-#: inc/options/woocommerce/card-product-elements.php:891
+#: inc/options/woocommerce/card-product-elements.php:910
 msgid "Categories Button Color"
 msgstr "Màu nút danh mục"
 
-#: inc/options/woocommerce/card-product-elements.php:602
+#: inc/options/woocommerce/card-product-elements.php:621
 msgid "Rows Gap"
 msgstr "Khoảng cách hàng"
 
-#: inc/options/woocommerce/card-product-elements.php:586
+#: inc/options/woocommerce/card-product-elements.php:605
 msgid "Columns Gap"
 msgstr "Khoảng cách cột"
 
-#: inc/options/woocommerce/card-product-elements.php:537
+#: inc/options/woocommerce/card-product-elements.php:556
 msgid "Add to Cart and Price"
 msgstr "Thêm vào giỏ hàng và giá"
 
@@ -362,7 +383,7 @@ msgstr "Phông chữ thông tin bài viết"
 msgid "Posts Title Font"
 msgstr "Phông chữ tiêu đề bài viết"
 
-#: inc/options/single-elements/post-share-box.php:489
+#: inc/options/single-elements/post-share-box.php:506
 #: inc/options/single-elements/post-tags.php:116
 #: inc/options/single-elements/related-posts.php:493
 #: inc/options/woocommerce/related-upsells.php:130
@@ -384,6 +405,7 @@ msgid "Button Type"
 msgstr "Kiểu nút"
 
 #: inc/options/general/posts-listing.php:445
+#: inc/options/woocommerce/card-product-elements.php:476
 msgid "Excerpt Type"
 msgstr "Loại tóm tắt"
 
@@ -471,9 +493,9 @@ msgstr "Thanh toán an toàn được đảm bảo"
 #: inc/options/woocommerce/card-product-elements.php:405
 #: inc/options/woocommerce/card-product-elements.php:422
 #: inc/options/woocommerce/card-product-elements.php:458
-#: inc/options/woocommerce/card-product-elements.php:485
-#: inc/options/woocommerce/card-product-elements.php:522
-#: inc/options/woocommerce/card-product-elements.php:544
+#: inc/options/woocommerce/card-product-elements.php:504
+#: inc/options/woocommerce/card-product-elements.php:541
+#: inc/options/woocommerce/card-product-elements.php:563
 #: inc/options/woocommerce/single-product-layers.php:136
 #: inc/options/woocommerce/single-product-layers.php:153
 #: inc/options/woocommerce/single-product-layers.php:170
@@ -652,7 +674,7 @@ msgstr "Sửa %1$s \"%2$s\"%3$s"
 
 #. translators: 1: span open 2: Name of current post. Only visible to screen
 #. readers 3: span closing
-#: inc/components/single/content-helpers.php:228 inc/template-tags.php:142
+#: inc/components/single/content-helpers.php:228 inc/template-tags.php:143
 msgid "Continue reading%1$s \"%2$s\"%3$s"
 msgstr "Tiếp tục đọc %1$s \"%2$s\"%3$s"
 
@@ -744,14 +766,15 @@ msgstr "Duyệt qua các bài viết từ cùng một phân loại."
 msgid "Navigation Criteria"
 msgstr "Tiêu chí điều hướng"
 
-#: inc/options/woocommerce/card-product-elements.php:725
+#: inc/options/woocommerce/card-product-elements.php:744
 msgid "Short Description Color"
 msgstr "Mầu mô tả ngắn"
 
-#: inc/options/woocommerce/card-product-elements.php:718
+#: inc/options/woocommerce/card-product-elements.php:737
 msgid "Short Description Font"
 msgstr "Phông chữ mô tả ngắn"
 
+#: inc/options/woocommerce/card-product-elements.php:473
 #: inc/options/woocommerce/single-product-layers.php:207
 msgid "Short Description"
 msgstr "Mô tả ngắn"
@@ -778,13 +801,13 @@ msgid "Course Actions Font"
 msgstr "Phông chữ cho các hành động khóa học"
 
 #: inc/options/integrations/tutorlms-single.php:52
-#: inc/options/woocommerce/card-product-elements.php:819
-#: inc/options/woocommerce/card-product-elements.php:859
+#: inc/options/woocommerce/card-product-elements.php:838
+#: inc/options/woocommerce/card-product-elements.php:878
 msgid "Categories Font Color"
 msgstr "Màu chữ cho các danh mục"
 
 #: inc/options/integrations/tutorlms-single.php:39
-#: inc/options/woocommerce/card-product-elements.php:800
+#: inc/options/woocommerce/card-product-elements.php:819
 msgid "Categories Font"
 msgstr "Phông chữ cho các danh mục"
 
@@ -1006,12 +1029,12 @@ msgstr "Bán kính đường viền mục"
 msgid "Custom Quantity Input"
 msgstr "Nhập số lượng tùy chỉnh"
 
-#: inc/manager.php:252
+#: inc/manager.php:255
 msgid "Collapse dropdown menu"
 msgstr "Thu gọn menu thả xuống"
 
 #: inc/components/menus.php:80 inc/components/menus.php:93
-#: inc/components/menus.php:242 inc/manager.php:251
+#: inc/components/menus.php:242 inc/manager.php:254
 msgid "Expand dropdown menu"
 msgstr "Mở rộng menu thả xuống"
 
@@ -1198,7 +1221,7 @@ msgstr "Căn chỉnh tiêu đề mô-đun"
 
 #: inc/options/general/page-title.php:619
 #: inc/options/single-elements/author-box.php:177
-#: inc/options/single-elements/post-share-box.php:328
+#: inc/options/single-elements/post-share-box.php:344
 #: inc/panel-builder/footer/socials/options.php:59
 #: inc/panel-builder/header/socials/options.php:58
 msgid "Set links to nofollow"
@@ -1224,12 +1247,12 @@ msgstr "Nền Trước/Tiếp theo"
 msgid "Prev/Next Arrow"
 msgstr "Mũi tên Trước/Tiếp theo"
 
-#: inc/options/woocommerce/card-product-elements.php:756
+#: inc/options/woocommerce/card-product-elements.php:775
 #: inc/options/woocommerce/single-product-elements.php:180
 msgid "Price Font"
 msgstr "Phông chữ giá"
 
-#: inc/options/woocommerce/card-product-elements.php:1142
+#: inc/options/woocommerce/card-product-elements.php:1161
 msgid "Card Border Radius"
 msgstr "Bán kính đường viền thẻ"
 
@@ -1276,7 +1299,7 @@ msgstr "Chặn Emojis Script"
 msgid "Max Width"
 msgstr "Rộng tối đa"
 
-#: inc/components/social-box.php:656 inc/components/social-box.php:1571
+#: inc/components/social-box.php:661 inc/components/social-box.php:1620
 msgid "Facebook Messenger"
 msgstr "Facebook Messenger"
 
@@ -1880,7 +1903,7 @@ msgstr "Số lượng màu"
 msgid "Button Width"
 msgstr "Chiều rộng nút"
 
-#: inc/options/woocommerce/card-product-elements.php:499
+#: inc/options/woocommerce/card-product-elements.php:518
 #: inc/options/woocommerce/single-product-layers.php:242
 msgid "Add to Cart"
 msgstr "Thêm vào Giỏ hàng"
@@ -1916,7 +1939,7 @@ msgstr "Loại ngăn giỏ hàng"
 msgid "Cart Drawer"
 msgstr "Ngăn giỏ hàng"
 
-#: inc/components/social-box.php:487 inc/components/social-box.php:1531
+#: inc/components/social-box.php:492 inc/components/social-box.php:1580
 msgid "Apple Podcasts"
 msgstr "Apple Podcasts"
 
@@ -1936,7 +1959,7 @@ msgstr "Trạng thái co lại dính"
 msgid "Website Frame"
 msgstr "Tạo khung trang web"
 
-#: inc/components/social-box.php:892 inc/components/social-box.php:1627
+#: inc/components/social-box.php:896 inc/components/social-box.php:1676
 msgid "Phone"
 msgstr "Điện thoại"
 
@@ -2331,6 +2354,7 @@ msgid "Product"
 msgstr "Sản phẩm"
 
 #: inc/options/single-elements/featured-image.php:83
+#: inc/options/woocommerce/card-product-elements.php:482
 msgid "Full"
 msgstr "Đầy đủ"
 
@@ -2338,7 +2362,7 @@ msgstr "Đầy đủ"
 msgid "Medium Large"
 msgstr "Lớn vừa"
 
-#: inc/options/single-elements/post-share-box.php:498
+#: inc/options/single-elements/post-share-box.php:515
 #: inc/options/single-elements/post-tags.php:125
 #: inc/options/single-elements/related-posts.php:499
 msgid "Module Title Font Color"
@@ -2555,8 +2579,8 @@ msgstr "Liên quan & Upsells"
 msgid "Inactive"
 msgstr "Ngừng kích hoạt"
 
-#: inc/options/woocommerce/card-product-elements.php:975
-#: inc/options/woocommerce/card-product-elements.php:1050
+#: inc/options/woocommerce/card-product-elements.php:994
+#: inc/options/woocommerce/card-product-elements.php:1069
 msgid "Button Text Color"
 msgstr "Màu văn bản của nút"
 
@@ -2637,7 +2661,7 @@ msgstr "Liên kết di chuột"
 msgid "Link Initial"
 msgstr "Liên kết ban đầu"
 
-#: inc/components/social-box.php:643 inc/components/social-box.php:1567
+#: inc/components/social-box.php:648 inc/components/social-box.php:1616
 msgid "Facebook Group"
 msgstr "Nhóm Facebook"
 
@@ -2942,7 +2966,7 @@ msgstr "Không còn sản phẩm nào để tải"
 msgid "Search Through Criteria"
 msgstr "Tìm kiếm qua nguyên tắc"
 
-#: inc/options/woocommerce/card-product-elements.php:1008
+#: inc/options/woocommerce/card-product-elements.php:1027
 #: inc/options/woocommerce/general/messages.php:103
 #: inc/options/woocommerce/general/messages.php:219
 #: inc/options/woocommerce/general/messages.php:331
@@ -2966,7 +2990,7 @@ msgid "Featured Image Radius"
 msgstr "Bán kính hình ảnh nổi bật"
 
 #: inc/options/single-elements/related-posts.php:654
-#: inc/options/woocommerce/card-product-elements.php:1138
+#: inc/options/woocommerce/card-product-elements.php:1157
 msgid "Image Border Radius"
 msgstr "Bán kính đường viền hình ảnh"
 
@@ -3068,7 +3092,7 @@ msgstr "Khoảng cách ngang"
 
 #: inc/options/general/buttons.php:110 inc/options/general/sidebar.php:416
 #: inc/options/single-elements/author-box.php:492
-#: inc/options/single-elements/post-share-box.php:590
+#: inc/options/single-elements/post-share-box.php:607
 #: inc/options/woocommerce/single-product-tabs.php:324
 #: inc/panel-builder/header/cart/options.php:947
 #: inc/panel-builder/header/mobile-menu/options.php:85
@@ -3082,7 +3106,7 @@ msgid "Top Offset"
 msgstr "Khoảng cách từ trên cùng"
 
 #: inc/options/general/posts-listing.php:1416
-#: inc/options/woocommerce/card-product-elements.php:1111
+#: inc/options/woocommerce/card-product-elements.php:1130
 msgid "Card Shadow"
 msgstr "Bóng của thẻ"
 
@@ -3196,6 +3220,7 @@ msgstr "Thương hiệu"
 #: inc/options/meta/page.php:111 inc/options/meta/post.php:76
 #: inc/options/meta/post.php:110
 #: inc/options/single-elements/post-share-box.php:100
+#: inc/options/woocommerce/card-product-elements.php:481
 #: inc/options/woocommerce/general/product-badges.php:91
 #: inc/options/woocommerce/single-product-layers.php:41
 #: inc/options/woocommerce/single-product-layers.php:62
@@ -3204,7 +3229,7 @@ msgstr "Thương hiệu"
 #: inc/panel-builder/footer/socials/options.php:96
 #: inc/panel-builder/header/socials/options.php:95
 #: static/bundle/customizer-controls.js:13 static/bundle/options.js:13
-#: static/bundle/options.js:49 static/js/backend/woo-variation.js:45
+#: static/bundle/options.js:49 static/js/backend/woo-variation.js:47
 #: static/js/options/options/color-palettes/ColorPalettesModal.js:41
 #: static/js/options/options/ct-ratio.js:108
 #: static/js/options/options/ct-ratio.js:257
@@ -3216,7 +3241,7 @@ msgstr "Thương hiệu"
 msgid "Custom"
 msgstr "Tùy chỉnh"
 
-#: inc/options/single-elements/post-share-box.php:364
+#: inc/options/single-elements/post-share-box.php:381
 #: inc/panel-builder/footer/socials/options.php:78
 #: inc/panel-builder/header/socials/options.php:77
 msgid "Icons Spacing"
@@ -3241,7 +3266,7 @@ msgid "Live results"
 msgstr "Kết quả trực tiếp"
 
 #: inc/options/general/back-to-top.php:147
-#: inc/options/single-elements/post-share-box.php:337
+#: inc/options/single-elements/post-share-box.php:354
 #: inc/options/woocommerce/single-product-layers.php:354
 #: inc/panel-builder/header/cart/options.php:65
 #: inc/panel-builder/header/cart/options.php:1064
@@ -3601,8 +3626,8 @@ msgstr "Nút đọc thêm"
 #: inc/options/general/page-title.php:1107
 #: inc/options/single-elements/author-box.php:347
 #: inc/options/single-elements/post-share-box.php:93
-#: inc/options/single-elements/post-share-box.php:556
-#: inc/options/single-elements/post-share-box.php:616
+#: inc/options/single-elements/post-share-box.php:573
+#: inc/options/single-elements/post-share-box.php:633
 #: inc/options/woocommerce/single-product-layers.php:366
 #: inc/panel-builder/footer/socials/options.php:89
 #: inc/panel-builder/footer/socials/options.php:295
@@ -3715,7 +3740,7 @@ msgstr "Lưới nâng cao"
 #: inc/options/general/page-title.php:854
 #: inc/options/general/posts-listing.php:825
 #: inc/options/integrations/tutorlms-single.php:8
-#: inc/options/woocommerce/card-product-elements.php:640
+#: inc/options/woocommerce/card-product-elements.php:659
 #: inc/options/woocommerce/single-product-elements.php:141
 msgid "Title Font"
 msgstr "Phông chữ tiêu đề"
@@ -3790,8 +3815,8 @@ msgstr "Chưa có bình luận"
 msgid "Add Comment"
 msgstr "Thêm Bình Luận"
 
-#: inc/components/single/comments.php:127 inc/components/social-box.php:905
-#: inc/components/social-box.php:1559
+#: inc/components/single/comments.php:127 inc/components/social-box.php:909
+#: inc/components/social-box.php:1608
 #: inc/components/woocommerce/single/review-form.php:16
 #: inc/options/single-elements/post-share-box.php:313
 msgid "Email"
@@ -3825,16 +3850,16 @@ msgid "%1$s / %2$s"
 msgstr "%1$s / %2$s"
 
 #. translators: post title
-#: inc/template-tags.php:366
+#: inc/template-tags.php:375
 msgid "Next %s"
 msgstr "Tiếp theo %s"
 
 #. translators: post title
-#: inc/template-tags.php:338
+#: inc/template-tags.php:347
 msgid "Previous %s"
 msgstr "Trước %s"
 
-#: inc/components/social-box.php:617 inc/components/social-box.php:1615
+#: inc/components/social-box.php:622 inc/components/social-box.php:1664
 #: inc/options/single-elements/post-share-box.php:243
 msgid "Odnoklassniki"
 msgstr "Odnoklassniki"
@@ -4092,7 +4117,7 @@ msgid "Related Criteria"
 msgstr "Tiêu chí liên quan"
 
 #: inc/options/single-elements/related-posts.php:19
-#: inc/options/single-elements/related-posts.php:168 inc/template-tags.php:499
+#: inc/options/single-elements/related-posts.php:168 inc/template-tags.php:508
 msgid "Related Posts"
 msgstr "Bài viết liên quan"
 
@@ -4112,11 +4137,11 @@ msgstr "Loại hộp"
 msgid "Author Box"
 msgstr "Hộp thông tin tác giả"
 
-#: inc/options/single-elements/post-share-box.php:415
+#: inc/options/single-elements/post-share-box.php:432
 msgid "Bottom Box Spacing"
 msgstr "Khoảng cách dưới của hộp"
 
-#: inc/options/single-elements/post-share-box.php:392
+#: inc/options/single-elements/post-share-box.php:409
 msgid "Top Box Spacing"
 msgstr "Khoảng cách hộp trên cùng"
 
@@ -4149,8 +4174,8 @@ msgid "Box Location"
 msgstr "Vị trí hộp"
 
 #: inc/components/blocks/blocks-fallback.php:40
-#: inc/options/single-elements/post-share-box.php:693
-#: inc/options/single-elements/post-share-box.php:709
+#: inc/options/single-elements/post-share-box.php:710
+#: inc/options/single-elements/post-share-box.php:726
 msgid "Share Box"
 msgstr "Hộp chia sẻ"
 
@@ -4175,7 +4200,7 @@ msgstr "Thanh bên"
 msgid "Header Menu 2"
 msgstr "Menu đầu trang 2"
 
-#: inc/components/social-box.php:604 inc/components/social-box.php:1703
+#: inc/components/social-box.php:609 inc/components/social-box.php:1752
 msgid "VK"
 msgstr "VK"
 
@@ -4266,7 +4291,7 @@ msgstr "Hiệu ứng hiển thị"
 #: inc/options/general/page-title.php:863
 #: inc/options/general/posts-listing.php:838
 #: inc/options/integrations/tutorlms-single.php:17
-#: inc/options/woocommerce/card-product-elements.php:649
+#: inc/options/woocommerce/card-product-elements.php:668
 #: inc/options/woocommerce/single-product-elements.php:149
 msgid "Title Font Color"
 msgstr "Màu chữ tiêu đề"
@@ -4349,9 +4374,9 @@ msgstr "Sản phẩm"
 msgid "Meta"
 msgstr "Thông tin bài viết"
 
-#: inc/options/single-elements/post-share-box.php:440
+#: inc/options/single-elements/post-share-box.php:457
 #: inc/options/single-elements/post-tags.php:71
-#: inc/options/woocommerce/card-product-elements.php:568
+#: inc/options/woocommerce/card-product-elements.php:587
 #: inc/panel-builder/header/logo/options.php:304
 #: inc/panel-builder/header/text/options.php:57
 msgid "Content Alignment"
@@ -4526,7 +4551,7 @@ msgstr "Tùy chọn thả xuống"
 #: inc/panel-builder/header/middle-row/options.php:373
 #: inc/panel-builder/header/middle-row/options.php:480
 #: static/bundle/customizer-controls.js:13 static/bundle/options.js:13
-#: static/bundle/options.js:49 static/js/backend/woo-variation.js:44
+#: static/bundle/options.js:49 static/js/backend/woo-variation.js:46
 #: static/js/options/components/InputWithValidCssExpression.js:9
 #: static/js/options/options/typography/helpers.js:67
 #: static/js/options/options/typography/helpers.js:122
@@ -4655,7 +4680,7 @@ msgstr "Tùy chọn chung"
 #: inc/options/single-elements/post-nav.php:121
 #: inc/options/single-elements/post-nav.php:141
 #: inc/options/single-elements/post-nav.php:159
-#: inc/options/single-elements/post-share-box.php:474
+#: inc/options/single-elements/post-share-box.php:491
 #: inc/options/single-elements/post-tags.php:100
 #: inc/options/single-elements/related-posts.php:477
 #: inc/options/woocommerce/products-sorting.php:29
@@ -4684,7 +4709,7 @@ msgstr "Desktop"
 #: inc/options/general/page-title.php:302
 #: inc/options/general/page-title.php:503
 #: inc/options/single-elements/author-box.php:213
-#: inc/options/single-elements/post-share-box.php:462
+#: inc/options/single-elements/post-share-box.php:479
 #: inc/options/single-elements/post-tags.php:87
 #: inc/options/single-elements/related-posts.php:464
 #: inc/options/woocommerce/products-sorting.php:16
@@ -4703,7 +4728,7 @@ msgstr "Hiển thị"
 #: inc/options/single-elements/post-nav.php:123
 #: inc/options/single-elements/post-nav.php:143
 #: inc/options/single-elements/post-nav.php:161
-#: inc/options/single-elements/post-share-box.php:476
+#: inc/options/single-elements/post-share-box.php:493
 #: inc/options/single-elements/post-tags.php:102
 #: inc/options/single-elements/related-posts.php:479
 #: inc/options/woocommerce/products-sorting.php:31
@@ -4747,7 +4772,7 @@ msgstr "Mobile"
 #: inc/options/single-elements/post-nav.php:122
 #: inc/options/single-elements/post-nav.php:142
 #: inc/options/single-elements/post-nav.php:160
-#: inc/options/single-elements/post-share-box.php:475
+#: inc/options/single-elements/post-share-box.php:492
 #: inc/options/single-elements/post-tags.php:101
 #: inc/options/single-elements/related-posts.php:478
 #: inc/options/woocommerce/products-sorting.php:30
@@ -4791,7 +4816,7 @@ msgid "Card Inner Spacing"
 msgstr "Khoảng cách bên trong thẻ"
 
 #: inc/options/general/posts-listing.php:1384
-#: inc/options/woocommerce/card-product-elements.php:1089
+#: inc/options/woocommerce/card-product-elements.php:1108
 msgid "Card Background Color"
 msgstr "Màu nền thẻ"
 
@@ -4838,13 +4863,12 @@ msgid "Post Meta"
 msgstr "Thông tin bài viết"
 
 #: inc/options/general/posts-listing.php:461
-#: inc/options/woocommerce/card-product-elements.php:476
+#: inc/options/woocommerce/card-product-elements.php:492
 msgid "Length"
 msgstr "Thời lượng"
 
 #: inc/options/general/page-title.php:106
 #: inc/options/general/posts-listing.php:442
-#: inc/options/woocommerce/card-product-elements.php:473
 msgid "Excerpt"
 msgstr "Tóm tắt"
 
@@ -4992,7 +5016,7 @@ msgstr "Kích thước viền"
 #: inc/options/general/form-elements.php:276
 #: inc/options/general/sidebar.php:387
 #: inc/options/single-elements/author-box.php:456
-#: inc/options/single-elements/post-share-box.php:645
+#: inc/options/single-elements/post-share-box.php:662
 #: inc/options/woocommerce/card-product-elements.php:126
 #: inc/options/woocommerce/general/messages.php:53
 #: inc/options/woocommerce/general/messages.php:169
@@ -5079,18 +5103,18 @@ msgstr "Màu viền"
 #: inc/options/single-elements/author-box.php:405
 #: inc/options/single-elements/post-nav.php:194
 #: inc/options/single-elements/post-nav.php:214
-#: inc/options/single-elements/post-share-box.php:580
-#: inc/options/single-elements/post-share-box.php:638
-#: inc/options/single-elements/post-share-box.php:667
+#: inc/options/single-elements/post-share-box.php:597
+#: inc/options/single-elements/post-share-box.php:655
+#: inc/options/single-elements/post-share-box.php:684
 #: inc/options/single-elements/related-posts.php:606
 #: inc/options/single-elements/related-posts.php:646
-#: inc/options/woocommerce/card-product-elements.php:701
-#: inc/options/woocommerce/card-product-elements.php:842
-#: inc/options/woocommerce/card-product-elements.php:883
-#: inc/options/woocommerce/card-product-elements.php:915
-#: inc/options/woocommerce/card-product-elements.php:1000
-#: inc/options/woocommerce/card-product-elements.php:1031
-#: inc/options/woocommerce/card-product-elements.php:1074
+#: inc/options/woocommerce/card-product-elements.php:720
+#: inc/options/woocommerce/card-product-elements.php:861
+#: inc/options/woocommerce/card-product-elements.php:902
+#: inc/options/woocommerce/card-product-elements.php:934
+#: inc/options/woocommerce/card-product-elements.php:1019
+#: inc/options/woocommerce/card-product-elements.php:1050
+#: inc/options/woocommerce/card-product-elements.php:1093
 #: inc/options/woocommerce/general/messages.php:46
 #: inc/options/woocommerce/general/messages.php:95
 #: inc/options/woocommerce/general/messages.php:125
@@ -5265,11 +5289,11 @@ msgstr "Màu chữ"
 #: inc/options/posts/post.php:26 inc/options/single-elements/author-box.php:235
 #: inc/options/single-elements/featured-image.php:140
 #: inc/options/single-elements/post-nav.php:169
-#: inc/options/single-elements/post-share-box.php:684
+#: inc/options/single-elements/post-share-box.php:701
 #: inc/options/single-elements/post-tags.php:110
 #: inc/options/single-elements/related-posts.php:487
 #: inc/options/woocommerce/archive-main.php:166
-#: inc/options/woocommerce/card-product-elements.php:628
+#: inc/options/woocommerce/card-product-elements.php:647
 #: inc/options/woocommerce/general/account-page.php:74
 #: inc/options/woocommerce/general/cart-page.php:58
 #: inc/options/woocommerce/general/checkout-page.php:200
@@ -5351,7 +5375,7 @@ msgstr "Kiểu phân trang"
 #: inc/options/posts/post.php:16 inc/options/single-elements/author-box.php:21
 #: inc/options/single-elements/featured-image.php:21
 #: inc/options/single-elements/post-nav.php:29
-#: inc/options/single-elements/post-share-box.php:678
+#: inc/options/single-elements/post-share-box.php:695
 #: inc/options/single-elements/post-tags.php:29
 #: inc/options/single-elements/related-posts.php:29
 #: inc/options/woocommerce/archive-main.php:48
@@ -5436,10 +5460,10 @@ msgstr "Cài đặt chung"
 #: inc/options/single-elements/author-box.php:399
 #: inc/options/single-elements/author-box.php:438
 #: inc/options/single-elements/post-nav.php:189
-#: inc/options/single-elements/post-share-box.php:510
-#: inc/options/single-elements/post-share-box.php:574
-#: inc/options/single-elements/post-share-box.php:633
-#: inc/options/single-elements/post-share-box.php:662
+#: inc/options/single-elements/post-share-box.php:527
+#: inc/options/single-elements/post-share-box.php:591
+#: inc/options/single-elements/post-share-box.php:650
+#: inc/options/single-elements/post-share-box.php:679
 #: inc/options/single-elements/post-tags.php:136
 #: inc/options/single-elements/related-posts.php:510
 #: inc/options/single-elements/related-posts.php:572
@@ -5448,17 +5472,17 @@ msgstr "Cài đặt chung"
 #: inc/options/woocommerce/card-product-elements.php:113
 #: inc/options/woocommerce/card-product-elements.php:149
 #: inc/options/woocommerce/card-product-elements.php:160
-#: inc/options/woocommerce/card-product-elements.php:667
-#: inc/options/woocommerce/card-product-elements.php:739
-#: inc/options/woocommerce/card-product-elements.php:779
-#: inc/options/woocommerce/card-product-elements.php:837
-#: inc/options/woocommerce/card-product-elements.php:877
-#: inc/options/woocommerce/card-product-elements.php:909
-#: inc/options/woocommerce/card-product-elements.php:956
-#: inc/options/woocommerce/card-product-elements.php:994
-#: inc/options/woocommerce/card-product-elements.php:1025
-#: inc/options/woocommerce/card-product-elements.php:1069
-#: inc/options/woocommerce/card-product-elements.php:1103
+#: inc/options/woocommerce/card-product-elements.php:686
+#: inc/options/woocommerce/card-product-elements.php:758
+#: inc/options/woocommerce/card-product-elements.php:798
+#: inc/options/woocommerce/card-product-elements.php:856
+#: inc/options/woocommerce/card-product-elements.php:896
+#: inc/options/woocommerce/card-product-elements.php:928
+#: inc/options/woocommerce/card-product-elements.php:975
+#: inc/options/woocommerce/card-product-elements.php:1013
+#: inc/options/woocommerce/card-product-elements.php:1044
+#: inc/options/woocommerce/card-product-elements.php:1088
+#: inc/options/woocommerce/card-product-elements.php:1122
 #: inc/options/woocommerce/general/account-page.php:95
 #: inc/options/woocommerce/general/account-page.php:125
 #: inc/options/woocommerce/general/account-page.php:151
@@ -5672,7 +5696,7 @@ msgid "Title"
 msgstr "Tiêu đề"
 
 #. Translators: %s is the theme name.
-#: admin/helpers/meta-boxes.php:139
+#: admin/helpers/meta-boxes.php:149
 msgid "%s Settings"
 msgstr "%s Cài đặt"
 
@@ -5752,7 +5776,7 @@ msgstr "Xem thêm"
 
 #. Theme Name of the theme
 #. Translators: %s is the theme name.
-#: style.css admin/helpers/meta-boxes.php:140
+#: style.css admin/helpers/meta-boxes.php:150
 msgid "Blocksy"
 msgstr "Blocksy"
 

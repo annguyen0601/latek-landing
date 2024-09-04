@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Blocksy Companion Pro package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-08-16 15:28:57+0000\n"
+"PO-Revision-Date: 2024-08-27 15:11:05+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1805,7 +1805,7 @@ msgstr "Nâng cấp lên gói đại lý và có quyền truy cập ngay vào t�
 
 #: static/js/dashboard/helpers/useUpsellModal.js:88
 msgid "Professional or Agency"
-msgstr "Chuyên nghiệp hoặc đại lý"
+msgstr "Gói chuyên nghiệp hoặc đại lý"
 
 #: static/js/dashboard/screens/DemoInstall/SingleDemo.js:53
 msgid "This is a Pro starter site"
@@ -4700,7 +4700,7 @@ msgstr "Tài khoản của bạn đã được tạo thành công và mật kh�
 #: framework/extensions/cookies-consent/customizer.php:5
 msgctxt "Extension Brand Name"
 msgid "Cookies Consent"
-msgstr "Đồng ý Cookies"
+msgstr "Đồng ý cookies"
 
 #: framework/extensions/cookies-consent/customizer.php:76
 msgid "Accept Button text"
@@ -4725,7 +4725,7 @@ msgstr "Đăng ký bản tin"
 #: framework/extensions/product-reviews/config.php:5
 msgctxt "Extension Brand Name"
 msgid "Product Reviews"
-msgstr "Đánh giá Sản phẩm"
+msgstr "Đánh giá sản phẩm"
 
 #: framework/extensions/product-reviews/metabox.php:60
 msgid "Please note that some of this information (price, sku, brand) won't be displayed on the front-end. It is solely used for Google's Schema.org markup."
@@ -4758,7 +4758,7 @@ msgstr "Hiệu ứng"
 #: static/js/editor/blocks/query/edit/PostsInspectorControls.js:73
 #: static/js/editor/blocks/tax-query/edit/TermsInspectorControls.js:68
 msgid "Offset"
-msgstr "Bù lại"
+msgstr "Độ lệch"
 
 #: framework/premium/features/content-blocks/admin-ui.php:275
 msgid "All types"
@@ -5022,11 +5022,11 @@ msgstr "Sao chép từ giao diện con"
 
 #: static/js/options/CustomizerOptionsManager.js:321
 msgid "You are about to copy all the settings from your parent theme into the child theme. Are you sure you want to continue?"
-msgstr "Bạn sắp sao chép tất cả cài đặt từ giao diện mẹ của mình vào giao diện con. Bạn có chắc chắn muốn tiếp tục không?"
+msgstr "Bạn sắp sao chép tất cả cài đặt từ giao diện cha của mình vào giao diện con. Bạn có chắc chắn muốn tiếp tục không?"
 
 #: static/js/options/CustomizerOptionsManager.js:327
 msgid "You are about to copy all the settings from your child theme into the parent theme. Are you sure you want to continue?"
-msgstr "Bạn sắp sao chép tất cả cài đặt từ giao diện con của mình vào giao diện mẹ. Bạn có chắc chắn muốn tiếp tục không?"
+msgstr "Bạn sắp sao chép tất cả cài đặt từ giao diện con của mình vào giao diện cha. Bạn có chắc chắn muốn tiếp tục không?"
 
 #: static/js/options/CustomizerOptionsManager.js:376
 msgid "Yes, I am sure"
@@ -5244,15 +5244,15 @@ msgstr "Tìm hiểu thêm về Giao diện con"
 
 #: static/js/dashboard/screens/DemoInstall/Wizzard/ChildTheme.js:70
 msgid "We strongly recommend to install the child theme, this way you will have freedom to make changes without breaking the parent theme."
-msgstr "Chúng tôi thực sự khuyên bạn nên cài đặt giao diện con, theo cách này bạn sẽ có quyền tự do thực hiện các thay đổi mà không phá vỡ giao diện mẹ."
+msgstr "Chúng tôi thực sự khuyên bạn nên cài đặt giao diện con, theo cách này bạn sẽ có quyền tự do thực hiện các thay đổi mà không phá vỡ giao diện cha."
 
 #: static/js/dashboard/screens/DemoInstall/Wizzard/ChildTheme.js:77
 msgid "We strongly recommend to activate the child theme, this way you will have freedom to make changes without breaking the parent theme."
-msgstr "Chúng tôi thực sự khuyên bạn nên kích hoạt giao diện con, theo cách này, bạn sẽ có quyền tự do thực hiện các thay đổi mà không phá vỡ giao diện mẹ."
+msgstr "Chúng tôi thực sự khuyên bạn nên kích hoạt giao diện con, theo cách này, bạn sẽ có quyền tự do thực hiện các thay đổi mà không phá vỡ giao diện cha."
 
 #: static/js/dashboard/screens/DemoInstall/Wizzard/ChildTheme.js:97
 msgid "Install Child Theme"
-msgstr "Cài đặt Giao diện con"
+msgstr "Cài đặt giao diện con"
 
 #: static/js/dashboard/screens/DemoInstall/Wizzard/ChildTheme.js:98
 msgid "Activate Child Theme"
@@ -5801,7 +5801,7 @@ msgstr "Xem nhanh tiêu đề sau"
 
 #: framework/premium/extensions/woocommerce-extra/extension.php:138
 msgid "Quick view price before"
-msgstr "Xem nhanh giá trư���c"
+msgstr "Xem nhanh giá trước"
 
 #: framework/premium/extensions/woocommerce-extra/extension.php:143
 msgid "Quick view price after"
@@ -7442,7 +7442,7 @@ msgstr "Nền Phông Nền Popup"
 #: framework/helpers/exts-configs.php:156,
 #: framework/premium/extensions/post-types-extra/features/filtering/customizer.php:25
 msgid "Posts Filter"
-msgstr "Bộ lọc Bài viết"
+msgstr "Bộ lọc bài viết"
 
 #: framework/premium/extensions/post-types-extra/features/filtering/customizer.php:59
 msgid "Filtering Behavior"

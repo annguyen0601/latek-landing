@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.6.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-08-28 15:28:54+0000\n"
+"PO-Revision-Date: 2024-09-02 19:35:40+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1018,7 +1018,7 @@ msgstr "Trình chỉnh sửa"
 #: wp-admin/plugins.php:602 wp-admin/themes.php:202
 #: wp-admin/update-core.php:1030 wp-admin/network/themes.php:333
 msgid "<a href=\"https://wordpress.org/documentation/article/plugins-themes-auto-updates/\">Documentation on Auto-updates</a>"
-msgstr "<a href=\"https://wordpress.org/documentation/article/plugins-themes-auto-updates/\">Tài liệu về Cập nhật tự động</a>"
+msgstr "<a href=\"https://wordpress.org/documentation/article/plugins-themes-auto-updates/\">Tài liệu về cập nhật tự động</a>"
 
 #: wp-admin/options-general.php:542
 msgid "<a href=\"https://wordpress.org/documentation/article/customize-date-and-time-format/\">Documentation on date and time formatting</a>."
@@ -1105,11 +1105,11 @@ msgstr "<a href=\"https://wordpress.org/documentation/article/write-posts-classi
 
 #: wp-admin/edit-comments.php:231 wp-admin/user-edit.php:359
 msgid "<a href=\"https://wordpress.org/documentation/article/keyboard-shortcuts-classic-editor/#keyboard-shortcuts-for-comments\">Documentation on Keyboard Shortcuts</a>"
-msgstr "<a href=\"https://wordpress.org/documentation/article/keyboard-shortcuts-classic-editor/#keyboard-shortcuts-for-comments\">Tài liệu về Phím tắt</a>"
+msgstr "<a href=\"https://wordpress.org/documentation/article/keyboard-shortcuts-classic-editor/#keyboard-shortcuts-for-comments\">Tài liệu về phím tắt</a>"
 
 #: wp-admin/edit-comments.php:230
 msgid "<a href=\"https://wordpress.org/documentation/article/understand-comment-spam/\">Documentation on Comment Spam</a>"
-msgstr "<a href=\"https://wordpress.org/documentation/article/understand-comment-spam/\">Tài liệu về Bình luận Spam</a>"
+msgstr "<a href=\"https://wordpress.org/documentation/article/understand-comment-spam/\">Tài liệu về bình luận Spam</a>"
 
 #: wp-admin/customize.php:255
 msgid "<a href=\"https://wordpress.org/documentation/article/customizer/\">Documentation on Customizer</a>"
@@ -1213,7 +1213,7 @@ msgstr "%s đã được loại bỏ khỏi cấu trúc đường dẫn cố đ�
 #. translators: %s: Number of critical Site Health checks.
 #: wp-admin/menu.php:367
 msgid "Site Health %s"
-msgstr "Sức khỏe website %s"
+msgstr "Tình trạng trang web %s"
 
 #: wp-admin/includes/file.php:24
 msgid "Theme Styles & Block Settings"
@@ -1486,7 +1486,7 @@ msgstr "WordPress đã được cập nhật! Trước khi tiếp tục, bạn c
 
 #: wp-admin/themes.php:208
 msgid "<a href=\"https://wordpress.org/documentation/article/appearance-themes-screen/\">Documentation on Managing Themes</a>"
-msgstr "<a href=\"https://wordpress.org/support/article/appearance-themes-screen/\">Tài liệu về Quản lý giao diện</a>"
+msgstr "<a href=\"https://wordpress.org/documentation/article/appearance-themes-screen/\">Tài liệu về quản lý giao diện</a>"
 
 #. translators: %s: wp-config.php
 #: wp-admin/setup-config.php:182
@@ -1736,7 +1736,7 @@ msgstr "<a href=\"https://wordpress.org/support/article/appearance-editor-screen
 
 #: wp-admin/site-health.php:90
 msgid "<a href=\"https://wordpress.org/documentation/article/site-health-screen/\">Documentation on Site Health tool</a>"
-msgstr "<a href=\"https://wordpress.org/support/article/site-health-screen/\">Tài liệu hướng dẫn công cụ Site Health</a>"
+msgstr "<a href=\"https://wordpress.org/documentation/article/site-health-screen/\">Tài liệu về tình trạng trang web</a>"
 
 #: wp-admin/site-health.php:84
 msgid "In the Info tab, you will find all the details about the configuration of your WordPress site, server, and database. There is also an export feature that allows you to copy all of the information about your site to the clipboard, to help solve problems on your site when obtaining support."
@@ -1899,7 +1899,7 @@ msgstr "Đổi các mục menu bổ sung"
 #. translators: %s: The currently displayed tab.
 #: wp-admin/site-health.php:43
 msgid "Site Health - %s"
-msgstr "Sức khỏe website %s"
+msgstr "Tình trạng trang web - %s"
 
 #. translators: 1: wp-config.php, 2: Documentation URL.
 #: wp-admin/setup-config.php:485
@@ -2349,7 +2349,7 @@ msgstr "Cập nhật tự động cho tất cả các phiên bản WordPress đ�
 
 #: wp-admin/index.php:82
 msgid "<strong>Site Health Status</strong> &mdash; Informs you of any potential issues that should be addressed to improve the performance or security of your website."
-msgstr "<strong>Trạng thái sức khỏe website</strong> &mdash; Thông báo cho bạn về bất kỳ vấn đề tiềm ẩn nào cần được giải quyết để cải thiện hiệu suất hoặc bảo mật của website của bạn."
+msgstr "<strong>Tình trạng trang web</strong> &mdash; Thông báo cho bạn về bất kỳ vấn đề tiềm ẩn nào cần được giải quyết để cải thiện hiệu suất hoặc bảo mật của website của bạn."
 
 #. translators: %s: Application name.
 #: wp-admin/authorize-application.php:209 wp-admin/user-edit.php:975
@@ -2375,7 +2375,7 @@ msgstr "&larr; Tới Tài khoản"
 
 #: wp-admin/revision.php:112
 msgid "&larr; Go to editor"
-msgstr "&larr; Tới trình chỉnh sửa"
+msgstr "&larr; Quay lại trình chỉnh sửa"
 
 #: wp-admin/includes/class-plugin-installer-skin.php:145
 #: wp-admin/includes/class-plugin-installer-skin.php:151
@@ -2576,7 +2576,7 @@ msgstr "Vài chuyên mục có thể ẩn hiện nếu bạn đánh dấu hộp 
 
 #: wp-admin/includes/class-wp-screen.php:1116
 msgid "Screen elements"
-msgstr "Đối tượng trong màn hình"
+msgstr "Thành phần trong màn hình"
 
 #: wp-admin/includes/user.php:751
 msgid "The URL must be served over a secure connection."
@@ -3460,7 +3460,7 @@ msgstr "Phiên bản nội địa hóa này chứa cả bản dịch và các b�
 #: wp-admin/includes/dashboard.php:2037
 msgid "Take a look at the <strong>%1$d item</strong> on the <a href=\"%2$s\">Site Health screen</a>."
 msgid_plural "Take a look at the <strong>%1$d items</strong> on the <a href=\"%2$s\">Site Health screen</a>."
-msgstr[0] "Hãy nhìn vào mục <strong>%1$d</strong> trong màn hình <a href=\"%2$s\">Sức khỏe  Website</a>."
+msgstr[0] "Hãy nhìn vào mục <strong>%1$d</strong> trong màn hình <a href=\"%2$s\">Tình trạng trang web</a>."
 
 #: wp-admin/includes/dashboard.php:2027
 msgid "Your site&#8217;s health is looking good, but there are still some things you can do to improve its performance and security."
@@ -3477,7 +3477,7 @@ msgstr "Trang web của bạn có các vấn đề quan trọng cần được g
 #. translators: %s: URL to Site Health screen.
 #: wp-admin/includes/dashboard.php:2011
 msgid "Site health checks will automatically run periodically to gather information about your site. You can also <a href=\"%s\">visit the Site Health screen</a> to gather information about your site now."
-msgstr "Kiểm tra sức khỏe Website sẽ tự động chạy định kỳ để thu thập các thông tin về trang web của bạn. Bạn có thể <a href=\"%s\">truy cập vào Site Health</a> để thu thập thông tin về trang web của bạn bây giờ."
+msgstr "Kiểm tra tình trạng trang web sẽ tự động chạy định kỳ để thu thập các thông tin về trang web của bạn. Bạn có thể <a href=\"%s\">truy cập vào tình trạng trang web</a> để thu thập thông tin về trang web của bạn bây giờ."
 
 #: wp-admin/includes/dashboard.php:1998
 msgid "No information yet&hellip;"
@@ -3691,7 +3691,7 @@ msgstr "<a href=\"https://wordpress.org/documentation/article/pages-add-new-scre
 
 #: wp-admin/upload.php:199 wp-admin/upload.php:401
 msgid "<a href=\"https://wordpress.org/documentation/article/media-library-screen/\">Documentation on Media Library</a>"
-msgstr "<a href=\"https://wordpress.org/documentation/article/media-library-screen/\">Tài liệu trên Thư viện phương tiện</a>"
+msgstr "<a href=\"https://wordpress.org/documentation/article/media-library-screen/\">Tài liệu về thư viện media</a>"
 
 #: wp-admin/revision.php:159
 msgid "<a href=\"https://wordpress.org/documentation/article/revisions/\">Revisions Management</a>"
@@ -3707,7 +3707,7 @@ msgstr "<a href=\"https://wordpress.org/documentation/article/manage-plugins/\">
 
 #: wp-admin/index.php:132
 msgid "<a href=\"https://wordpress.org/documentation/article/dashboard-screen/\">Documentation on Dashboard</a>"
-msgstr "<a href=\"https://wordpress.org/documentation/article/dashboard-screen/\">Tài liệu trên Trang tổng quan</a>"
+msgstr "<a href=\"https://wordpress.org/documentation/article/dashboard-screen/\">Tài liệu trên trang tổng quan</a>"
 
 #: wp-admin/user-new.php:301
 msgid "<a href=\"https://wordpress.org/documentation/article/users-add-new-screen/\">Documentation on Adding New Users</a>"
@@ -3748,7 +3748,7 @@ msgstr "<a href=\"https://developer.wordpress.org/themes/basics/template-tags/\"
 
 #: wp-admin/themes.php:207
 msgid "<a href=\"https://wordpress.org/documentation/article/work-with-themes/\">Documentation on Using Themes</a>"
-msgstr "<a href=\"https://wordpress.org/documentation/article/work-with-themes/\">Tài liệu về cách sử dụng chủ đề</a>"
+msgstr "<a href=\"https://wordpress.org/documentation/article/work-with-themes/\">Tài liệu về cách sử dụng giao diện</a>"
 
 #: wp-admin/theme-editor.php:52
 msgid "<a href=\"https://developer.wordpress.org/themes/\">Documentation on Theme Development</a>"
@@ -3756,7 +3756,7 @@ msgstr "<a href=\"https://developer.wordpress.org/themes/\">Tài liệu hướng
 
 #: wp-admin/comment.php:72 wp-admin/edit-comments.php:229
 msgid "<a href=\"https://wordpress.org/documentation/article/comments-screen/\">Documentation on Comments</a>"
-msgstr "<a href=\"https://wordpress.org/documentation/article/comments-screen/\">Tài liệu về chức năng Bình luận</a>"
+msgstr "<a href=\"https://wordpress.org/documentation/article/comments-screen/\">Tài liệu về bình luận</a>"
 
 #. translators: %s: UTC time.
 #: wp-admin/options-general.php:389
@@ -3774,7 +3774,7 @@ msgstr "Địa chỉ email quản trị"
 
 #: wp-admin/options-general.php:60
 msgid "<a href=\"https://wordpress.org/documentation/article/settings-general-screen/\">Documentation on General Settings</a>"
-msgstr "<a href=\"https://wordpress.org/documentation/article/settings-general-screen/\">Tài liệu về Cài đặt chung</a>"
+msgstr "<a href=\"https://wordpress.org/documentation/article/settings-general-screen/\">Tài liệu về cài đặt chung</a>"
 
 #. translators: %s: Documentation URL.
 #: wp-admin/includes/file.php:328 wp-admin/plugin-editor.php:325
@@ -3822,7 +3822,7 @@ msgstr "Đính"
 #: wp-admin/includes/template.php:2309
 msgctxt "post status"
 msgid "Customization Draft"
-msgstr "Bản nháp Tùy chỉnh"
+msgstr "Bản nháp tùy chỉnh"
 
 #: wp-admin/includes/template.php:2295
 msgctxt "post status"
@@ -4185,7 +4185,7 @@ msgstr "Chức năng Kiểm tra tình trạng website yêu cầu Javascript."
 
 #: wp-admin/site-health-info.php:41
 msgid "Site Health Info"
-msgstr "Thônng tin sức khỏe website"
+msgstr "Thông tin tình trạng trang web"
 
 #: wp-admin/update-core.php:549 wp-admin/update-core.php:742
 msgid "This update does not work with your version of PHP."
@@ -4403,7 +4403,7 @@ msgstr "Kiểm tra tình trạng trang web hiển thị thông tin về cấu h�
 
 #: wp-admin/includes/dashboard.php:68 wp-admin/site-health.php:251
 msgid "Site Health Status"
-msgstr "Tình trạng web của bạn"
+msgstr "Tình trạng trang web"
 
 #: wp-admin/site-health.php:245
 msgid "Everything is running smoothly here."
@@ -5305,7 +5305,7 @@ msgstr "URL trang chủ"
 
 #: wp-admin/site-health.php:101
 msgid "Site Health"
-msgstr "Kiểm tra hệ thống"
+msgstr "Tình trạng trang web"
 
 #. translators: %s: Number of requests.
 #: wp-admin/includes/class-wp-privacy-requests-table.php:158
@@ -6521,7 +6521,7 @@ msgstr "Có vẻ như đang thực hiện sửa trực tiếp %1$s để sử d�
 
 #: wp-admin/includes/template.php:2304
 msgid "Customization Draft"
-msgstr "Bản nháp tạo khi Tuỳ chỉnh"
+msgstr "Bản nháp tuỳ chỉnh"
 
 #. translators: %s: URL to the Customizer.
 #: wp-admin/includes/meta-boxes.php:316
@@ -6813,7 +6813,7 @@ msgstr "Kích hoạt %s"
 
 #: wp-admin/includes/class-wp-media-list-table.php:261
 msgid "No media files found."
-msgstr "Không tìm thấy file media nào."
+msgstr "Không tìm thấy tệp tin media nào."
 
 #: wp-admin/import.php:139 wp-admin/import.php:188 wp-admin/js/updates.js:1252
 msgid "Run Importer"
@@ -8944,15 +8944,15 @@ msgstr "Nhấp vào một tập tin đa phương tiện sẽ hiện ra một h�
 
 #: wp-admin/upload.php:182
 msgid "To delete media items, click the Bulk Select button at the top of the screen. Select any items you wish to delete, then click the Delete Selected button. Clicking the Cancel Selection button takes you back to viewing your media."
-msgstr "Để xóa nhiều tập tin đa phương tiện, nhấp vào nút Chọn Hàng loạt phía trên cùng màn hình. Chọn bất cứ các tập tin nào bạn muốn xóa, sau đó nhấp vào nút Xóa Đã chọn. Nhấp vào nút Hủy Chọn để quay lại xem phần đa phương tiện."
+msgstr "Để xóa nhiều tệp tin media, nhấp vào nút chọn hàng loạt phía trên cùng màn hình. Chọn bất cứ các tệp tin nào bạn muốn xóa, sau đó nhấp vào nút xóa đã chọn. Nhấp vào nút hủy chọn để quay lại xem phần media."
 
 #: wp-admin/upload.php:181 wp-admin/upload.php:372
 msgid "You can view your media in a simple visual grid or a list with columns. Switch between these views using the icons to the left above the media."
-msgstr "Bạn có thể xem phần đa phương tiện trong một giao diện lưới hoặc danh sách gồm các cột. Chuyển qua lại giữa các chế độ xem này bằng việc sử dụng các biểu tượng bên trái phía trên phần đa phương tiện."
+msgstr "Bạn có thể xem phần media trong một giao diện lưới hoặc danh sách gồm các cột. Chuyển qua lại giữa các chế độ xem này bằng việc sử dụng các biểu tượng bên trái phía trên phần media."
 
 #: wp-admin/upload.php:180
 msgid "All the files you&#8217;ve uploaded are listed in the Media Library, with the most recent uploads listed first."
-msgstr "Tất cả các tập tin bạn tải lên được liệt kê trong Thư viên Đa phương tiện, với các tập tin được tải lên gần đây nhất xuất hiên trước. "
+msgstr "Tất cả các tệp tin bạn tải lên được liệt kê trong thư viện Media, với các tệp tin được tải lên gần đây nhất xuất hiện trước."
 
 #: wp-admin/plugin-install.php:113
 msgid "If you just want to get an idea of what&#8217;s available, you can browse Featured and Popular plugins by using the links above the plugins list. These sections rotate regularly."
@@ -9169,11 +9169,11 @@ msgstr "https://wordpress.org/support/forum/how-to-and-troubleshooting"
 
 #: wp-admin/index.php:86
 msgid "<strong>At a Glance</strong> &mdash; Displays a summary of the content on your site and identifies which theme and version of WordPress you are using."
-msgstr "<strong>Nhìn qua</strong> - Hiển thị một bản tóm tắt nội dung trang của bạn; xác định giao diện và bản WordPress mà bạn đang dùng."
+msgstr "<strong>Tin nhanh</strong> - Hiển thị một bản tóm tắt nội dung trang của bạn; xác định giao diện và bản WordPress mà bạn đang dùng."
 
 #: wp-admin/index.php:65
 msgid "<strong>Box Controls</strong> &mdash; Click the title bar of the box to expand or collapse it. Some boxes added by plugins may have configurable content, and will show a &#8220;Configure&#8221; link in the title bar if you hover over it."
-msgstr "<strong>Các hộp điển khiển</strong> - Click vào thanh tiêu đề của hộp để mở rộng hoặc thu nhỏ nó. Một số hộp được thêm bởi plugins có thể có nội dung có thể thiết lập được và sẽ hiển thị một liên kết &#8220;Configure&#8221; trong thanh tiêu đề nếu bạn thao tác gần nó."
+msgstr "<strong>Các hộp điển khiển</strong> - Nhấp vào thanh tiêu đề của hộp để mở rộng hoặc thu nhỏ nó. Một số hộp được thêm bởi plugins có thể có nội dung có thể thiết lập được và sẽ hiển thị một liên kết &#8220;Configure&#8221; trong thanh tiêu đề nếu bạn thao tác gần nó."
 
 #: wp-admin/themes.php:43
 msgid "Sorry, you are not allowed to resume this theme."
@@ -9415,15 +9415,15 @@ msgstr "Không thể lưu dữ liệu, xin hãy tải lại trang và thử lạ
 
 #: wp-admin/index.php:92
 msgid "<strong>Quick Draft</strong> &mdash; Allows you to create a new post and save it as a draft. Also displays links to the 3 most recent draft posts you've started."
-msgstr "<strong>Nháp nhanh</strong> &mdash; Cho phép bạn tạo bài viết mới và lưu bản nháp. Đồng thời hiển thị liên kết tới 5 bản nháp gần nhất của bạn."
+msgstr "<strong>Bản nháp nhanh</strong> &mdash; Cho phép bạn tạo bài viết mới và lưu bản nháp. Đồng thời hiển thị liên kết tới 5 bản nháp gần nhất của bạn."
 
 #: wp-admin/index.php:89
 msgid "<strong>Activity</strong> &mdash; Shows the upcoming scheduled posts, recently published posts, and the most recent comments on your posts and allows you to moderate them."
-msgstr "<strong>Hoạt Động</strong> - Hiển thị các bài viết sắp đến lịch đăng tải, những bài viết được đăng tải gần nhất, và những nhận xét mới nhất cho các bài viết của bạn, đồng thời cho phép bạn điều chỉnh những bài viết và nhận xét đó."
+msgstr "<strong>Hoạt động</strong> - Hiển thị các bài viết sắp đến lịch đăng tải, những bài viết được đăng tải gần nhất, và những bình luận mới nhất cho các bài viết của bạn, đồng thời cho phép bạn điều chỉnh những bài viết và nhận xét đó."
 
 #: wp-admin/index.php:63
 msgid "<strong>Screen Options</strong> &mdash; Use the Screen Options tab to choose which Dashboard boxes to show."
-msgstr "<strong>Tùy Chọn Hiển Thị</strong> - Sử dụng thẻ Tùy Chọn Hiển Thị để lựa chọn các hộp thông tin được hiển thị ở Bảng Tổng Quan."
+msgstr "<strong>Tùy chọn hiển thị</strong> - Sử dụng thẻ tùy chọn hiển thị để lựa chọn các hộp thông tin được hiển thị ở bảng tổng quan."
 
 #. translators: Hidden accessibility text.
 #: wp-admin/includes/dashboard.php:1683 wp-admin/includes/dashboard.php:1699
@@ -9461,11 +9461,11 @@ msgstr "WordPress %1$s sử dụng giao diện %2$s."
 
 #: wp-admin/includes/dashboard.php:87
 msgid "Quick Draft"
-msgstr "Bản nháp"
+msgstr "Bản nháp nhanh"
 
 #: wp-admin/includes/dashboard.php:82
 msgid "Activity"
-msgstr "Hoạt Động"
+msgstr "Hoạt động"
 
 #. translators: %s: Name of plugin / theme / translation.
 #: wp-admin/includes/class-wp-automatic-updater.php:1599
@@ -10282,7 +10282,7 @@ msgstr "Để sử dụng ảnh nền, tải ảnh lên hoặc chọn một ản
 #. translators: 1: URL to browser uploader, 2: Additional link attributes.
 #: wp-admin/includes/media.php:3045
 msgid "You are using the multi-file uploader. Problems? Try the <a href=\"%1$s\" %2$s>browser uploader</a> instead."
-msgstr "Bạn đang dùng chức năng tải lên nhiều file. Gặp lỗi? Thử chuyển sang <a href=\"%1$s\" %2$s>tải lên bằng trình duyệt</a>."
+msgstr "Bạn đang dùng chức năng tải lên nhiều tệp tin. Gặp lỗi? Thử chuyển sang <a href=\"%1$s\" %2$s>tải lên bằng trình duyệt</a>."
 
 #: wp-admin/async-upload.php:71
 msgctxt "media item"
@@ -11581,7 +11581,7 @@ msgstr "Bạn có thể sử dụng những tùy chỉnh sau để sắp xếp m
 
 #: wp-admin/index.php:51
 msgid "The left-hand navigation menu provides links to all of the WordPress administration screens, with submenu items displayed on hover. You can minimize this menu to a narrow icon strip by clicking on the Collapse Menu arrow at the bottom."
-msgstr "Thực đơn điều hướng bên trái cung cấp liên kết tới tất cả màn hình quản trị của WordPress, các chỉ mục con sẽ hiển thị khi di chuột lên. Bạn có thể thu nhỏ thực đơn này thành một biểu tượng bằng cách bấm vào mũi tên Thu Gọn Thực Đơn ở phía dưới."
+msgstr "Menu điều hướng bên trái cung cấp liên kết tới tất cả màn hình quản trị của WordPress, các chỉ mục con sẽ hiển thị khi di chuột lên. Bạn có thể thu nhỏ thực đơn này thành một biểu tượng bằng cách bấm vào mũi tên thu gọn menu ở phía dưới."
 
 #: wp-admin/comment.php:63 wp-admin/edit-comments.php:208
 #: wp-admin/edit-form-advanced.php:344 wp-admin/edit-link-form.php:66
@@ -13991,7 +13991,7 @@ msgstr "Tư cách thành viên"
 
 #: wp-admin/options-general.php:20
 msgid "General Settings"
-msgstr "Tùy chọn tổng quan"
+msgstr "Cài đặt chung"
 
 #: wp-admin/options-discussion.php:322
 msgid "MonsterID (Generated)"
@@ -14203,7 +14203,7 @@ msgstr "Viết"
 #: wp-admin/menu.php:378
 msgctxt "settings screen"
 msgid "General"
-msgstr "Tổng quan"
+msgstr "Cài đặt chung"
 
 #: wp-admin/menu.php:314 wp-admin/menu.php:326 wp-admin/menu.php:329
 #: wp-admin/user-edit.php:41 wp-admin/user/menu.php:14
@@ -15961,7 +15961,7 @@ msgstr "Chấp nhận"
 #: wp-admin/includes/class-wp-comments-list-table.php:768
 #: wp-admin/includes/dashboard.php:751
 msgid "Unapprove"
-msgstr "Phản đối"
+msgstr "Không duyệt"
 
 #. translators: 1: Starting number of users on the current page, 2: Ending
 #. number of users, 3: Total number of users.

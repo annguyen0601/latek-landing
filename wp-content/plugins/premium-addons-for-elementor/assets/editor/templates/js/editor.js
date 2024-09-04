@@ -678,7 +678,7 @@
                         url: ajaxurl,
                         type: 'GET',
                         data: {
-                            action: 'get_pa_element_name',
+                            action: 'get_pa_element_data',
                             element: error,
                         },
                         success: function (response) {

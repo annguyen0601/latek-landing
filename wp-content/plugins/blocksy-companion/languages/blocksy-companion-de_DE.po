@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Blocksy Companion Pro package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-03-11 10:26:51+0000\n"
+"PO-Revision-Date: 2024-08-26 10:41:26+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -63,7 +63,7 @@ msgstr ""
 #: framework/premium/extensions/woocommerce-extra/features/added-to-cart-popup/customizer-options.php:292,
 #: framework/premium/extensions/woocommerce-extra/features/added-to-cart-popup/views/suggested-products.php:41
 msgid "Related Products"
-msgstr ""
+msgstr "Ähnliche Artikel"
 
 #: framework/premium/extensions/woocommerce-extra/features/added-to-cart-popup/customizer-options.php:293
 msgid "Recently Viewed Products"
@@ -93,7 +93,7 @@ msgstr ""
 
 #: framework/premium/extensions/woocommerce-extra/features/added-to-cart-popup/view.php:95
 msgid "Product succesfully added to your cart!"
-msgstr ""
+msgstr "Der Artikel wurde zum Warenkorb hinzugefügt."
 
 #: framework/premium/extensions/woocommerce-extra/features/added-to-cart-popup/view.php:102
 msgid "Close Modal"
@@ -111,27 +111,27 @@ msgstr ""
 
 #: framework/premium/extensions/woocommerce-extra/features/added-to-cart-popup/views/added-product.php:227
 msgid "Shipping Cost"
-msgstr ""
+msgstr "Versandkosten"
 
 #: framework/premium/extensions/woocommerce-extra/features/added-to-cart-popup/views/added-product.php:236
 msgid "Tax Amount"
-msgstr ""
+msgstr "Steuer"
 
 #: framework/premium/extensions/woocommerce-extra/features/added-to-cart-popup/views/added-product.php:245
 msgid "Cart Total"
-msgstr ""
+msgstr "Gesamtsumme"
 
 #: framework/premium/extensions/woocommerce-extra/features/added-to-cart-popup/views/product-actions.php:22
 msgid "View Cart"
-msgstr ""
+msgstr "Warenkorb"
 
 #: framework/premium/extensions/woocommerce-extra/features/added-to-cart-popup/views/product-actions.php:32
 msgid "Checkout"
-msgstr ""
+msgstr "Kasse"
 
 #: framework/premium/extensions/woocommerce-extra/features/added-to-cart-popup/views/product-actions.php:42
 msgid "Continue Shopping"
-msgstr ""
+msgstr "Weiter einkaufen"
 
 #: framework/premium/extensions/woocommerce-extra/features/added-to-cart-popup/views/suggested-products.php:43
 msgid "Recently Viewed"
@@ -2333,7 +2333,7 @@ msgstr ""
 #: framework/premium/extensions/woocommerce-extra/features/compare/views/table.php:601,
 #: framework/premium/extensions/woocommerce-extra/features/wish-list/views/table-no-results.php:3
 msgid "Browse products"
-msgstr ""
+msgstr "Stöbern"
 
 #: framework/features/blocks/contact-info/options.php:533,
 #: framework/premium/features/premium-header/items/contacts/options.php:417
