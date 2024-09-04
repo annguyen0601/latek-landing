@@ -5272,7 +5272,7 @@ msgstr "全新安裝"
 
 #: static/js/dashboard/screens/DemoInstall/Wizzard/Content.js:106
 msgid "This option will remove the previous imported content and will perform a fresh and clean install."
-msgstr "這個選項將會移除先前匯入的內容並執行一���乾淨全新的安裝。"
+msgstr "這個選項將會移除先前匯入的內容並執行一個乾淨全新的安裝。"
 
 #: static/js/dashboard/screens/DemoInstall/Wizzard/ModifyDemo.js:147
 msgid "This starter site is already installed"
@@ -5637,7 +5637,7 @@ msgstr "標籤可見度"
 #: framework/premium/extensions/woocommerce-extra/features/compare/header-items/compare/options.php:122,
 #: framework/premium/extensions/woocommerce-extra/features/wish-list/header-items/wish-list/options.php:123
 msgid "Label Position"
-msgstr "標籤位��"
+msgstr "標籤位置"
 
 #: framework/premium/extensions/shortcuts/customizer.php:794,
 #: framework/premium/features/content-blocks/hooks-manager.php:477,
@@ -7693,7 +7693,7 @@ msgstr "API Key"
 #: framework/premium/static/js/footer/EditConditions.js:143
 #: framework/premium/static/js/media-video/components/EditVideoMeta.js:106
 msgid "Save Settings"
-msgstr "��存設定"
+msgstr "儲存設���"
 
 #: framework/extensions/newsletter-subscribe/dashboard-static/js/EditCredentials.js:134
 msgid "Pick Mailing Service"

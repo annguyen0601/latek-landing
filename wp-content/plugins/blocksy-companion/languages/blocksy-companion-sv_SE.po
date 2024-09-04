@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Blocksy Companion Pro package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-07-23 13:23:19+0000\n"
+"PO-Revision-Date: 2024-08-26 10:41:06+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1575,7 +1575,7 @@ msgstr ""
 #: framework/premium/extensions/woocommerce-extra/features/shipping-progress/feature.php:372,
 #: framework/premium/extensions/woocommerce-extra/features/shipping-progress/options.php:160
 msgid "Add {items} more items to get free shipping!"
-msgstr ""
+msgstr "Lägg till {items} ytterligare artiklar för gratis frakt!"
 
 #: framework/premium/extensions/woocommerce-extra/features/shipping-progress/options.php:52
 msgid "Count Criteria"
@@ -2202,7 +2202,7 @@ msgstr ""
 
 #: framework/premium/extensions/woocommerce-extra/features/compare/views/table.php:604
 msgid "You don't have any products in your compare list yet."
-msgstr ""
+msgstr "Du har inga produkter i din jämförelselista ännu."
 
 #: framework/features/blocks/dynamic-data/views/woo-field.php:25,
 #: framework/premium/extensions/woocommerce-extra/features/compare/views/table.php:481
@@ -2460,7 +2460,7 @@ msgstr ""
 #: framework/premium/extensions/woocommerce-extra/features/added-to-cart-popup/customizer-options.php:328,
 #: framework/premium/extensions/woocommerce-extra/features/related-slideshow/general-options.php:57
 msgid "Number of products"
-msgstr ""
+msgstr "Antal produkter"
 
 #: framework/premium/extensions/woocommerce-extra/features/share-box-layer/feature.php:32
 msgid "Share Box Icons Color"
@@ -2768,7 +2768,7 @@ msgstr ""
 
 #: framework/premium/extensions/woocommerce-extra/features/compare/feature.php:276
 msgid "Compare Products"
-msgstr ""
+msgstr "Jämför produkter"
 
 #: framework/premium/extensions/woocommerce-extra/features/compare/feature.php:282
 msgid "Close Compare Modal"
@@ -3724,7 +3724,7 @@ msgstr ""
 #: framework/features/conditions/rules/basic.php:6,
 #: framework/premium/extensions/woocommerce-extra/features/size-guide/options.php:12
 msgid "All Products"
-msgstr ""
+msgstr "Alla produkter"
 
 #: framework/features/conditions/rules/basic.php:28
 msgid "All Singulars"
@@ -7080,7 +7080,7 @@ msgstr ""
 #: framework/premium/extensions/shortcuts/views/bar.php:51,
 #: framework/premium/extensions/woocommerce-extra/features/wish-list/feature.php:263
 msgid "Wish List"
-msgstr ""
+msgstr "Önskelista"
 
 #: framework/premium/extensions/woocommerce-extra/features/wish-list/helpers.php:150,
 #: framework/premium/extensions/woocommerce-extra/features/wish-list/helpers.php:211

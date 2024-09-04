@@ -47,9 +47,19 @@
 
         });
 
-        //Remove Element On Page Option If on Frontend
-        if (!elementorFrontend.isEditMode())
+        if (!elementorFrontend.isEditMode()) {
+            //Remove Element On Page Option If on Frontend
             $('div[data-menu-id="' + $scope.data('id') + '"]').not('.pa-cloned-element').remove();
+
+            // handle anchor links with IDs => EX : https::somelink.com/home#section.
+            // check if there's an anchorLinks
+            var anchorLinks = $scope.find('.premium-item-anchor');
+
+            if ( anchorLinks.length ) {
+                handleAnchorLinks( anchorLinks );
+            }
+
+        }
 
         /**
          * Save current device to use it later to determine if the device changed on resize.
@@ -309,7 +319,46 @@
             });
         }
 
-        //************Helper Funcitons */
+        //************Helper Funcitons************ */
+
+        /**
+         * Adds the 'premium-active-item' to anchor links that has the '#'.
+         * @param {object} $anchorLinks
+         */
+        function handleAnchorLinks($anchorLinks) {
+
+            $anchorLinks.each(function( index, anchorLink){
+                $hashLink = $(anchorLink).find('> .premium-menu-link');
+                // on page load
+                if (location.pathname === $hashLink[0].pathname && '' !== $hashLink[0].hash && location.hash === $hashLink[0].hash) {
+                    addActiveItemClass(anchorLink);
+                }
+
+                // on link click.
+                $(anchorLink).on('click.checkPaAnchor', function() {
+                    if (location.pathname === $hashLink[0].pathname && '' !== $hashLink[0].hash) {
+                        addActiveItemClass(anchorLink)
+                    }
+                });
+
+            });
+        }
+
+        function addActiveItemClass(item) {
+
+            // make sure the class is added to both the desktop and mobile menu item
+            var currentHash = $(item).find('> .premium-menu-link').attr('href');
+
+            $scope.find('.premium-active-item').each(function() {
+                var $link = $(this).find('> .premium-menu-link');
+
+                if ($link.attr('href') !== currentHash) {
+                    $(this).removeClass('premium-active-item'); // Remove the class from the parent element
+                }
+            });
+
+            $(item).addClass('premium-active-item')
+        }
 
         // Set menu items to full width.
         function checkMegaContentWidth() {

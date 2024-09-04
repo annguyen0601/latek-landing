@@ -4,7 +4,7 @@ Tags: elementor, elementor widgets, elementor addons, elementor templates, widge
 Requires at least: 6.0
 Tested up to: 6.5
 Requires PHP: 7.0
-Stable tag: 5.6.5
+Stable tag: 5.6.6
 License: GPLv3
 License URI: https://opensource.org/licenses/GPL-3.0
 
@@ -382,6 +382,15 @@ You can report security bugs through the Patchstack Vulnerability Disclosure Pro
 12. Unique 22+ Elementor Extensions
 
 == Changelog ==
+
+= 5.6.6 =
+Update : The Plus Settings Menu Number Sequence Change Issue
+Update : Plus Extras : Advanced shadow Document Link Update
+Update : Info Box : Responsive Control for Text Align
+Fix : Progress Bar : Controller & UI Improvement  
+Fix : Style List : Controller & UI Improvement
+Fix : Info Box : Backend ( Elementor Editor ) style 4 load Issue
+Fix : Minor Bug Fixes & performance Improvements
 
 = 5.6.5 =
 Add : WDesignKit Elementor Template Integration with The Plus Addons for Elementor

@@ -8,6 +8,9 @@
             widgetID = $scope.data('id'),
             currentSlides = 0;
 
+        //Fix conflict with Stretch Section option
+        $carouselElem.find('.elementor-section-stretched').removeClass('elementor-section-stretched');
+
         var $progressbar = $carouselElem.find(".premium-carousel-nav-progress-fill");
 
 

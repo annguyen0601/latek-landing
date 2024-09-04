@@ -4790,7 +4790,7 @@ msgstr ""
 #: framework/premium/static/js/header/CreateHeader.js:134
 #: static/js/header/PanelsManager.js:58
 msgid "Global Header"
-msgstr "Глобальний заг��ловок"
+msgstr "Глобальний заголовок"
 
 #: framework/premium/static/js/header/CreateHeader.js:173
 msgid "Create New Header"

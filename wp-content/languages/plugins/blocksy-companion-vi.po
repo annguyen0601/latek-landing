@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Blocksy Companion - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-08-27 15:10:59+0000\n"
+"PO-Revision-Date: 2024-09-01 15:43:50+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,14 @@ msgstr ""
 "X-Generator: GlotPress/4.0.1\n"
 "Language: vi_VN\n"
 "Project-Id-Version: Plugins - Blocksy Companion - Stable (latest release)\n"
+
+#: framework/features/blocks/share-box/options.php:110
+msgid "Tooltip"
+msgstr "Chú thích"
+
+#: framework/features/blocks/share-box/options.php:103
+msgid "Clipboard"
+msgstr "Bảng nhớ tạm"
 
 #: framework/helpers/exts-configs.php:378
 msgid "Show a dynamic confirmation popup with product recommendations whenever items are added to the cart."
@@ -167,7 +175,7 @@ msgctxt "block title"
 msgid "Post Template"
 msgstr "Mẫu bài viết"
 
-#: framework/features/blocks/share-box/options.php:120
+#: framework/features/blocks/share-box/options.php:132
 #: framework/features/blocks/socials/options.php:84
 msgid "Icons Spacing"
 msgstr "Khoảng cách biểu tượng"
@@ -1229,13 +1237,13 @@ msgid "Author Archives"
 msgstr "Lưu trữ tác giả"
 
 #: framework/features/blocks/about-me/options.php:195
-#: framework/features/blocks/share-box/options.php:137
+#: framework/features/blocks/share-box/options.php:149
 #: framework/features/blocks/socials/options.php:101
 msgid "Official"
 msgstr "Thương hiệu"
 
 #: framework/features/blocks/about-me/options.php:187
-#: framework/features/blocks/share-box/options.php:129
+#: framework/features/blocks/share-box/options.php:141
 #: framework/features/blocks/socials/options.php:93
 #: static/bundle/blocks/blocks.js:7
 #: static/js/editor/blocks/about-me/Edit.js:117
@@ -1559,7 +1567,7 @@ msgstr "Tóm tắt đánh giá"
 
 #: framework/features/blocks/about-me/options.php:163
 #: framework/features/blocks/contact-info/options.php:527
-#: framework/features/blocks/share-box/options.php:104
+#: framework/features/blocks/share-box/options.php:117
 #: framework/features/blocks/socials/options.php:69
 msgid "Set links to nofollow"
 msgstr "Đặt liên kết thành nofollow"
@@ -2255,21 +2263,21 @@ msgstr "Giới thiệu"
 
 #: framework/features/blocks/about-me/options.php:219
 #: framework/features/blocks/contact-info/options.php:581
-#: framework/features/blocks/share-box/options.php:165
+#: framework/features/blocks/share-box/options.php:177
 #: framework/features/blocks/socials/options.php:129
 msgid "Outline"
 msgstr "Viền ngoài"
 
 #: framework/features/blocks/about-me/options.php:220
 #: framework/features/blocks/contact-info/options.php:582
-#: framework/features/blocks/share-box/options.php:166
+#: framework/features/blocks/share-box/options.php:178
 #: framework/features/blocks/socials/options.php:130
 msgid "Solid"
 msgstr "Màu đậm"
 
 #: framework/features/blocks/about-me/options.php:215
 #: framework/features/blocks/contact-info/options.php:575
-#: framework/features/blocks/share-box/options.php:159
+#: framework/features/blocks/share-box/options.php:171
 #: framework/features/blocks/socials/options.php:123
 msgid "Shape Fill Type"
 msgstr "Loại tô hình dạng"
@@ -2277,7 +2285,7 @@ msgstr "Loại tô hình dạng"
 #: framework/features/blocks/about-me/options.php:98
 #: framework/features/blocks/about-me/options.php:206
 #: framework/features/blocks/contact-info/options.php:566
-#: framework/features/blocks/share-box/options.php:150
+#: framework/features/blocks/share-box/options.php:162
 #: framework/features/blocks/socials/options.php:114
 #: static/bundle/blocks/blocks.js:7
 #: static/js/editor/blocks/dynamic-data/components/Dimensions.js:86
@@ -2287,14 +2295,14 @@ msgstr "Vuông"
 #: framework/features/blocks/about-me/options.php:97
 #: framework/features/blocks/about-me/options.php:205
 #: framework/features/blocks/contact-info/options.php:565
-#: framework/features/blocks/share-box/options.php:149
+#: framework/features/blocks/share-box/options.php:161
 #: framework/features/blocks/socials/options.php:113
 msgid "Rounded"
 msgstr "Tròn"
 
 #: framework/features/blocks/about-me/options.php:204
 #: framework/features/blocks/contact-info/options.php:564
-#: framework/features/blocks/share-box/options.php:148
+#: framework/features/blocks/share-box/options.php:160
 #: framework/features/blocks/socials/options.php:112
 #: framework/features/header/items/account/options.php:22
 #: framework/features/header/items/account/options.php:268
@@ -2307,7 +2315,7 @@ msgstr "Không"
 
 #: framework/features/blocks/about-me/options.php:200
 #: framework/features/blocks/contact-info/options.php:557
-#: framework/features/blocks/share-box/options.php:142
+#: framework/features/blocks/share-box/options.php:154
 #: framework/features/blocks/socials/options.php:106
 msgid "Icons Shape Type"
 msgstr "Kiểu hình dạng biểu tượng"
@@ -2327,7 +2335,7 @@ msgstr "Nhỏ"
 
 #: framework/features/blocks/about-me/options.php:168
 #: framework/features/blocks/contact-info/options.php:538
-#: framework/features/blocks/share-box/options.php:110
+#: framework/features/blocks/share-box/options.php:122
 #: framework/features/blocks/socials/options.php:74
 msgid "Icons Size"
 msgstr "Kích thước biểu tượng"
@@ -2564,7 +2572,7 @@ msgstr "ID danh sách"
 #: framework/features/blocks/contact-info/options.php:428
 #: framework/features/blocks/contact-info/options.php:491
 #: framework/features/blocks/dynamic-data/options.php:64
-#: framework/features/blocks/share-box/options.php:136
+#: framework/features/blocks/share-box/options.php:148
 #: framework/features/blocks/socials/options.php:100
 #: framework/features/header/items/account/options.php:25
 #: framework/features/header/items/account/options.php:389

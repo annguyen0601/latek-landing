@@ -1399,8 +1399,14 @@
             var $carouselElem = $scope.find(".premium-carousel-wrapper"),
                 settings = $($carouselElem).data("settings"),
                 computedStyle = getComputedStyle($scope[0]),
+                widgetID = $scope.data('id'),
                 currentSlides = 0;
+
+            //Fix conflict with Stretch Section option
+            $carouselElem.find('.elementor-section-stretched').removeClass('elementor-section-stretched');
+
             var $progressbar = $carouselElem.find(".premium-carousel-nav-progress-fill");
+
             if ($carouselElem.find(".item-wrapper").length < 1)
                 return;
 
@@ -1676,7 +1682,16 @@
                         })
                     }
 
-                })
+                });
+
+                $('.carousel-next-' + widgetID).on('click', function () {
+                    $carouselElem.find(".premium-carousel-inner").slick("slickNext");
+                });
+
+                $('.carousel-prev-' + widgetID).on('click', function () {
+                    $carouselElem.find(".premium-carousel-inner").slick("slickPrev");
+                });
+
             })
 
         };

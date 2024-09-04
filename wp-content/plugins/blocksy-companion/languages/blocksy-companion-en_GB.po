@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Blocksy Companion Pro package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: +0000\n"
+"PO-Revision-Date: 2024-08-26 10:40:54+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -294,7 +294,7 @@ msgstr ""
 
 #: framework/premium/extensions/woocommerce-extra/static/js/blocks/active-filters/index.js:104
 msgid "Display the currently active filters."
-msgstr ""
+msgstr "Display active filters."
 
 #: framework/premium/extensions/woocommerce-extra/static/js/blocks/active-filters/index.js:47
 msgid "Category 1"
@@ -1861,7 +1861,7 @@ msgstr ""
 
 #: static/js/dashboard/NoTheme.js:29
 msgid "In order to take full advantage of all features it has to offer - please install and activate the Blocksy theme also."
-msgstr ""
+msgstr "To take full advantage of all features, ensure the Blocksy theme is installed and activated."
 
 #: static/js/dashboard/NoTheme.js:63
 msgid "Install and activate the Blocksy theme"
@@ -1927,7 +1927,7 @@ msgstr ""
 
 #: framework/premium/extensions/woocommerce-extra/static/js/blocks/ct-order/index.js:75
 msgid "Display order overhiew section."
-msgstr ""
+msgstr "Display order overview section."
 
 #: framework/premium/extensions/woocommerce-extra/static/js/blocks/ct-order/index.js:90
 msgid "Order Details"
@@ -2037,7 +2037,7 @@ msgstr ""
 
 #: framework/premium/extensions/woocommerce-extra/static/js/blocks/woocommerce-filters/tax-filters/Disabled.js:7
 msgid "Please select a valid attribute."
-msgstr ""
+msgstr "Select a valid attribute."
 
 #: framework/premium/extensions/woocommerce-extra/static/js/blocks/woocommerce-filters/tax-filters/TaxonomySelector.js:41
 #: static/js/editor/blocks/query/edit/layers/useTaxonomiesLayers.js:130
@@ -2151,7 +2151,7 @@ msgstr ""
 
 #: framework/premium/extensions/adobe-typekit/dashboard-static/js/AdobeTypekit.js:164
 msgid "Please enter a valid Project ID to get all fonts."
-msgstr ""
+msgstr "Enter a valid Project ID to access all fonts."
 
 #: framework/extensions/newsletter-subscribe/dashboard-static/js/EditCredentials.js:234
 msgid "This provider is used only for testing purposes. It doesnt register any real subscribers."
@@ -2248,7 +2248,7 @@ msgstr ""
 
 #: framework/premium/extensions/woocommerce-extra/features/swatches/feature.php:234
 msgid "Sorry, this product is unavailable. Please choose a different combination."
-msgstr ""
+msgstr "This product is unavailable. Choose a different option."
 
 #: framework/features/blocks/dynamic-data/views/woo-field.php:26,
 #: framework/premium/extensions/woocommerce-extra/features/swatches/feature.php:235,
@@ -2403,7 +2403,7 @@ msgstr ""
 
 #: framework/premium/extensions/woocommerce-extra/features/swatches/feature.php:233
 msgid "Please select some product options before adding this product to your cart."
-msgstr ""
+msgstr "Don't forget to choose product options before adding this item to your cart."
 
 #: framework/premium/extensions/woocommerce-extra/features/shipping-progress/options.php:76
 msgid "Amount the client has to reach in order to get free shipping."
@@ -10019,7 +10019,7 @@ msgstr ""
 #: framework/extensions/newsletter-subscribe/ct-newsletter-subscribe/options.php:19,
 #: framework/features/blocks/about-me/options.php:67
 msgid "You can add here some arbitrary HTML code."
-msgstr ""
+msgstr "Add arbitrary HTML code here."
 
 #: framework/extensions/newsletter-subscribe/ct-newsletter-subscribe/options.php:74
 msgid "Container Style"

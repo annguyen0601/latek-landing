@@ -5,7 +5,7 @@ Donate Link: https://premiumaddons.com/?utm_source=wp-repo&utm_medium=link&utm_c
 Requires at least: 5.0
 Tested Up To: 6.6.1
 Requires PHP: 7.0
-Stable Tag: 4.10.49
+Stable Tag: 4.10.50
 License: GPL v3.0
 License URI: https://opensource.org/licenses/GPL-3.0
 
@@ -231,6 +231,14 @@ Premium Addonsis 100% Ads Free, Ads can only be detected from Youtube videos, th
 14. Premium Progress Bar Widget
 
 == Changelog ==
+
+= 4.10.50 =
+
+- Tweak: Added control to apply Excerpt Length option on posts with defined excerpt.
+- Fixed: PHP warning for Display condition in Display Conditions feature.
+- Fixed: Conflict between Stretch Section option and Carousel widget.
+- Fixed: Layout broken in some cases with Dynamic Assets feature.
+- Fixed: PHP warning in Global Tooltip addon.
 
 = 4.10.49 =
 
