@@ -5,7 +5,7 @@ Requires PHP: 7.0
 Tested up to: 6.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Stable tag: 2.0.64
+Stable tag: 2.0.65
 
 == Description ==
 
@@ -52,6 +52,10 @@ Program. The Patchstack team help validate, triage and handle any security
 vulnerabilities. [Report a security vulnerability.](https://patchstack.com/database/vdp/blocksy-companion)
 
 == Changelog ==
+2.0.65: 2024-09-05
+- Improvement: Better integrate demo importer with Fluent Booking plugin
+- Improvement: Include custom palettes in customizer export file
+
 2.0.64: 2024-08-29
 - Improvement: General fixes and improvements
 

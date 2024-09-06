@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Blocksy Companion Pro package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-08-29 11:05:01+0000\n"
+"PO-Revision-Date: 2024-08-30 13:24:02+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -131,7 +131,7 @@ msgstr "Pagamento"
 
 #: framework/premium/extensions/woocommerce-extra/features/added-to-cart-popup/views/product-actions.php:42
 msgid "Continue Shopping"
-msgstr "Continua Acquist"
+msgstr "Continua gli Acquisti"
 
 #: framework/premium/extensions/woocommerce-extra/features/added-to-cart-popup/views/suggested-products.php:43
 msgid "Recently Viewed"
@@ -412,7 +412,7 @@ msgstr "Seleziona un sito starter"
 
 #: static/js/editor/blocks/about-me/index.js:15
 msgid "About Me Controls"
-msgstr ""
+msgstr "Controlli Informazioni Personali"
 
 #: static/js/editor/blocks/about-me/index.js:43
 msgid "Showcase your personal information across your website."
@@ -508,7 +508,7 @@ msgstr "Miniatura del video"
 
 #: static/js/editor/blocks/dynamic-data/components/InspectorControls.js:161
 msgid "Image Hover Effect"
-msgstr ""
+msgstr "Effetto Passaggio Mouse sull'Immagine"
 
 #: static/js/editor/blocks/dynamic-data/components/InspectorControls.js:174
 msgid "Zoom In"
@@ -548,11 +548,11 @@ msgstr "Termine classe aggiuntiva"
 
 #: static/js/editor/blocks/dynamic-data/components/InspectorControls.js:350
 msgid "Additional class for term items. Useful for styling."
-msgstr ""
+msgstr "Classe aggiuntiva per elementi termini. Utile per lo styling."
 
 #: static/js/editor/blocks/dynamic-data/components/InspectorControls.js:45
 msgid "Content Source"
-msgstr ""
+msgstr "Fonte Contenuto"
 
 #: static/js/editor/blocks/dynamic-data/components/InspectorControls.js:51
 msgid "Search for field"
@@ -564,31 +564,31 @@ msgstr "Fonte Immagine"
 
 #: static/js/editor/blocks/dynamic-data/components/TagNameDropdown.js:14
 msgid "Change heading level"
-msgstr ""
+msgstr "Cambia livello intestazione"
 
 #: static/js/editor/blocks/dynamic-data/components/TagNameDropdown.js:38
 msgid "Heading 1"
-msgstr ""
+msgstr "Intestazione 1"
 
 #: static/js/editor/blocks/dynamic-data/components/TagNameDropdown.js:39
 msgid "Heading 2"
-msgstr ""
+msgstr "Intestazione 2"
 
 #: static/js/editor/blocks/dynamic-data/components/TagNameDropdown.js:40
 msgid "Heading 3"
-msgstr ""
+msgstr "Intestazione 3"
 
 #: static/js/editor/blocks/dynamic-data/components/TagNameDropdown.js:41
 msgid "Heading 4"
-msgstr ""
+msgstr "Intestazione 4"
 
 #: static/js/editor/blocks/dynamic-data/components/TagNameDropdown.js:42
 msgid "Heading 5"
-msgstr ""
+msgstr "Intestazione 5"
 
 #: static/js/editor/blocks/dynamic-data/components/TagNameDropdown.js:43
 msgid "Heading 6"
-msgstr ""
+msgstr "Intestazione 6"
 
 #: static/js/editor/blocks/dynamic-data/components/TagNameDropdown.js:44
 msgid "Paragraph"
@@ -600,7 +600,7 @@ msgstr "Span"
 
 #: static/js/editor/blocks/dynamic-data/components/TagNameDropdown.js:46
 msgid "Div"
-msgstr ""
+msgstr "Div"
 
 #: static/js/editor/blocks/dynamic-data/hooks/use-dynamic-data-descriptor.js:100
 msgid "Archive Image"
@@ -681,7 +681,7 @@ msgstr "Autore Dinamico"
 
 #: static/js/editor/blocks/dynamic-data/index.js:57
 msgid "Dynamic Featured Image"
-msgstr "Immagine in Primo Piano Dinamica"
+msgstr "Immagine in Evidenza Dinamica"
 
 #: static/js/editor/blocks/dynamic-data/index.js:61
 msgid "Dynamic Author Avatar"
@@ -809,7 +809,7 @@ msgstr "Ascendente"
 
 #: static/js/editor/blocks/query/edit/PostsInspectorControls.js:275
 msgid "Sticky Posts"
-msgstr ""
+msgstr "Articoli in Evidenza"
 
 #: static/js/editor/blocks/query/edit/PostsInspectorControls.js:299
 msgid "Only"
@@ -1216,11 +1216,11 @@ msgstr ""
 #: framework/features/blocks/dynamic-data/options.php:32
 #: static/js/editor/blocks/query/edit/PostsInspectorControls.js:141
 msgid "Modified Date"
-msgstr ""
+msgstr "Data Modificata"
 
 #: framework/features/blocks/dynamic-data/options.php:39
 msgid "Default format"
-msgstr ""
+msgstr "Formato predefinito"
 
 #: framework/features/blocks/dynamic-data/options.php:41
 msgid "Example: January 24, 2022"
@@ -1697,7 +1697,7 @@ msgstr "Documentazione"
 
 #: static/js/dashboard/screens/Extensions/CurrentExtension.js:346
 msgid "Manage"
-msgstr ""
+msgstr "Gestisci"
 
 #: static/js/dashboard/screens/Extensions/CurrentExtension.js:86
 msgid "Video Tutorial"
@@ -2484,7 +2484,7 @@ msgstr "Congratulazioni! Hai ottenuto la spedizione gratuita 🎉"
 #: framework/premium/extensions/woocommerce-extra/features/shipping-progress/feature.php:359,
 #: framework/premium/extensions/woocommerce-extra/features/shipping-progress/options.php:135
 msgid "Add {price} more to get free shipping!"
-msgstr "Aggiungi {price} altro per ottenere la spedizione gratuita!"
+msgstr "Ti mancano {price} per avere la spedizione gratuita!"
 
 #: framework/premium/extensions/woocommerce-extra/features/shipping-progress/options.php:15
 msgid "Show In Cart Page"
@@ -2859,7 +2859,7 @@ msgstr ""
 #: framework/premium/extensions/woocommerce-extra/features/custom-badges/design-options.php:55,
 #: framework/premium/extensions/woocommerce-extra/features/custom-badges/options.php:53
 msgid "Featured Badge"
-msgstr "Distintivo in Primo Piano"
+msgstr "Distintivo in Evidenza"
 
 #: framework/premium/extensions/woocommerce-extra/features/custom-badges/feature.php:168,
 #: framework/premium/extensions/woocommerce-extra/features/custom-badges/options.php:82
@@ -2976,7 +2976,7 @@ msgstr "Marchi"
 #: framework/premium/extensions/woocommerce-extra/features/compare/options.php:257,
 #: framework/premium/extensions/woocommerce-extra/features/compare/options.php:275
 msgid "Sticky Row"
-msgstr ""
+msgstr "Fila in Evidenza"
 
 #: framework/premium/extensions/woocommerce-extra/features/brands/feature.php:535,
 #: framework/premium/extensions/woocommerce-extra/features/brands/feature.php:586
@@ -3263,39 +3263,39 @@ msgstr "Non riavviare mai"
 
 #: framework/premium/features/content-blocks/options/popup.php:297
 msgid "Days After Close"
-msgstr ""
+msgstr "Chiudi Dopo Giorni"
 
 #: framework/premium/features/content-blocks/options/popup.php:303
 msgid "Set after how many days the popup will relaunch."
-msgstr ""
+msgstr "Imposta dopo quanti giorni verrà riavviato il popup."
 
 #: framework/premium/features/content-blocks/options/popup.php:313
 msgid "Days After Form Submit"
-msgstr ""
+msgstr "Giorni Dopo Invio del Modulo"
 
 #: framework/premium/features/content-blocks/options/popup.php:317
 msgid "Days After Button Click"
-msgstr ""
+msgstr "Giorni dopo Click sul Pulsante"
 
 #: framework/premium/features/content-blocks/options/maintenance.php:16
 msgid "Add one or more conditions to display the Maintenance block."
-msgstr ""
+msgstr "Aggiungi una o più condizioni per visualizzare il blocco Manutenzione."
 
 #: framework/premium/features/content-blocks/options/popup.php:53
 msgid "Popup Display Conditions"
-msgstr ""
+msgstr "Condizioni Visualizzazione Popup"
 
 #: framework/premium/features/content-blocks/options/popup.php:54
 msgid "Choose where you want this popup to be displayed."
-msgstr ""
+msgstr "Scegli dove vuoi che venga visualizzato questo popup."
 
 #: framework/premium/features/content-blocks/options/popup.php:78
 msgid "On element click"
-msgstr ""
+msgstr "Fare clic sull'elemento"
 
 #: framework/premium/features/content-blocks/options/popup.php:153
 msgid "Close Popup On Scroll Back"
-msgstr ""
+msgstr "Chiudi il popup nello scorrimento indietro"
 
 #: framework/premium/features/content-blocks/options/popup.php:216
 msgid "Additional Close Trigger"
@@ -3303,7 +3303,7 @@ msgstr ""
 
 #: framework/premium/features/content-blocks/options/popup.php:223
 msgid "On form submit"
-msgstr ""
+msgstr "Sul modulo invia"
 
 #: framework/premium/features/content-blocks/options/popup.php:224
 msgid "On button click"
@@ -3390,7 +3390,7 @@ msgstr ""
 #: framework/features/header/items/account/options.php:235,
 #: framework/features/header/items/account/views/login.php:646
 msgid "bbPress Dashboard"
-msgstr ""
+msgstr "Pannello di Controllo bbPress"
 
 #: framework/features/header/items/account/options.php:619,
 #: framework/premium/extensions/woocommerce-extra/features/quick-view/options.php:32
@@ -3917,19 +3917,19 @@ msgstr "Confronta i prodotti con un sistema di tabelle chiaro e conciso che offr
 
 #: framework/helpers/exts-configs.php:346
 msgid "Product Share Box"
-msgstr ""
+msgstr "Casella Condivisione Prodotto"
 
 #: framework/helpers/exts-configs.php:347
 msgid "Enable social sharing abilities for products available on the site, letting even more users discover your great shop selection."
-msgstr ""
+msgstr "Abilita le funzionalità di condivisione social per i prodotti disponibili sul sito, consentendo a ancora più utenti di scoprire la tua fantastica selezione di negozi."
 
 #: framework/helpers/exts-configs.php:338
 msgid "Advanced Gallery"
-msgstr ""
+msgstr "Galleria Avanzata"
 
 #: framework/helpers/exts-configs.php:247
 msgid "Preview the available products and let your users make quick and informative decisions about their purchase."
-msgstr ""
+msgstr "Visualizza in anteprima i prodotti disponibili e consenti ai tuoi utenti di prendere decisioni rapide e informative sul loro acquisto."
 
 #: framework/helpers/exts-configs.php:254,
 #: framework/premium/extensions/shortcuts/views/bar.php:52
@@ -3950,24 +3950,24 @@ msgstr "Visualizza Confronta"
 
 #: framework/helpers/exts-configs.php:239
 msgid "Adds the “add to cart” actions to the product page as a floating bar if the product summary has disappeared from view."
-msgstr ""
+msgstr "Aggiunge le azioni \"aggiungi al carrello\" alla pagina del prodotto come barra mobile se il riepilogo del prodotto è scomparso dalla visualizzazione."
 
 #: framework/helpers/exts-configs.php:246,
 #: framework/premium/extensions/woocommerce-extra/features/quick-view/options.php:58
 msgid "Quick View"
-msgstr ""
+msgstr "Visualizzazione Rapida"
 
 #: framework/helpers/exts-configs.php:157
 msgid "Let your guests easily filter the posts by their category or tags taxonomy terms, instantly drilling down the listings."
-msgstr ""
+msgstr "Consenti ai tuoi ospiti di filtrare facilmente i post in base alla loro categoria o ai termini della tassonomia dei tag, analizzando immediatamente gli elenchi."
 
 #: framework/helpers/exts-configs.php:163
 msgid "Taxonomy Customisations"
-msgstr ""
+msgstr "Personalizzazioni Tassonomia"
 
 #: framework/helpers/exts-configs.php:164
 msgid "Additional customisation options for your taxonomies such as hero backgrounds and custom colour labels."
-msgstr ""
+msgstr "Ulteriori opzioni di personalizzazione per le tue tassonomie come sfondi degli eroi ed etichette a colori personalizzate."
 
 #. translators: This is a brand name. Preferably to not be translated
 #: framework/helpers/exts-configs.php:227
@@ -3977,7 +3977,7 @@ msgstr "Shop Extra"
 
 #: framework/helpers/exts-configs.php:143
 msgid "Display the approximate reading time of an article, so that visitors know what to expect when starting to read the content."
-msgstr ""
+msgstr "Visualizza il tempo di lettura approssimativo di un articolo, in modo che i visitatori sappiano cosa aspettarsi quando iniziano a leggere il contenuto."
 
 #: framework/helpers/exts-configs.php:149
 #: static/js/editor/blocks/dynamic-data/index.js:100
@@ -4111,31 +4111,31 @@ msgstr "Aggiungi una o più condizioni per visualizzare il blocco di tendenza."
 
 #: framework/premium/features/content-blocks/admin-ui.php:641
 msgid "Hide Hooks"
-msgstr ""
+msgstr "Nascondi Ganci"
 
 #: framework/premium/features/content-blocks/admin-ui.php:642
 msgid "Show Hooks"
-msgstr ""
+msgstr "Mostra Ganci"
 
 #: framework/premium/features/content-blocks/admin-ui.php:698
 msgid "Hide Theme Hooks"
-msgstr ""
+msgstr "Nascondi Ganci Tema"
 
 #: framework/premium/features/content-blocks/admin-ui.php:699
 msgid "Show Theme Hooks"
-msgstr ""
+msgstr "Mostra Tema Ganci"
 
 #: framework/premium/features/content-blocks/admin-ui.php:707
 msgid "Hide WooCommerce Hooks"
-msgstr ""
+msgstr "Nascondi Ganci WooCommerce"
 
 #: framework/premium/features/content-blocks/admin-ui.php:708
 msgid "Show WooCommerce Hooks"
-msgstr ""
+msgstr "Mostra Ganci WooCommerce"
 
 #: framework/features/header/modal/register.php:76
 msgid "A link to set a new password will be sent to your email address."
-msgstr ""
+msgstr "Un collegamento per impostare una nuova password verrà inviato al tuo indirizzo email."
 
 #: framework/premium/extensions/code-snippets/extension.php:31,
 #: framework/premium/extensions/code-snippets/extension.php:86,
@@ -4234,7 +4234,7 @@ msgstr "Articoli correlati"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:347
 msgid "Related posts top"
-msgstr ""
+msgstr "Post correlati in alto"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:368
 msgid "Card top"
@@ -4242,11 +4242,11 @@ msgstr ""
 
 #: framework/premium/features/content-blocks/hooks-manager.php:375
 msgid "Before featured image"
-msgstr ""
+msgstr "Prima dell'immagine in evidenza"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:382
 msgid "After featured image"
-msgstr ""
+msgstr "Dopo l'immagine in evidenza"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:389
 msgid "Card bottom"
@@ -4280,7 +4280,7 @@ msgstr ""
 #: framework/premium/features/content-blocks/options/archive.php:39,
 #: framework/premium/features/content-blocks/options/single.php:38
 msgid "Full Page"
-msgstr ""
+msgstr "Pagina Intera"
 
 #: framework/premium/features/content-blocks/options/404.php:51,
 #: framework/premium/features/content-blocks/options/archive.php:118,
@@ -4288,11 +4288,11 @@ msgstr ""
 #: framework/premium/features/content-blocks/options/nothing_found.php:69,
 #: framework/premium/features/content-blocks/options/single.php:50
 msgid "Page Structure"
-msgstr ""
+msgstr "Struttura Pagina"
 
 #: framework/premium/features/content-blocks/options/single.php:37
 msgid "Content Area"
-msgstr ""
+msgstr "Area Contenuti"
 
 #: framework/premium/features/content-blocks/options/single.php:99
 msgid "Content Area Vel Spacing"
@@ -4493,7 +4493,7 @@ msgstr "FontAwesome Solido"
 
 #: framework/premium/static/js/options/IconPicker.js:38
 msgid "FontAwesome Regular"
-msgstr ""
+msgstr "FontAwesome Regole"
 
 #: framework/premium/static/js/typography/providers/kadence.js:21
 #: framework/premium/static/js/typography/providers/plus-addons.js:23
@@ -4567,7 +4567,7 @@ msgstr "Custom Code Snippets"
 #: framework/helpers/exts-configs.php:96
 msgctxt "Extension Brand Name"
 msgid "Custom Fonts"
-msgstr ""
+msgstr "Caratteri Personalizzati"
 
 #. translators: This is a brand name. Preferably to not be translated
 #: framework/helpers/exts-configs.php:108
@@ -4579,7 +4579,7 @@ msgstr "Google Font locali"
 #: framework/helpers/exts-configs.php:123
 msgctxt "Extension Brand Name"
 msgid "Advanced Menu"
-msgstr ""
+msgstr "Menù Avanzato"
 
 #. translators: This is a brand name. Preferably to not be translated
 #: framework/helpers/exts-configs.php:136
@@ -4593,7 +4593,7 @@ msgstr "Tipo di Articolo Extra"
 #: framework/premium/extensions/shortcuts/customizer.php:657
 msgctxt "Extension Brand Name"
 msgid "Shortcuts Bar"
-msgstr ""
+msgstr "Barra Scorciatoie"
 
 #: framework/premium/extensions/shortcuts/customizer.php:299
 msgid "Set link to nofollow"
@@ -4630,21 +4630,21 @@ msgstr ""
 
 #: framework/premium/extensions/woocommerce-extra/features/quick-view/view.php:45
 msgid "Close quick view"
-msgstr ""
+msgstr "Chiudi visualizzazione rapida"
 
 #: framework/premium/extensions/woocommerce-extra/features/quick-view/helpers.php:45
 msgid "Quick view toggle"
-msgstr ""
+msgstr "Attiva/disattiva visualizzazione rapida"
 
 #: framework/premium/extensions/woocommerce-extra/features/quick-view/helpers.php:32
 msgid "Quick view icon"
-msgstr ""
+msgstr "Icona di visualizzazione rapida"
 
 #: framework/features/header/items/account/options.php:1724,
 #: framework/premium/extensions/woocommerce-extra/features/offcanvas-filters/options.php:314,
 #: framework/premium/extensions/woocommerce-extra/features/size-guide/customizer-options.php:185
 msgid "Close Button Type"
-msgstr ""
+msgstr "Tipo di pulsante Chiudi"
 
 #: framework/features/header/items/account/options.php:726,
 #: framework/features/header/items/account/options.php:1731,
@@ -4949,7 +4949,7 @@ msgstr "Seleziona tassonomia"
 
 #: static/js/options/ConditionsManager/SingleCondition.js:230
 msgid "Select language"
-msgstr ""
+msgstr "Seleziona lingua"
 
 #: static/js/options/ConditionsManager/SingleCondition.js:286
 msgid "Select user"
@@ -5037,11 +5037,11 @@ msgstr "Sì, sono sicuro"
 
 #: static/js/options/CustomizerOptionsManager.js:390
 msgid "Export Settings"
-msgstr ""
+msgstr "Esporta Impostazioni"
 
 #: static/js/options/CustomizerOptionsManager.js:394
 msgid "Choose what set of settings you want to export."
-msgstr ""
+msgstr "Scegli il set di impostazioni che desideri esportare."
 
 #: static/js/options/CustomizerOptionsManager.js:439
 msgid "Customizer settings"
@@ -5057,15 +5057,15 @@ msgstr "Esporta"
 
 #: static/js/options/CustomizerOptionsManager.js:87
 msgid "Export Options"
-msgstr ""
+msgstr "Esporta Opzioni"
 
 #: static/js/options/CustomizerOptionsManager.js:90
 msgid "Easily export the theme customizer settings."
-msgstr ""
+msgstr "Esporta facilmente le impostazioni di personalizzazione del tema."
 
 #: static/js/options/CustomizerOptionsManager.js:107
 msgid "Export Customizations"
-msgstr ""
+msgstr "Esporta Personalizzazioni"
 
 #: static/js/options/DisplayCondition.js:19
 msgid "Transparent Header Display Conditions"
@@ -5077,7 +5077,7 @@ msgstr "Aggiungi una o più condizioni per mostrare l'header trasparente."
 
 #: static/js/dashboard/screens/DemoInstall.js:188
 msgid "Loading Starter Sites..."
-msgstr ""
+msgstr "Caricamento Sito Starter..."
 
 #: static/js/dashboard/screens/DemoInstall/components/Progress.js:29
 msgid "Installing"
@@ -5085,7 +5085,7 @@ msgstr "Installazione in corso"
 
 #: static/js/dashboard/screens/DemoInstall/components/Progress.js:34
 msgid "Please be patient and don't refresh this page, the import process may take a while, this also depends on your server."
-msgstr ""
+msgstr "Per favore sii paziente e non aggiornare questa pagina, il processo di importazione potrebbe richiedere del tempo, questo dipende anche dal tuo server."
 
 #: static/js/dashboard/screens/DemoInstall/DemoToInstall.js:306
 msgid "Back"
@@ -5146,7 +5146,7 @@ msgstr "installazione plugin %s"
 
 #: static/js/dashboard/screens/DemoInstall/Installer/messages.js:28
 msgid "activating plugin %s"
-msgstr ""
+msgstr "attivazione plugin %s"
 
 #: static/js/dashboard/screens/DemoInstall/Installer/messages.js:34
 msgid "downloading demo widgets"
@@ -5170,19 +5170,19 @@ msgstr ""
 
 #: static/js/dashboard/screens/DemoInstall/Installer/messages.js:54
 msgid "activating required extensions"
-msgstr ""
+msgstr "attivazione estensioni richieste"
 
 #: static/js/dashboard/screens/DemoInstall/Installer/messages.js:58
 msgid "removing previously installed posts"
-msgstr ""
+msgstr "rimozione degli articoli installati in precedenza"
 
 #: static/js/dashboard/screens/DemoInstall/Installer/messages.js:62
 msgid "removing previously installed taxonomies"
-msgstr ""
+msgstr "rimozione delle tassonomie precedentemente installate"
 
 #: static/js/dashboard/screens/DemoInstall/Installer/messages.js:66
 msgid "removing default WordPress pages"
-msgstr ""
+msgstr "rimozione delle pagine WordPress predefinite"
 
 #: static/js/dashboard/screens/DemoInstall/Installer/messages.js:70
 msgid "resetting customizer options"
@@ -5275,7 +5275,7 @@ msgstr "Installazione pulita"
 
 #: static/js/dashboard/screens/DemoInstall/Wizzard/Content.js:106
 msgid "This option will remove the previous imported content and will perform a fresh and clean install."
-msgstr ""
+msgstr "Questa opzione rimuoverà il contenuto importato in precedenza ed eseguirà un'installazione nuova e pulita."
 
 #: static/js/dashboard/screens/DemoInstall/Wizzard/ModifyDemo.js:147
 msgid "This starter site is already installed"
@@ -5291,7 +5291,7 @@ msgstr "Ignora"
 
 #: static/js/dashboard/screens/DemoInstall/Wizzard/ModifyDemo.js:174
 msgid "What steps do you want to perform next?"
-msgstr ""
+msgstr "Quali passaggi desideri eseguire successivamente?"
 
 #: static/js/dashboard/screens/DemoInstall/Wizzard/ModifyDemo.js:191
 msgid "Remove"
@@ -5311,7 +5311,7 @@ msgstr "Segli il Page Builder"
 
 #: static/js/dashboard/screens/DemoInstall/Wizzard/PickBuilder.js:65
 msgid "This starter site can be imported and used with one of these page builders. Please select one in order to continue."
-msgstr ""
+msgstr "Questo sito iniziale può essere importato e utilizzato con uno di questi generatori di pagine. Selezionane uno per continuare."
 
 #: static/js/dashboard/screens/DemoInstall/Wizzard/Plugins.js:71
 msgid "Install & Activate Plugins"
@@ -5319,12 +5319,12 @@ msgstr "Installa e attiva i plugin"
 
 #: static/js/dashboard/screens/DemoInstall/Wizzard/Plugins.js:73
 msgid "The following plugins are required for this starter site in order to work properly."
-msgstr ""
+msgstr "I seguenti plugin sono necessari per questo sito iniziale affinché funzioni correttamente."
 
 #: static/js/dashboard/screens/Extension.js:89
 #: static/js/dashboard/screens/Extensions.js:60
 msgid "Loading Extensions Status..."
-msgstr ""
+msgstr "Caricamento stato estensioni..."
 
 #: static/js/dashboard/screens/Extensions/Sidebar.js:60
 msgid "Free Extensions"
@@ -5390,11 +5390,11 @@ msgstr "Tipo Contenuto"
 
 #: framework/premium/extensions/mega-menu/options.php:344
 msgid "Default (Menu Item)"
-msgstr ""
+msgstr "Predefinito (voce di menu)"
 
 #: framework/premium/extensions/mega-menu/options.php:345
 msgid "Custom Text"
-msgstr ""
+msgstr "Testo Personalizzato"
 
 #: framework/premium/extensions/mega-menu/options.php:432,
 #: framework/premium/extensions/mega-menu/options.php:791
@@ -5559,12 +5559,12 @@ msgstr "Colore Icone"
 
 #: framework/helpers/exts-configs.php:137
 msgid "Enables support for Custom Fields inside archive cards and single page post title, adds a reading progress bar for your posts and lets you set featured images and colors for your categories archives."
-msgstr ""
+msgstr "Abilita il supporto per i campi personalizzati all'interno delle schede di archivio e del titolo dei post a pagina singola, aggiunge una barra di avanzamento della lettura per i tuoi post e ti consente di impostare immagini e colori in evidenza per i tuoi archivi di categorie."
 
 #: framework/helpers/exts-configs.php:180,
 #: framework/premium/extensions/shortcuts/config.php:6
 msgid "Easily turn your websites into mobile first experiences. You can easily add the most important actions at the bottom of the screen for easy access."
-msgstr ""
+msgstr "Trasforma facilmente i tuoi siti web in esperienze mobile first. Puoi aggiungere facilmente le azioni più importanti nella parte inferiore dello schermo per un facile accesso."
 
 #: framework/premium/extensions/shortcuts/customizer.php:12,
 #: framework/premium/extensions/shortcuts/customizer.php:35,
@@ -5690,7 +5690,7 @@ msgstr "Condizioni Visibilità Shortcuts Bar"
 
 #: framework/premium/extensions/shortcuts/customizer.php:903
 msgid "Add one or more conditions to display the shortcuts bar."
-msgstr ""
+msgstr "Aggiungi una o più condizioni per visualizzare la barra delle scorciatoie."
 
 #: framework/premium/extensions/shortcuts/customizer.php:927,
 #: framework/features/header/items/account/options.php:1895,
@@ -5760,7 +5760,7 @@ msgstr ""
 
 #: framework/helpers/exts-configs.php:215
 msgid "Replace Blocksy's branding with your own. Easily hide licensing info and other sections of the theme and companion plugin from your clients and make your final product look more professional."
-msgstr ""
+msgstr "Sostituisci il marchio di Blocksy con il tuo. Nascondi facilmente le informazioni sulla licenza e altre sezioni del tema e del plugin associato ai tuoi clienti e rendi il tuo"
 
 #: framework/helpers/exts-configs.php:228
 msgid "Make the shopping experience better for your visitors! Add features such as Product Quick View, Wishlist functionality and a Floating Add to Cart button. Customize the single product gallery/slider and the layout."
@@ -5768,7 +5768,7 @@ msgstr "Rendi migliore l'esperienza di acquisto per i tuoi visitatori! Aggiungi 
 
 #: framework/premium/extensions/woocommerce-extra/features/quick-view/feature.php:14
 msgid "Quick View Button"
-msgstr ""
+msgstr "Bottone Visualizzazione Rapida"
 
 #: framework/features/header/items/account/options.php:467,
 #: framework/features/header/items/account/options.php:841,
@@ -5796,27 +5796,27 @@ msgstr "Filtri Disponibili"
 
 #: framework/premium/extensions/woocommerce-extra/extension.php:128
 msgid "Quick view title before"
-msgstr ""
+msgstr "Titolo visualizzazione rapida prima"
 
 #: framework/premium/extensions/woocommerce-extra/extension.php:133
 msgid "Quick view title after"
-msgstr ""
+msgstr "Titolo visualizzazione rapida dopo"
 
 #: framework/premium/extensions/woocommerce-extra/extension.php:138
 msgid "Quick view price before"
-msgstr ""
+msgstr "Prezzo visualizzazione rapida prima"
 
 #: framework/premium/extensions/woocommerce-extra/extension.php:143
 msgid "Quick view price after"
-msgstr ""
+msgstr "Prezzo visualizzazione rapida dopo"
 
 #: framework/premium/extensions/woocommerce-extra/extension.php:148
 msgid "Quick view summary before"
-msgstr ""
+msgstr "Riepilogo della visualizzazione rapida prima"
 
 #: framework/premium/extensions/woocommerce-extra/extension.php:153
 msgid "Quick view summary after"
-msgstr ""
+msgstr "Riepilogo della visualizzazione rapida dopo"
 
 #: framework/helpers/exts-configs.php:238,
 #: framework/premium/extensions/woocommerce-extra/features/floating-cart/options.php:4
@@ -6056,39 +6056,39 @@ msgstr ""
 #: framework/premium/features/content-blocks/hooks-manager.php:312,
 #: framework/premium/features/content-blocks/hooks-manager.php:354
 msgid "Before title"
-msgstr ""
+msgstr "Prima del titolo"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:186
 msgid "Before post meta"
-msgstr ""
+msgstr "Prima del post meta"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:210,
 #: framework/premium/features/content-blocks/hooks-manager.php:319,
 #: framework/premium/features/content-blocks/hooks-manager.php:361
 msgid "After title"
-msgstr ""
+msgstr "Dopo il titolo"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:250
 msgid "After post meta"
-msgstr ""
+msgstr "Dopo il post meta"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:258
 msgid "After section"
-msgstr ""
+msgstr "Dopo la sezione"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:266
 msgid "Before content"
-msgstr ""
+msgstr "Prima del contenuto"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:274,
 #: framework/premium/features/content-blocks/hooks-manager.php:447
 msgid "Top content"
-msgstr ""
+msgstr "Contenuto Principale"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:282,
 #: framework/premium/features/content-blocks/hooks-manager.php:469
 msgid "Bottom content"
-msgstr ""
+msgstr "Contenuto inferiore"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:290
 msgid "After content"
@@ -6110,15 +6110,15 @@ msgstr "Commenti"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:305
 msgid "Top comments"
-msgstr ""
+msgstr "I migliori commenti"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:326
 msgid "Bottom comments"
-msgstr ""
+msgstr "Commenti in basso"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:333
 msgid "After comments"
-msgstr ""
+msgstr "Dopo i commenti"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:411,
 #: framework/premium/extensions/post-types-extra/features/dynamic-data/feature.php:705
@@ -6173,11 +6173,11 @@ msgstr "Login dall'inizio"
 #: framework/premium/features/content-blocks/hooks-manager.php:542,
 #: framework/premium/features/content-blocks/hooks-manager.php:549
 msgid "Auth forms"
-msgstr ""
+msgstr "Moduli di autenticazione"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:492
 msgid "Login form end"
-msgstr ""
+msgstr "Fine del modulo di accesso"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:499
 msgid "Login form modal start"
@@ -6421,15 +6421,15 @@ msgstr "Checkout spedizione"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:872
 msgid "Checkout before order review"
-msgstr ""
+msgstr "Recensione ordine prima del pagamento"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:876
 msgid "Checkout order review"
-msgstr ""
+msgstr "Recensione ordine pagamento"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:880
 msgid "Review order before cart contents"
-msgstr ""
+msgstr "Rivedi ordine prima del contenuto carrello"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:884
 msgid "Review order after cart contents"
@@ -6983,7 +6983,7 @@ msgstr "Stato Trasparente"
 #: framework/premium/extensions/woocommerce-extra/features/wish-list/header-items/wish-list/options.php:327,
 #: framework/premium/extensions/woocommerce-extra/features/wish-list/header-items/wish-list/options.php:452
 msgid "Sticky State"
-msgstr ""
+msgstr "Stato in Evidenza"
 
 #: framework/features/header/items/account/options.php:1499
 msgid "Item Margin"
@@ -7085,7 +7085,7 @@ msgstr "Lista dei Desideri"
 #: framework/premium/extensions/woocommerce-extra/features/wish-list/helpers.php:150,
 #: framework/premium/extensions/woocommerce-extra/features/wish-list/helpers.php:211
 msgid "Add to wishlist"
-msgstr "Aggiungi alla Lista Desideri"
+msgstr "Aggiungi alla Lista dei Desideri"
 
 #: framework/premium/extensions/woocommerce-extra/features/compare/options.php:9,
 #: framework/premium/extensions/woocommerce-extra/features/wish-list/options.php:9
@@ -9687,7 +9687,7 @@ msgstr "Torna al login"
 
 #: framework/features/header/header-options.php:11
 msgid "Sticky Functionality"
-msgstr "Funzionalità Appiccicosa"
+msgstr "Funzionalità in Evidenza"
 
 #: framework/features/header/header-options.php:37
 msgid "Only Main Row"

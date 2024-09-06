@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Blocksy Companion Pro package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-08-27 15:11:05+0000\n"
+"PO-Revision-Date: 2024-09-04 10:02:10+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -424,7 +424,7 @@ msgstr "Trang phụ"
 
 #: static/js/editor/blocks/breadcrumbs/index.js:11
 msgid "Breadcrumbs"
-msgstr "Breadcrumbs"
+msgstr "Đường dẫn trang"
 
 #: static/js/editor/blocks/breadcrumbs/index.js:12
 msgid "Display navigational links, showing users their path within the site."
@@ -832,7 +832,7 @@ msgstr "Bài viết nâng cao"
 
 #: static/js/editor/blocks/query/edit/PostsPlaceholder.js:41
 msgid "Inherit the Customizer layout, start with a pattern or create a custom layout"
-msgstr "Kế thừa bố cục của tùy biến, bắt đầu với một mẫu hoặc tạo một bố cục tùy chỉnh"
+msgstr "Kế thừa bố cục của tùy biến, bắt ��ầu với một mẫu hoặc tạo một bố cục tùy chỉnh"
 
 #: static/js/editor/blocks/query/edit/PostsPlaceholder.js:56
 msgid "Inherit From Customizer"
@@ -1154,7 +1154,7 @@ msgstr "Không có plugin để cài đặt."
 
 #: framework/features/demo-install/widgets-import.php:36
 msgid "Sorry, you don't have permission to install widgets."
-msgstr "Xin lỗi, bạn không có quyền cài đặt widget."
+msgstr "Xin lỗi, bạn không có quyền cài ��ặt widget."
 
 #: framework/features/demo-install/widgets-import.php:79,
 #: framework/features/demo-install/widgets-import.php:73
@@ -1911,7 +1911,7 @@ msgstr "Tiện ích để lọc vòng lặp sản phẩm WooCommerce theo danh m
 
 #: framework/premium/static/js/blocks/ContentBlock.js:26
 msgid "Insert a specific Content Block anywhere on the site."
-msgstr "Chèn một Khối nội dung cụ thể ở bất kỳ đâu trên trang web."
+msgstr "Chèn m���t Khối nội dung cụ thể ở bất kỳ đâu trên trang web."
 
 #: framework/premium/static/js/hooks/CreateHook.js:156
 msgid "Nothing Found Template"
@@ -5886,7 +5886,7 @@ msgstr "Văn bản ban đầu"
 #: static/js/editor/blocks/breadcrumbs/Edit.js:66
 #: static/js/editor/blocks/contact-info/Edit.js:123
 msgid "Link Hover"
-msgstr "Di chuột liên kết"
+msgstr "Di chuột vào liên kết"
 
 #: framework/premium/extensions/woocommerce-extra/features/offcanvas-filters/options.php:123
 msgid "Panel Reveal"
@@ -8817,7 +8817,7 @@ msgstr "Người tùy chỉnh"
 
 #: framework/extensions/newsletter-subscribe/config.php:6
 msgid "Easily capture new leads for your newsletter with the help of a widget, shortcode or even a block inserted on your pages or posts."
-msgstr "Dễ dàng tạo khách hàng tiềm năng mới cho bản tin của bạn với sự giúp đỡ của một tiện ích, Mã ngắn hoặc thậm chí một khối được chèn vào trang hoặc bài viết của bạn."
+msgstr "Dễ dàng tạo khách hàng tiềm năng mới cho bản tin của bạn với sự giúp đỡ của một tiện ích, mã ngắn hoặc thậm chí một khối được chèn vào trang hoặc bài viết của bạn."
 
 #: framework/extensions/newsletter-subscribe/customizer.php:4
 msgid "Subscribe Form"
