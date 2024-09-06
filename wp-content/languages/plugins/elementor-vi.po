@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Elementor Website Builder &#8211; More than Just a Page Builder - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-09-02 00:12:20+0000\n"
+"PO-Revision-Date: 2024-09-04 15:57:08+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -3832,7 +3832,7 @@ msgstr "Số lượng"
 #: assets/js/packages/editor-app-bar/editor-app-bar.js:12
 #: assets/js/packages/editor-app-bar/editor-app-bar.strings.js:13
 msgid "Add Element"
-msgstr "Thêm Phần Tử"
+msgstr "Thêm phần tử"
 
 #: includes/widgets/divider.php:322 modules/shapes/module.php:23
 msgid "Line"

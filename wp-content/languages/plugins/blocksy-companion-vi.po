@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Blocksy Companion - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-09-01 15:43:50+0000\n"
+"PO-Revision-Date: 2024-09-04 10:01:47+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1597,7 +1597,7 @@ msgstr "Tiện ích mở rộng này cho phép bạn dễ dàng tạo loại tra
 #. translators: This is a brand name. Preferably to not be translated
 #: framework/extensions/newsletter-subscribe/config.php:6
 msgid "Easily capture new leads for your newsletter with the help of a widget, shortcode or even a block inserted on your pages or posts."
-msgstr "Dễ dàng nắm bắt các khách hàng tiềm năng mới với Bản tin của bạn với sự trợ giúp của tiện ích, mã ngắn hoặc thậm chí một khối được chèn trên các trang hoặc bài viết của bạn."
+msgstr "Dễ dàng nắm bắt các khách hàng tiềm năng mới với bản tin của bạn với sự trợ giúp của tiện ích, mã ngắn hoặc thậm chí một khối được chèn trên các trang hoặc bài viết của bạn."
 
 #. translators: This is a brand name. Preferably to not be translated
 #: framework/extensions/cookies-consent/config.php:6
@@ -3411,7 +3411,7 @@ msgstr "ID Facebook App"
 
 #: framework/features/opengraph-meta-data.php:26
 msgid "Facebook Page URL"
-msgstr "Đường dẫn trang Facebook"
+msgstr "URL trang Facebook"
 
 #: framework/features/opengraph-meta-data.php:13
 msgid "OpenGraph Meta Data"

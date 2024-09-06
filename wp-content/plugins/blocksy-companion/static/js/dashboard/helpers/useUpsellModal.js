@@ -11,11 +11,11 @@ const plans = {
 	free: __('Free', 'blocksy-companion'),
 
 	personal: __('Personal', 'blocksy-companion'),
-	professional: __('Professional', 'blocksy-companion'),
+	professional: __('Business', 'blocksy-companion'),
 	agency: __('Agency', 'blocksy-companion'),
 
 	personal_v2: __('Personal', 'blocksy-companion'),
-	professional_v2: __('Professional', 'blocksy-companion'),
+	professional_v2: __('Business', 'blocksy-companion'),
 	agency_v2: __('Agency', 'blocksy-companion'),
 }
 
@@ -33,7 +33,7 @@ const useUpsellModal = ({
 
 	professional = {
 		description: __(
-			'Upgrade to the professional or agency plan and get instant access to this and many other features.',
+			'Upgrade to the business or agency plan and get instant access to this and many other features.',
 			'blocksy-companion'
 		),
 	},
@@ -86,7 +86,7 @@ const useUpsellModal = ({
 
 							<h2 className="ct-modal-title">
 								{__(
-									'Professional or Agency',
+									'Business or Agency',
 									'blocksy-companion'
 								)}
 							</h2>
